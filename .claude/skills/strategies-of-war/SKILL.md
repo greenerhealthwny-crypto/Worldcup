@@ -13,7 +13,7 @@ A working guide distilled from Robert Greene's *The 33 Strategies of War* (2006)
 5. An **Authority** (a quote).
 6. A **Reversal**: when not to use the strategy, or how to counter it.
 
-**Source coverage:** Built from two sets of scans. The first covers book pages 1–73: the preface, the Part I and Part II introductions, Strategies 1–5 in full and the first part of Strategy 6. The second covers pages 124 to the end: the second half of Strategy 10 through Strategy 33. **Pages 74–123 were missing**, so Strategies 7, 8 and 9 (and the opening of 10) come only from the book's one-paragraph table-of-contents summaries. Say so if a user asks about them in depth.
+**Source coverage:** Built from three sets of scans that together cover the whole book: the preface and Strategies 1–6 (pages 1–73), Strategies 6–10 (pages 74 to the start of Strategy 11), and Strategy 10 through 33 (pages 124 to the end). A few angled photos were unreadable, notably Strategy 9's reversal; the reference marks where that applies.
 
 ## Core philosophy
 

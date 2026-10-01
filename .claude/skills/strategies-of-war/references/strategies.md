@@ -1,6 +1,6 @@
 # The Strategies, in Detail
 
-Distilled from Robert Greene, *The 33 Strategies of War* (2006). The wording is our own; short quoted phrases are used only where they help recall. The text comes from two sets of scans: book pages 1–73 (preface, Strategies 1–5 and the first part of 6) and pages 124 to the end (second half of 10 through 33). Pages 74–123 were missing, so Strategies 7–9 and the first half of 10 rely on the book's table-of-contents summaries.
+Distilled from Robert Greene, *The 33 Strategies of War* (2006). The wording is our own; short quoted phrases are used only where they help recall. The text comes from three sets of scans covering the whole book: pages 1–73, pages 74 to the start of Strategy 11, and pages 124 to the end. A few pages in the middle were photographed at an angle and skipped (Strategy 9's reversal and part of the Strategy 10 examples).
 
 ---
 
@@ -14,13 +14,13 @@ Distilled from Robert Greene, *The 33 Strategies of War* (2006). The wording is 
 
 **Part II: Organizational (Team) War**
 5. Avoid the snares of groupthink (the command-and-control strategy)
-6. Segment your forces (the controlled-chaos strategy) *(first part only)*
-7. Transform your war into a crusade (morale strategies) *(summary only)*
+6. Segment your forces (the controlled-chaos strategy)
+7. Transform your war into a crusade (morale strategies)
 
 **Part III: Defensive War**
-8. Pick your battles carefully (the perfect-economy strategy) *(summary only)*
-9. Turn the tables (the counterattack strategy) *(summary only)*
-10. Create a threatening presence (deterrence strategies) *(second half in the scan)*
+8. Pick your battles carefully (the perfect-economy strategy)
+9. Turn the tables (the counterattack strategy)
+10. Create a threatening presence (deterrence strategies)
 11. Trade space for time (the nonengagement strategy)
 
 **Part IV: Offensive War**
@@ -178,7 +178,7 @@ Greene's preface sets out the attitude that every strategy depends on:
 
 **Reversal:** Never share or split command. Do exploit enemies whose decisions are made by committee: they are slow and divided.
 
-### 6. Segment your forces: the controlled-chaos strategy *(scan ends partway through)*
+### 6. Segment your forces: the controlled-chaos strategy
 **Core idea.** The critical elements in war are speed and adaptability: the ability to move and make decisions faster than the enemy. Break your forces into independent groups that can operate on their own. Make them fluid and mobile. Give them the spirit of the campaign, a mission to accomplish, and room to run. Instead of a rigid machine, make your army a loose network.
 
 **Example:** Napoleon's independent army corps, each able to fight alone, converged to trap the Austrian general Mack at Ulm (1805), who was paralyzed by a rigid, centralized army.
@@ -189,24 +189,98 @@ Greene's preface sets out the attitude that every strategy depends on:
 - "Separate to live, unite to fight." Disperse for speed and supply; concentrate at the decisive point.
 - Mobility is the greatest force multiplier.
 - Patton: "Never tell people how to do things. Tell them what to do, and they will surprise you with their ingenuity." Give clear missions, then let teams run.
+- **Structure is strategy** — perhaps the most important strategic choice you make. If you inherit a group, analyze its structure and reshape it for fluidity.
+- **The German general staff model** (1808–1945): after Jena, Prussia institutionalized success. A fluid staff that each chief could reshape; constant self-examination after every campaign or exercise; its philosophy replicated down to the smallest unit; and *Auftragstaktik* (mission command): an order states the mission and its spirit, not the letter, and officers are judged on results, not on how they got them. Moltke: inaction is worse than choosing the wrong expedient. Prince Frederick Charles to a major who "was only obeying orders": the king made you a major because he trusted you to know when *not* to obey.
+- **Mission command needs a shared philosophy:** a cause, a belief about the enemy, a style of fighting. Instill it through training and creative exercises until you can trust decisions made far from you.
+- **Train coordination through play:** Genghis Khan's annual Great Hunt spread the army along an 80-mile line that slowly closed into a circle, drilling communication, timing and initiative.
+- **Discipline and team spirit beat pampering:** Tom Yawkey spoiled his Red Sox and they quarrelled and lost; the disciplined, cohesive Yankees won. ("The Red Sox didn't have to get into the World Series to drive Cadillacs. The Yankees did.")
+- **Fit the structure to your people:** Sherman stopped forcing parade-ground discipline on independent frontiersmen, loosened outward discipline, encouraged initiative and kept them always moving; his armies were the most feared in the Union. Turn your people's quirks into strengths.
 
-### 7. Transform your war into a crusade: morale strategies *(table-of-contents summary only)*
-The secret to motivating people is to make them think less about themselves and more about the group. Involve them in a cause, a crusade against a hated enemy. Make them see their survival as tied to the success of the army as a whole. (The full chapter was not in the photos.)
+**Image:** the Spider's Web — not a straight-line attack but a structure adapted to its site; once woven, it works on its own.
+
+**Authority:** Sun-tzu: the army changes through segmenting and reuniting; its speed like the wind, its slowness like the forest. T. E. Lawrence: "maximum disorder was our equilibrium."
+
+**Reversal:** Decentralization itself must stay flexible. Some people respond better to firm authority, and even a loose organization sometimes needs to be tightened. Wise generals set nothing in stone; they reorganize to fit the times and the people.
+
+### 7. Transform your war into a crusade: morale strategies
+**Core idea.** Get people to think less about themselves and more about the group. Involve them in a cause, a crusade against a hated enemy; make them see their survival as tied to the army's success. In a bonded group, moods are contagious, so you can infect it with enthusiasm. Lead from the front. Make rewards and punishments rare but meaningful. A motivated army can make up for a lack of material resources.
+
+**The art of man management.** People are selfish by nature and good at disguising it. Left alone, a group drifts into individuals pursuing their own interests. Morale is contagious in both directions, and the dynamic can only be set from the top, from the start. Napoleon: in war, morale is to the physical as three to one.
+
+**Eight steps (follow as many as you can):**
+1. **Unite your troops around a cause.** People hunger to believe in something. Present the cause as progressive and on the side of the future; an enemy to oppose helps the group define itself. Skip this and you lead mercenaries.
+2. **Keep their bellies full.** Meet material needs. Not overpaying, but a sense of being looked after; then you can ask more of them later.
+3. **Lead from the front.** Nothing kills enthusiasm faster than leaders who don't practice what they preach. Share the dangers and sacrifices; make them run to keep up with you.
+4. **Concentrate their *ch'i*** (energy). Idleness and constant defensiveness drain it. Keep people busy and moving toward a purpose; aggressive action concentrates energy.
+5. **Play to their emotions.** Reason and harangues make people defensive. Set up the appeal first: lower their defenses, bond them as a group (a show, entertainment, a story), then move them from laughter to anger or hatred.
+6. **Mix harshness and kindness.** Too many rewards spoil; too much punishment destroys morale. Make kindness rare so it means something. Express harshness mainly as very high standards that few can reach, so people compete to earn less harshness and more kindness.
+7. **Build the group myth.** Shared campaigns and victories create a tradition people are proud to live up to. Start with easy battles to build confidence; create symbols and slogans that fit the myth.
+8. **Be ruthless with grumblers.** Chronic complainers spread disquiet and panic; isolate and remove them quickly. Cultivate the motivated, disciplined core as examples and ballast.
+
+**Examples:**
+- **Oliver Cromwell** found his early troops plundered and broke ranks — mercenaries at heart — so he recruited only men of deep conviction and character, promoted commoners on merit, and built the disciplined "Ironsides" that won at Naseby. Recruit true believers; character and capacity for sacrifice matter more than résumés.
+- **Lyndon Johnson** as a young congressional secretary worked his two assistants 18–20 hours a day, but they worked harder for him because he worked harder still, made every issue a crusade, played them against each other, and broke tension with unexpected kindness.
+- **Hannibal**, after crossing the Alps, staged a gladiatorial contest among prisoners promised freedom, then told his exhausted men they were in the same position: victory or death, far from home. At Cannae he joked about the enemy's numbers ("there is not a single one whose name is Gisgo") and the laughter spread through the ranks. Reach emotions indirectly, by setting up the moment.
+- **Vince Lombardi** inherited the losing Green Bay Packers. He spoke as if they were already winners, ran shorter but brutal, focused practices on a simple system and flawless execution, played no favorites ("He treats us all the same — like dogs"), and changed the team's spirit instead of announcing it. A dysfunctional group personality changes when you quietly alter how things are done; efficiency breeds success, and success breeds morale.
+- **Napoleon**, the greatest man manager: led from the front at the Bridge of Lodi ("le Petit Caporal"), knew soldiers by name and history, gave rare, devastating rebukes ("you are not French soldiers") and rare, dramatic rewards (making a drum major a knight and baron on the spot). Keep people in suspense: warm but slightly distant, praise and punishment rare and unexpected, so they keep striving to please you.
+
+**Image:** the Ocean's Tide — like the moon, you set the tide that carries everything with it.
+
+**Authority:** Sun-tzu: the Way means making the people share the leadership's aim, so they will share death and life without fear of danger.
+
+**Reversal:** Fear and discontent are just as contagious. Cut them off before they become panic or mutiny. When Caesar's army panicked before facing Ariovistus, he arrested the rumormongers, shamed the troops by recalling their ancestors' courage, and said he would march with the Tenth Legion alone; the rest begged to be allowed to fight. Act fast, deal with the whole group, and appeal to pride: social shaming wakes people up.
 
 ---
 
 ## §1 Defensive war (Strategies 8–11)
 
-### 8. Pick your battles carefully: the perfect-economy strategy *(table-of-contents summary only)*
-We all have limitations: our energies and skills only go so far. Know your limits and pick your battles carefully. Count the hidden costs of a war: time lost, political goodwill squandered, an embittered enemy bent on revenge. Sometimes it's better to wait, to undermine your enemies covertly rather than hitting them straight on.
+**Part introduction.** Fighting defensively is not weakness; it is the height of strategic wisdom. Make the most of your resources and fight only necessary battles; know how and when to retreat, luring an aggressive enemy into an imprudent attack; then wait for their exhaustion and counterattack. In a world that frowns on overt aggression, letting others move first and make the mistakes brings great power. It relies on deception: seem weaker to draw an ill-advised attack, or stronger (through occasional bold acts) to deter one.
 
-### 9. Turn the tables: the counterattack strategy *(table-of-contents summary only)*
-Moving first — initiating the attack — often puts you at a disadvantage: you expose your strategy and limit your options. Instead, discover the power of holding back and letting the other side move first, giving you the flexibility to counterattack from any angle. If your opponents are aggressive, bait them into a rash attack that leaves them weak.
+### 8. Pick your battles carefully: the perfect-economy strategy
+**Core idea.** Our energies and skills go only so far; danger comes from overextending for a glittering prize. Know your limits. Count the hidden costs of a war: time lost, goodwill squandered, an embittered enemy bent on revenge. Sometimes it's better to wait and undermine enemies covertly than to hit them head-on. If battle can't be avoided, fight on your terms: aim at their weaknesses and make the war expensive for them and cheap for you.
 
+**Examples:**
+- **Pyrrhus** (the "Pyrrhic victory"): lured to Italy by the wealthy but soft Tarentines, he beat Rome at Heraclea and Asculum but lost his veterans and generals while Rome simply raised new legions. "If we defeat the Romans in one more such battle, we shall be totally ruined." Excitement makes us see the gains and not the costs; the further in we go, the harder it is to pull back, and costs spiral.
+- **Elizabeth I vs Philip II's Spain:** refusing her ministers' calls for a land war, she kept the peace as long as possible, built the navy, ran a superb intelligence service, and had Drake raid treasure ships "as a pirate," driving up Spain's borrowing costs. When the Armada came, small mobile English ships harassed it and fireships broke it up at Calais; storms finished it. Attack their weaknesses with your strengths. Every Goliath has a weak point — finances, morale, over-centralization, an egotistic leader — and even the weakest side has some strength.
+
+**Keys:**
+- **Live within limits.** Abundance makes us lose our sense of limit and believe everything is achievable. Warriors find meaning in reality: know your strengths, use them creatively, play for time.
+- **Make the most of what you have.** Giap refused Chinese trucks and tanks that would make his army a weaker copy of the Americans; he used peasant porters on hidden trails, guerrilla raids and symbolic attacks aimed at American TV. Resource-rich armies grow predictable and mentally lazy. "Even if you are wealthy, act poor" (Picasso).
+- **Fit ends to means.** Hannibal started from what he had — troops, terrain, morale, weather — and let his goals grow out of it. Dreaming of goals first and then hunting for means leads to exhaustion and defeat.
+- **Economy is not cheapness.** At Gallipoli the British pulled the fleet back to save money days before it would have broken through; the "cheaper" land campaign cost far more. Find the golden mean where your blows count without wearing you out.
+- **Economical tactics:** deception (cheap and powerful: Allied deceptions spread German forces thin); pick opponents you can beat (Bismarck built Prussia's power on weaker foes) and avoid those with nothing to lose.
+- **Know when to stop.** Ali and Frazier's three brutal fights shortened both careers. Don't soldier on out of pride or frustration; cut your losses.
+- **Fight at your level.** Friction builds over time; matching your effort to your capacity creates momentum, and making the most of what you have expands your limits.
+
+**Image:** the Swimmer — flailing creates resistance; perfect economy keeps the water smooth and covers great distances at a steady pace.
+
+**Authority:** "The value of a thing sometimes lies not in what one attains with it, but in what one pays for it — what it costs us" (Nietzsche).
+
+**Reversal:** There is no value in fighting uneconomically yourself, but you can make your opponent do it: use hit-and-run tactics to make them chase you and waste resources on a protracted war; a frustrated opponent who can't land a punch soon makes mistakes, opening the way for a counterattack.
+
+### 9. Turn the tables: the counterattack strategy
+**Core idea.** Moving first exposes your strategy and limits your options. Hold back and let the other side move first, so you can counterattack from any angle. Bait aggressive opponents into rash attacks that leave them weak; use their impatience and eagerness to throw them off balance. Never despair or retreat in difficult moments — any situation can be turned around.
+
+**Examples:**
+- **Austerlitz (1805):** outnumbered nearly two to one, Napoleon advanced, then abandoned the Pratzen Heights, seemed confused, and sought an armistice; the czar's envoy reported him frightened. The allies left their strong position to cut his line of retreat — exposing their center, which Napoleon then smashed through, splitting their army. He fused offense and defense: look vulnerable to lower their guard, then switch to the attack when they least expect it. Most people only attack or only defend, and both are predictable.
+- **Franklin D. Roosevelt:** let opponents attack first and overreach, staying silent (nothing infuriates more than no response) until their aggression made them look bad, then came in for the kill. Political jujitsu lets you fight without seeming aggressive and use the opponent's momentum.
+
+**Keys:**
+- **Why the defender often wins:** the attacker has used up their surprise and shown their strategy; it takes more energy to take ground than to hold it; a repulsed attacker is disorganized and tired. The counterattack is the origin of indirect strategy (Philip of Macedon, Napoleon, T. E. Lawrence, Rommel, Mao).
+- **Master your impatience first.** Ted Williams waited for his pitch; the pitcher became the impatient one. Patience expands your options.
+- **Mirror the opponent.** Japanese *Shinkage* swordsmanship mirrored every move until the opponent grew frustrated and dropped their guard. Mirroring and passivity can charm, disarm or irritate while revealing nothing of you.
+- **Bait "the barbarian"** — the naturally aggressive person — by playing weak or stupid and dangling easy gains. Sun Pin halved his campfires each day so the Wei general, who thought Qi's soldiers cowards, rushed ahead into an ambush. Find the emotion the opponent manages worst and bring it to the surface.
+- **Encourage difficult behavior to reverse it.** Therapist Jay Haley found that agreeing with and encouraging a difficult person's behavior takes away their control; their own direction gets them into trouble.
+- **Never see a situation as hopeless.** You overestimate the enemy when on the defensive. Turn their strength into weakness: Themistocles lured Xerxes' huge fleet into the narrow straits of Salamis, where its size made it unable to maneuver; General Crook hired Apache scouts to neutralize Apache guerrilla tactics. Reverse your own weaknesses too: small means mobile; a lower reputation means less to lose.
+- **Use it in today's world,** where open aggression damages your reputation: let the other side make the first move and play the victim; when their rash attack fails, they get the blame. Lyndon Johnson's father told him to stop hiding his weaknesses (no leaders' support, behind in polls, too young) and dramatize them instead.
+
+**Image:** the Bull — attacking it or fleeing it is fatal; stand your ground, let it charge your cape until it wears itself out, then go to work.
+
+**Authority:** "The whole art of war consists in a well-reasoned and extremely circumspect defensive, followed by a rapid and audacious attack" (Napoleon).
+
+**Reversal:** *(This page wasn't legible in the photos.)* In keeping with the book's other reversals: don't wait so long that the moment passes. Against a passive or patient opponent, holding back gains nothing, and you may need to take the initiative (see 14 and 15).
 
 ### 10. Create a threatening presence: deterrence strategies
-*(First half of the chapter missing. Its summary: build a reputation for being a little crazy and unpredictable; sometimes keeping opponents uncertain works better than an overt threat.)*
-
 **Core idea.** Aggressors prey on those who seem weak. They judge you by the signals you give, they can't know your real strength, and they want easy, bloodless victories. Turn that around: make attacking you look costly, uncertain and dangerous. "Power is not only what you have but what the enemy thinks you have" (Saul Alinsky).
 
 **Five methods of deterrence and reverse intimidation:**
@@ -217,6 +291,7 @@ Moving first — initiating the attack — often puts you at a disadvantage: you
 5. **Establish a frightening reputation:** difficult, stubborn, ruthlessly efficient. Build it carefully and with no inconsistencies. Then it works on its own and you rarely have to fight. The samurai image: keep the sword sharp but sheathed, drawing it now and then.
 
 **Examples:**
+- **Louis XI, "the Spider King,"** let the Milanese ambassador overhear a staged tirade against the Duke of Milan, then had councilors beg him to forget it. The veiled threat made the duke an obedient ally for years; a direct complaint would have sounded like whining, and an open threat like loss of control.
 - Stonewall Jackson's 3,600 men tied up tens of thousands of Union troops with bold, baffling attacks in the Shenandoah Valley.
 - Robert the Bruce made each English invasion of Scotland cost them by raiding England and burning crops (the wasp strategy).
 - John Boyd at the Pentagon earned a reputation for shredding inflated briefings, so opponents stopped crossing him. He also secured a powerful patron and made generals "put it in writing."
@@ -613,6 +688,8 @@ The goal is to isolate them. Let their own self-destructive tendencies hang them
 | Lack of drive, drifting, procrastinating | 4 Death ground: commit, burn the ships, act before you're ready |
 | Unclear who is working against you | 1 Polarity: read hidden hostility, provoke people to take sides |
 | Team dysfunction, committee paralysis, groupthink | 5 Unity of command, directed telescope; 6 Clear missions and latitude; 7 A shared cause |
+| Low morale, cynicism, complainers on the team | 7 Cause, lead from the front, rare rewards and rebukes, isolate grumblers |
+| Chasing a costly prize; winning but bleeding resources | 8 Count the hidden costs, fit ends to means, avoid Pyrrhic victories |
 | Tempted to strike first in a fight | 9 Let them move first, then counterattack; 8 Count the costs |
 | A stronger aggressor is pushing you around | 10 Deterrence (bold move, frightening reputation); 11 Trade space for time; 26 The void |
 | You're overwhelmed or the battle isn't of your choosing | 11 Retreat and regroup; 8 Pick your battles; 22 Exit cleanly |
