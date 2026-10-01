@@ -1,25 +1,25 @@
 # The Strategies, in Detail
 
-Distilled from Robert Greene, *The 33 Strategies of War* (2006). The wording is our own; short quoted phrases are used only where they help recall. Strategies 10 (second half) to 33 come from the scanned text. Strategies 1–9 were not in the scan; only their titles are listed.
+Distilled from Robert Greene, *The 33 Strategies of War* (2006). The wording is our own; short quoted phrases are used only where they help recall. The text comes from two sets of scans: book pages 1–73 (preface, Strategies 1–5 and the first part of 6) and pages 124 to the end (second half of 10 through 33). Pages 74–123 were missing, so Strategies 7–9 and the first half of 10 rely on the book's table-of-contents summaries.
 
 ---
 
 ## §0 Index: five parts, 33 strategies
 
-**Part I: Self-Directed War** *(not in the scan)*
+**Part I: Self-Directed War**
 1. Declare war on your enemies (the polarity strategy)
 2. Do not fight the last war (the guerrilla-war-of-the-mind strategy)
 3. Amidst the turmoil of events, do not lose your presence of mind (the counterbalance strategy)
 4. Create a sense of urgency and desperation (the death-ground strategy)
 
-**Part II: Organizational (Team) War** *(not in the scan)*
+**Part II: Organizational (Team) War**
 5. Avoid the snares of groupthink (the command-and-control strategy)
-6. Segment your forces (the controlled-chaos strategy)
-7. Transform your war into a crusade (morale strategies)
+6. Segment your forces (the controlled-chaos strategy) *(first part only)*
+7. Transform your war into a crusade (morale strategies) *(summary only)*
 
 **Part III: Defensive War**
-8. Pick your battles carefully (the perfect-economy strategy) *(not in the scan)*
-9. Turn the tables (the counterattack strategy) *(not in the scan)*
+8. Pick your battles carefully (the perfect-economy strategy) *(summary only)*
+9. Turn the tables (the counterattack strategy) *(summary only)*
 10. Create a threatening presence (deterrence strategies) *(second half in the scan)*
 11. Trade space for time (the nonengagement strategy)
 
@@ -51,9 +51,162 @@ Distilled from Robert Greene, *The 33 Strategies of War* (2006). The wording is 
 
 ---
 
-## §1 Defensive war (Strategies 10–11)
+## §P Preface: the strategic mindset
+
+Greene's preface sets out the attitude that every strategy depends on:
+- **See things as they are, not as your emotions color them.** Fear makes you overestimate the enemy and act too defensively. Anger and impatience lead to rash action. Overconfidence after a success makes you overreach. "When you have success, be extra wary. When you are angry, take no action."
+- **Judge people by their actions,** not by their words or the image they project. Take responsibility for your own failures instead of blaming others. Treat appeals to guilt and morality as possible maneuvers.
+- **Depend on your own arms.** Strategy is a mental art; your mind is the one weapon nobody can take from you. "Being unconquerable lies with yourself" (Sun-tzu).
+- **Worship Athena, not Ares.** Ares is brute, violent force. Athena is practical, cunning intelligence that wins with the least waste of energy.
+- **Elevate yourself above the battlefield.** Think in terms of campaigns, not single battles. Look ahead to consequences and the overall goal.
+- **Spiritualize your warfare.** The greatest battle is with yourself: your weaknesses, emotions and lack of resolve. Every conflict is a chance to grow.
+- **The ideal is winning without fighting.** Sun-tzu's highest form of victory takes the enemy whole, with the least bloodshed.
+
+---
+
+## §A Self-directed war (Part I, Strategies 1–4)
+
+**Part introduction.** The mind is where all strategy starts. Before you can fight others, you must fight the weaknesses in yourself. Three steps: become aware of how your mind fails under pressure (emotion, rigid thinking, panic, complacency); declare war on those weaknesses; then wage that battle every day, as a habit.
+
+### 1. Declare war on your enemies: the polarity strategy
+**Core idea.** Life is endless battle, and you can't fight well unless you can identify your enemies. People are subtle and evasive and hide their hostility. Learn to spot enemies by the signs and patterns that reveal hostility. Once you have them in your sights, inwardly declare war. Your enemies can fill you with purpose and direction, as opposite poles create energy.
+
+**Examples:**
+- Xenophon and the 10,000 Greeks stranded in Persia: he defined the enemy sharply, rallied the leaderless army against it, and led them home.
+- Margaret Thatcher deliberately polarized politics, drawing clear lines and using opposition to define and energize herself.
+
+**Keys:**
+- **Widen your concept of the enemy.** The Latin *inimicus* (not a friend) includes people who are quietly working against you, not just open opponents.
+- **Read hidden hostility.** Watch for actions that contradict words, excessive praise or friendliness (Mao read Lin Biao's flattery as a sign of ambition), slips and jokes with an edge.
+- **Provoke emotion to make people take sides.** A strong statement or action forces fence-sitters to show where they stand.
+- **Cortés's method:** go along with suspected enemies, giving them room, until they reveal themselves by their actions.
+- **Personalize the enemy.** A concrete opponent motivates more than a vague abstraction (Saul Alinsky).
+- **Confront rather than avoid.** Children who face conflict develop (Piaget); avoiding every conflict leaves you weak.
+- **Enemies clarify identity.** They give you a standard to measure yourself against and something to push off from (Salvador Dalí, Joe Frazier vs Ali, Frederick Douglass).
+- **Keep proportion.** After Pompey, Caesar had no worthy rival and lost his sense of limits.
+- **Some enemies allow no middle ground.** Know them by their past behavior and don't try to win them over.
+
+**Image:** the Earth — the solid ground under your feet that resists you and gives you something to push against.
+
+**Reversal:** Don't become paranoid or see enemies everywhere. Thatcher eventually made too many enemies and lost her base. Franklin D. Roosevelt polarized, then backed off and softened to keep support. Polarize deliberately and selectively, then know when to ease off.
+
+### 2. Do not fight the last war: the guerrilla-war-of-the-mind strategy
+**Core idea.** What most often weighs you down is the past: attachment to old relationships, old ways of acting, old successes. Do not fight the last war. Make war on the past and force yourself to react to the present. Be ruthless with yourself; don't repeat the same tired methods. Wage guerrilla war on your mind, with no static lines of defense: everything mobile and fluid.
+
+**Examples:**
+- The Prussian army at Jena (1806) still fought Frederick the Great's rigid battles and was destroyed by Napoleon's fluid system.
+- Miyamoto Musashi won duels by adapting to each opponent instead of using a fixed style.
+
+**Keys:**
+- **Reexamine everything you believe,** including ideas that seem too obvious to question.
+- **Erase the memory of the last war.** Success breeds formulas; analyze why you succeeded and how the circumstances differ now (General Giap; Ted Williams studied each pitcher anew).
+- **Keep the mind moving,** like a child's: curious, playful, open.
+- **Absorb the spirit of the times.** Adapt to new trends and changes in taste (Joan Crawford reinvented herself as Hollywood changed).
+- **Reverse course occasionally** to break your patterns and shake up stale thinking (Dostoyevsky).
+- **Think like a guerrilla army:** dispersed, fast, unpredictable, never holding a fixed position.
+- Rommel admired how fast the Americans learned from their mistakes in North Africa.
+
+**Image:** Water — it takes the shape of whatever it moves into and wears down even stone.
+
+**Authority:** Generals who fight by rules and formulas fail; "War is progressive."
+
+**Reversal:** Learn from the last war's lessons; just don't copy its methods. Always be ready to adapt.
+
+### 3. Amidst the turmoil of events, do not lose your presence of mind: the counterbalance strategy
+**Core idea.** In the heat of battle the mind loses balance. Too many things confront you at once, and fear and anger take over. Keep your presence of mind: the ability to stay calm and keep your mental powers whatever the circumstances. Actively resist the emotional pull of the moment — stay decisive, confident and aggressive no matter what. The bigger the mind, the more it can absorb.
+
+**Examples:**
+- Nelson at Copenhagen put his telescope to his blind eye to "not see" the order to withdraw, kept calm, and won.
+- Alfred Hitchcock prepared each film so thoroughly that nothing on set could rattle him.
+- Ulysses S. Grant stayed unshakable under fire and setbacks.
+
+**Keys:**
+- **Expose yourself to conflict** so it loses its power to unnerve you (Patton).
+- **Be self-reliant.** Don't depend on others to make you feel secure (Grant at Vicksburg).
+- **Suffer fools gladly.** Don't let small irritations and incompetent people get under your skin (Marlborough).
+- **Crowd out panic with a simple focus.** The tea master facing a samurai duel calmed himself by acting as if he were performing the tea ceremony.
+- **Unintimidate yourself.** See powerful people as ordinary humans (Shostakovich facing Stalin).
+- **Develop *Fingerspitzengefühl*** ("fingertip feel"): an intuitive sense of the battlefield that comes from deep knowledge and experience (Rommel).
+- **Make it an everyday habit.** Practice composure in small things (FDR).
+
+**Image:** the Wind — the pressure and noise of events; you keep your footing and your course despite it.
+
+**Reversal:** Occasionally losing your presence of mind is useful: it shows you your weaknesses. Learn from it and grow tougher.
+
+### 4. Create a sense of urgency and desperation: the death-ground strategy
+**Core idea.** You are your own worst enemy. You waste time dreaming of the future instead of engaging in the present. Cut your ties to the past; enter unknown territory. Place yourself on "death ground," where your back is against the wall and you have to fight like hell to get out alive.
+
+**Examples:**
+- Hernán Cortés destroyed his ships in Mexico, leaving his men no option but to succeed.
+- Dostoyevsky's mock execution gave him a lifelong sense of urgency about life and work.
+
+**Keys:**
+- **Stake everything on a single throw.** Lyndon Johnson put his whole career on one congressional race in 1937.
+- **Act before you are ready.** Commit, then rise to the challenge (Caesar crossing the Rubicon).
+- **Enter new waters.** Deliberately put yourself in unfamiliar situations (Joan Crawford).
+- **Make it you against the world.** Feeling surrounded and doubted sharpens you (Ted Williams).
+- **Keep yourself restless and unsatisfied.** Don't settle in after success (Napoleon).
+
+**Image:** Fire — it burns behind you, forcing you forward.
+
+**Authority:** Sun-tzu: on death ground, fight; soldiers in desperate places fight hardest.
+
+**Reversal:** Avoid opponents who are on their own death ground, with nothing to lose; leave them a way out. Attack enemies whose morale is low and who feel they have room to retreat.
+
+---
+
+## §B Organizational (team) war (Part II, Strategies 5–7)
+
+**Part introduction.** Structure gives strategy force. However brilliant a plan, it fails if the group carrying it out is badly organized. Greene's three requirements: a single, clear authority at the top; latitude for people below to act on their own initiative; and a motivated, cohesive spirit.
+
+### 5. Avoid the snares of groupthink: the command-and-control strategy
+**Core idea.** The problem in leading a group is that people inevitably have their own agendas. Too authoritarian and they resent you and rebel silently; too permissive and they revert to selfishness and the chain of command dissolves. Create a chain of command in which they don't feel constrained by your influence yet follow your lead. Put the right people in place: those who carry out the spirit of your ideas without being automatons. Make your commands clear and inspiring, focusing on the team, not the leader. Beware of groupthink, the irrationality of collective decision-making.
+
+**Examples:**
+- **Gallipoli (1915):** Ian Hamilton's vague, deferential orders and divided authority let the campaign collapse.
+- **George Marshall** in WWII: picked and trained protégés (Eisenhower among them), cut the deputies reporting to him from about 60 to 6, demanded short reports, and exercised authority indirectly.
+
+**Keys:**
+- **Unity of command:** one leader, one vision (Hannibal at Cannae, Frederick the Great, Marshall, Giap).
+- **Groupthink is political and risk-averse.** Committees choose the safe compromise. Keep the vision yourself while letting the group feel involved.
+- **Build a skilled team you trust** (Ingmar Bergman's company, Lincoln's cabinet), but don't become its prisoner; FDR kept his brain trust as advisers, not decision-makers.
+- **Use a "directed telescope":** trusted people who bring you unfiltered information from the front (Napoleon's young officers; Martin van Creveld's term).
+- **Weed out political animals** who put their careers above the group. Beware people who just mirror your views (Elizabeth I kept advisers who disagreed).
+- **Give clear orders, then hold the reins lightly.**
+
+**Authority:** "One bad general is better than two good ones" (Napoleon).
+
+**Reversal:** Never share or split command. Do exploit enemies whose decisions are made by committee: they are slow and divided.
+
+### 6. Segment your forces: the controlled-chaos strategy *(scan ends partway through)*
+**Core idea.** The critical elements in war are speed and adaptability: the ability to move and make decisions faster than the enemy. Break your forces into independent groups that can operate on their own. Make them fluid and mobile. Give them the spirit of the campaign, a mission to accomplish, and room to run. Instead of a rigid machine, make your army a loose network.
+
+**Example:** Napoleon's independent army corps, each able to fight alone, converged to trap the Austrian general Mack at Ulm (1805), who was paralyzed by a rigid, centralized army.
+
+**Keys (partial):**
+- Strategy means having more options than the enemy (A, B or C), not following a recipe.
+- Sun-tzu's *shih*: the potential force of a well-positioned, flexible army.
+- "Separate to live, unite to fight." Disperse for speed and supply; concentrate at the decisive point.
+- Mobility is the greatest force multiplier.
+- Patton: "Never tell people how to do things. Tell them what to do, and they will surprise you with their ingenuity." Give clear missions, then let teams run.
+
+### 7. Transform your war into a crusade: morale strategies *(table-of-contents summary only)*
+The secret to motivating people is to make them think less about themselves and more about the group. Involve them in a cause, a crusade against a hated enemy. Make them see their survival as tied to the success of the army as a whole. (The full chapter was not in the photos.)
+
+---
+
+## §1 Defensive war (Strategies 8–11)
+
+### 8. Pick your battles carefully: the perfect-economy strategy *(table-of-contents summary only)*
+We all have limitations: our energies and skills only go so far. Know your limits and pick your battles carefully. Count the hidden costs of a war: time lost, political goodwill squandered, an embittered enemy bent on revenge. Sometimes it's better to wait, to undermine your enemies covertly rather than hitting them straight on.
+
+### 9. Turn the tables: the counterattack strategy *(table-of-contents summary only)*
+Moving first — initiating the attack — often puts you at a disadvantage: you expose your strategy and limit your options. Instead, discover the power of holding back and letting the other side move first, giving you the flexibility to counterattack from any angle. If your opponents are aggressive, bait them into a rash attack that leaves them weak.
+
 
 ### 10. Create a threatening presence: deterrence strategies
+*(First half of the chapter missing. Its summary: build a reputation for being a little crazy and unpredictable; sometimes keeping opponents uncertain works better than an overt threat.)*
+
 **Core idea.** Aggressors prey on those who seem weak. They judge you by the signals you give, they can't know your real strength, and they want easy, bloodless victories. Turn that around: make attacking you look costly, uncertain and dangerous. "Power is not only what you have but what the enemy thinks you have" (Saul Alinsky).
 
 **Five methods of deterrence and reverse intimidation:**
@@ -455,6 +608,12 @@ The goal is to isolate them. Let their own self-destructive tendencies hang them
 
 | Situation | Consider |
 |---|---|
+| Stuck in old methods; past success isn't working anymore | 2 Don't fight the last war; 6 Segment your forces |
+| Panic, overwhelm, emotional reactions under pressure | 3 Presence of mind; Preface (§P): "when angry, take no action" |
+| Lack of drive, drifting, procrastinating | 4 Death ground: commit, burn the ships, act before you're ready |
+| Unclear who is working against you | 1 Polarity: read hidden hostility, provoke people to take sides |
+| Team dysfunction, committee paralysis, groupthink | 5 Unity of command, directed telescope; 6 Clear missions and latitude; 7 A shared cause |
+| Tempted to strike first in a fight | 9 Let them move first, then counterattack; 8 Count the costs |
 | A stronger aggressor is pushing you around | 10 Deterrence (bold move, frightening reputation); 11 Trade space for time; 26 The void |
 | You're overwhelmed or the battle isn't of your choosing | 11 Retreat and regroup; 8 Pick your battles; 22 Exit cleanly |
 | Planning a campaign, product launch or career move | 12 Grand strategy; 13 Intelligence; 20 Maneuver; 22 Plan the ending first |

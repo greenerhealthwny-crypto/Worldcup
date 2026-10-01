@@ -1,6 +1,6 @@
 ---
 name: strategies-of-war
-description: 'Apply the teachings of "The 33 Strategies of War" (Robert Greene, 2006) — military strategy from Sun-tzu, Clausewitz, Napoleon, Mao and others applied to business, politics, careers, negotiation and everyday conflict. Strongest on Strategies 10-33: deterrence, strategic retreat, grand strategy, intelligence, speed, controlling the dynamic, center of gravity, divide and conquer, flanking, envelopment, maneuver, negotiating while advancing, exit strategy, deception, surprise, moral high ground, alliances, office rivals, incremental gains, persuasion, passive aggression, and defending against fear tactics. Use for strategic analysis of a competitive or conflict situation, recognizing and countering manipulative tactics, or "what would Greene say about...".'
+description: 'Apply the teachings of "The 33 Strategies of War" (Robert Greene, 2006) — military strategy from Sun-tzu, Clausewitz, Napoleon, Mao and others applied to business, politics, careers, leadership, negotiation and everyday conflict. Covers the strategic mindset (seeing clearly, mastering emotions), self-directed war (identifying enemies, not fighting the last war, presence of mind, death ground), team command and groupthink, picking battles, counterattack, deterrence, strategic retreat, grand strategy, intelligence, speed, controlling the dynamic, center of gravity, divide and conquer, flanking, maneuver, negotiating while advancing, exit strategy, deception, surprise, moral high ground, alliances, office rivals, persuasion, passive aggression, and defending against fear tactics. Use for strategic analysis of a competitive or conflict situation, self-discipline under pressure, leading a team, recognizing and countering manipulative tactics, or "what would Greene say about...".'
 ---
 
 # The 33 Strategies of War (Robert Greene)
@@ -13,7 +13,7 @@ A working guide distilled from Robert Greene's *The 33 Strategies of War* (2006)
 5. An **Authority** (a quote).
 6. A **Reversal**: when not to use the strategy, or how to counter it.
 
-**Source coverage:** The scanned file used for this skill covers book pages 124 to the end. That is the second half of Strategy 10 through Strategy 33, plus the introductions to Offensive Warfare and Unconventional (Dirty) Warfare. **Strategies 1–9 and the book's preface were not in the scan.** They appear only as a title index in the reference file. Say so if a user asks about them in depth.
+**Source coverage:** Built from two sets of scans. The first covers book pages 1–73: the preface, the Part I and Part II introductions, Strategies 1–5 in full and the first part of Strategy 6. The second covers pages 124 to the end: the second half of Strategy 10 through Strategy 33. **Pages 74–123 were missing**, so Strategies 7, 8 and 9 (and the opening of 10) come only from the book's one-paragraph table-of-contents summaries. Say so if a user asks about them in depth.
 
 ## Core philosophy
 
@@ -32,7 +32,10 @@ A working guide distilled from Robert Greene's *The 33 Strategies of War* (2006)
 | User wants… | Go to |
 |---|---|
 | Index of all 33 strategies and the book's five parts | `references/strategies.md` §0 |
-| Defensive situations: being attacked, bullied or pressured; deterrence; strategic retreat | `references/strategies.md` §1 (Strategies 10–11) |
+| The strategic mindset: seeing clearly, mastering emotion, Athena vs Ares | `references/strategies.md` §P |
+| Self-mastery: identifying enemies, shedding old patterns, staying calm under pressure, urgency and commitment | `references/strategies.md` §A (Strategies 1–4) |
+| Leading a team: chain of command, groupthink, decentralized units, morale | `references/strategies.md` §B (Strategies 5–7) |
+| Defensive situations: picking battles, counterattacking, being attacked or pressured, deterrence, strategic retreat | `references/strategies.md` §1 (Strategies 8–11) |
 | Planning a campaign, competition or offensive: grand strategy, intelligence, speed, control, center of gravity, divide and conquer, flanking, envelopment, maneuver, negotiation, exit | `references/strategies.md` §2 (Strategies 12–22) |
 | Unconventional tactics, or defending against them: deception, surprise, moral framing, guerrilla, alliances, office politics, incremental gains, persuasion, infiltration, passive aggression, terror | `references/strategies.md` §3 (Strategies 23–33) |
 | Diagnosing a situation and choosing a strategy | `references/strategies.md` §4 |
