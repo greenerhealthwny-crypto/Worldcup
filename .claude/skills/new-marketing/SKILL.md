@@ -1,6 +1,6 @@
 ---
 name: new-marketing
-description: Apply the principles and frameworks from "The New Marketing" (Cheryl & Mark Burgess, SAGE 2020) to marketing work — brand strategy, brand purpose, buyer personas, customer journeys and experience (CX), content marketing and storytelling, media/channel mix (POEM), integrated marketing (Brand Choreography), social employee advocacy, influencers, Gen Z, personal branding, and data/AI-driven marketing. Use when the user asks to build or critique a marketing plan, campaign, brand positioning, persona, content strategy, media plan, social/employee advocacy program, personal brand, or marketing use of data and AI — or asks "what would The New Marketing say about…".
+description: 'Apply the principles and frameworks from "The New Marketing" (Cheryl & Mark Burgess, SAGE 2020) to marketing work — brand strategy, brand purpose, buyer personas, customer journeys and experience (CX), content marketing and storytelling, media/channel mix (POEM), integrated marketing (Brand Choreography), social employee advocacy, influencers, Gen Z, personal branding, and data/AI-driven marketing. Use when the user asks to build or critique a marketing plan, campaign, brand positioning, persona, content strategy, media plan, social/employee advocacy program, personal brand, or marketing use of data and AI — or asks "what would The New Marketing say about…".'
 ---
 
 # The New Marketing

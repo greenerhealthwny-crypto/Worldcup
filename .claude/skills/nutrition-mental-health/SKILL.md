@@ -1,6 +1,6 @@
 ---
 name: nutrition-mental-health
-description: Apply the teachings of "Linking Nutrition to Mental Health" (Ruth Leyse-Wallace, PhD, RD, 2008) — how nutrients, diet patterns, starvation/dieting, alcohol, toxins, medications, and genetics affect mood, cognition and behavior, and how mental status in turn affects eating. Use when the user asks how food, nutrients, supplements, blood sugar, omega-3s, B vitamins, minerals, caffeine, dieting, eating disorders, bariatric surgery, alcohol, or psychiatric medications relate to mood, anxiety, depression, cognition, or behavior; when designing nutrition education, wellness programs, menus, or screening/assessment tools with a mental-health angle; or when reviewing such content for accuracy and safety.
+description: 'Apply the teachings of "Linking Nutrition to Mental Health" (Ruth Leyse-Wallace, PhD, RD, 2008) — how nutrients, diet patterns, starvation/dieting, alcohol, toxins, medications, and genetics affect mood, cognition and behavior, and how mental status in turn affects eating. Use when the user asks how food, nutrients, supplements, blood sugar, omega-3s, B vitamins, minerals, caffeine, dieting, eating disorders, bariatric surgery, alcohol, or psychiatric medications relate to mood, anxiety, depression, cognition, or behavior; when designing nutrition education, wellness programs, menus, or screening/assessment tools with a mental-health angle; or when reviewing such content for accuracy and safety.'
 ---
 
 # Linking Nutrition to Mental Health
