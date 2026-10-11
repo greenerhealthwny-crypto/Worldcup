@@ -4,6 +4,8 @@ Built from the "12 AI Agents You Can Build This Weekend" list, following the 8-s
 
 Each agent lives in `.claude/agents/<name>.md` and remembers your preferences in `.claude/agent-memory/<name>/MEMORY.md`. It asks before sending, posting, booking, paying or deleting anything.
 
+**Agents shortcut:** your pinned [Agent Roster](https://claude.ai/artifact/PP4h63VUMnbNfAVuAh5Wi3) page in the claude.ai sidebar lists every agent, whether it's active or still needs work, and a starter prompt to copy. Its data comes from `docs/agent-status.json`.
+
 **How to use one:** describe the job ("sort my inbox and draft replies") and Claude hands it to the right agent. You can also name the agent: "use the travel-planner-agent to plan 4 days in Lisbon".
 
 | # | Agent | Name | Great for | Preloaded skills |
