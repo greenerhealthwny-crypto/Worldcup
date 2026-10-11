@@ -143,8 +143,21 @@ CASES = {
 
 
 def run_case(name):
+    """Run one case in a throwaway copy of the repo, always removing the copy afterwards."""
+    try:
+        work = Path(tempfile.mkdtemp(prefix=f"agent-eval-{name}-"))
+    except OSError as e:
+        return name, [f"could not create temp dir: {e}"]
+    try:
+        return _run_case_in(name, work)
+    except OSError as e:
+        return name, [f"I/O error: {e}"]
+    finally:
+        shutil.rmtree(work, ignore_errors=True)
+
+
+def _run_case_in(name, work):
     case = CASES[name]
-    work = Path(tempfile.mkdtemp(prefix=f"agent-eval-{name}-"))
     try:
         shutil.copytree(REPO, work, dirs_exist_ok=True,
                         ignore=shutil.ignore_patterns(".git", "eval-output", "*.pdf"))
@@ -209,7 +222,6 @@ def run_case(name):
     evidence = "\n\n".join([result, *reports, *saved])
     for check in case["checks"]:
         problems += check(evidence, work)
-    shutil.rmtree(work, ignore_errors=True)
     return name, problems
 
 
