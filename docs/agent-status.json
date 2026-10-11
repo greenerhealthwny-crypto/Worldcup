@@ -19,8 +19,8 @@
     "does": "Writes posts, plans the visuals and lays them out on a posting schedule.",
     "greatFor": "Creators, businesses, freelancers",
     "status": "needs_work",
-    "reason": "Writes posts, image briefs and a schedule (test passed). Through Zapier it can now publish to Instagram (photos and videos), your Facebook Page and Pinterest, once you approve each post. Nothing has been posted yet, LinkedIn isn't connected, and posts go out when approved rather than on a timer.",
-    "nextStep": "Ask the agent for one approved test post to Instagram to confirm it works end to end. Connect LinkedIn in Zapier if you post there, and Buffer or Hootsuite if you want posts to go out on a schedule.",
+    "reason": "Writes posts, image briefs and a schedule (test passed). Live test on Oct 11: a ready-to-post Instagram draft was prepared, but Zapier lists no Instagram account to post to, so nothing can publish yet. Facebook Page and Pinterest posting are available.",
+    "nextStep": "In Instagram, switch greenerhealthwny to a Business account and link it to a Facebook Page you admin. Then reconnect Instagram for Business in Zapier and tick that account. After that, approve the test post and it can go live.",
     "connectors": "Zapier (connected): Instagram for Business, Facebook Pages, Pinterest",
     "prompt": "Use the social-media-scheduler-agent: plan [2 weeks] of posts for [my business] on [Instagram and LinkedIn], [3] posts a week each. We're promoting [offer]. Include what each image should show.",
     "lastTested": "Oct 11, 2026"
