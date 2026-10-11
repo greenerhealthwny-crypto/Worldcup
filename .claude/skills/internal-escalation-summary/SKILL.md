@@ -1,6 +1,6 @@
 ---
 name: internal-escalation-summary
-description: "Internal Escalation Summary (business prompt #16, Customer Support & Comms). Summarize this customer support thread for escalation to a senior team member: [PASTE THREAD]. Include: what the customer wants, what has been tried, what the sticking point is..."
+description: "Use whenever the user wants to summarize a support thread for escalation to a manager or senior teammate, even if they don't name this skill. Business prompt #16 (Internal Escalation Summary, Customer Support & Comms). Delivers: What the customer wants; What has been tried; The sticking point; Recommended resolution."
 ---
 
 # Internal Escalation Summary

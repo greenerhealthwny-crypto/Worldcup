@@ -1,6 +1,6 @@
 ---
 name: launch-plan
-description: "Launch Plan From a Product Description (business prompt #82, Marketing & Growth). Here is the product I am about to launch: [PASTE DESCRIPTION]. Write a launch plan for the first 30 days. Cover: pre-launch build-up, launch day activities, post-launch..."
+description: "Use whenever the user wants to plan a product launch, even if they don't name this skill. Business prompt #82 (Launch Plan From a Product Description, Marketing & Growth). Delivers: Pre-launch build-up; Launch day activities; Post-launch amplification; Channels; The one success metric."
 ---
 
 # Launch Plan From a Product Description

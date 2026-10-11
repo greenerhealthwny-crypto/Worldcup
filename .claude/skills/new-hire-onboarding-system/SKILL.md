@@ -1,6 +1,6 @@
 ---
 name: new-hire-onboarding-system
-description: "Onboarding System for a New Hire (business prompt #75, Hiring & Talent). Design a 30-day onboarding system for a new [ROLE] hire. Week by week. Include: what they need to learn, who they need to meet, what they need to produce, and how you will know..."
+description: "Use whenever the user wants to plan onboarding for a new employee, even if they don't name this skill. Business prompt #75 (Onboarding System for a New Hire, Hiring & Talent). Delivers: Week-by-week plan over 30 days; What to learn; Who to meet; What to produce; Day-30 up-to-speed criteria."
 ---
 
 # Onboarding System for a New Hire

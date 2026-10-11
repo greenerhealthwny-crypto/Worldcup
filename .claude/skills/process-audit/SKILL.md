@@ -1,6 +1,6 @@
 ---
 name: process-audit
-description: "Process Audit From a Team Description (business prompt #30, Operations & Project Management). Here is how our team currently handles [PROCESS]: [PASTE DESCRIPTION]. Audit this process. Identify the bottlenecks, redundancies, and single points of failure. Suggest a leaner..."
+description: "Use whenever the user wants to audit or streamline a team process or workflow, even if they don't name this skill. Business prompt #30 (Process Audit From a Team Description, Operations & Project Management). Delivers: Bottlenecks; Redundancies; Single points of failure; Leaner version with fewer steps."
 ---
 
 # Process Audit From a Team Description

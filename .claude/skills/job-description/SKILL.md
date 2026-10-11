@@ -1,6 +1,6 @@
 ---
 name: job-description
-description: "Job Description That Attracts the Right People (business prompt #71, Hiring & Talent). Write a job description for a [ROLE] at [COMPANY TYPE]. Include: what the role actually does day to day, what success looks like in 90 days, who thrives in this role, who does..."
+description: "Use whenever the user wants to write a job description or job posting, even if they don't name this skill. Business prompt #71 (Job Description That Attracts the Right People, Hiring & Talent). Delivers: Day-to-day work; Success at 90 days; Who thrives; Who does not; Why it's worth leaving a stable job."
 ---
 
 # Job Description That Attracts the Right People

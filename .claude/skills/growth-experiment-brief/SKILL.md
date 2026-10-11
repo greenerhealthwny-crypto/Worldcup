@@ -1,6 +1,6 @@
 ---
 name: growth-experiment-brief
-description: "Growth Experiment Brief (business prompt #87, Marketing & Growth). I want to test this growth idea: [DESCRIBE IDEA]. Write a growth experiment brief. Include: the hypothesis, the metric we are testing, the minimum sample size needed to trust the..."
+description: "Use whenever the user wants to design a growth experiment or A/B test, even if they don't name this skill. Business prompt #87 (Growth Experiment Brief, Marketing & Growth). Delivers: Hypothesis; Metric; Minimum sample size; Run duration; Decision if it works vs if it doesn't."
 ---
 
 # Growth Experiment Brief

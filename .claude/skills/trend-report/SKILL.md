@@ -1,6 +1,6 @@
 ---
 name: trend-report
-description: "Trend Report From a Topic (business prompt #46, Research & Analysis). Write a trend report on [TOPIC] as it applies to [INDUSTRY]. Cover: what is changing, why it is changing, who it affects most, early signals to watch, and what businesses should..."
+description: "Use whenever the user wants to write a trend report on a topic or industry shift, even if they don't name this skill. Business prompt #46 (Trend Report From a Topic, Research & Analysis). Delivers: What is changing; Why; Who it affects most; Early signals to watch; 90-day actions."
 ---
 
 # Trend Report From a Topic

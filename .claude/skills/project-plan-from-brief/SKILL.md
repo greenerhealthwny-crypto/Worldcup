@@ -1,6 +1,6 @@
 ---
 name: project-plan-from-brief
-description: "Turn a Messy Brief Into a Project Plan (business prompt #21, Operations & Project Management). Here is a rough project brief: [PASTE BRIEF]. Turn it into a structured project plan with phases, deliverables, dependencies, and suggested timelines. Flag any missing information..."
+description: "Use whenever the user wants to turn a rough or messy project brief into a project plan, even if they don't name this skill. Business prompt #21 (Turn a Messy Brief Into a Project Plan, Operations & Project Management). Delivers: Phases; Deliverables; Dependencies; Suggested timelines; List of missing information to define first."
 ---
 
 # Turn a Messy Brief Into a Project Plan

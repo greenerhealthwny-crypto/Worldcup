@@ -1,6 +1,6 @@
 ---
 name: facebook-ad-variations
-description: "Ad Copy Variations (business prompt #6, Content & Copywriting). Write 10 variations of a Facebook ad for [PRODUCT]. Vary the hook, angle, and CTA each time. Target audience is [ICP]. Keep each under 150 words. Flag which three you think are..."
+description: "Use whenever the user wants to write Facebook, Instagram or social ad copy variations, even if they don't name this skill. Business prompt #6 (Ad Copy Variations, Content & Copywriting). Delivers: 10 variations with different hook, angle and CTA; Each under 150 words; Top three flagged with reasons."
 ---
 
 # Ad Copy Variations

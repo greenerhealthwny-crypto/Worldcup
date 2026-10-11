@@ -1,6 +1,6 @@
 ---
 name: investor-update
-description: "Investor Update From Monthly Data (business prompt #97, Product & Strategy). Here are our metrics and updates for this month: [PASTE DATA]. Write a monthly investor update. Cover: key metrics vs. last month, narrative on what drove performance, the biggest..."
+description: "Use whenever the user wants to write a monthly investor update, even if they don't name this skill. Business prompt #97 (Investor Update From Monthly Data, Product & Strategy). Delivers: Key metrics vs last month; What drove performance; Biggest challenge; What we need; Next month."
 ---
 
 # Investor Update From Monthly Data

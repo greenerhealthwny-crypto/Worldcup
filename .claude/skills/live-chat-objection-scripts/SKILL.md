@@ -1,6 +1,6 @@
 ---
 name: live-chat-objection-scripts
-description: "Live Chat Script for Common Objections (business prompt #17, Customer Support & Comms). Write live chat scripts for these five objections: [LIST OBJECTIONS]. Each script should acknowledge the objection, address it directly, and move the conversation forward. Keep..."
+description: "Use whenever the user wants to write live chat or support scripts for handling customer objections, even if they don't name this skill. Business prompt #17 (Live Chat Script for Common Objections, Customer Support & Comms). Delivers: One script per objection (five); Acknowledge → address → move forward; Each under 75 words."
 ---
 
 # Live Chat Script for Common Objections

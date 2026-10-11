@@ -1,6 +1,6 @@
 ---
 name: contract-review-checklist
-description: "Contract Review Checklist (business prompt #64, Finance & Admin). I am about to sign this contract: [PASTE CONTRACT]. Review it and flag: any clauses that are unusual or one-sided, anything I should negotiate, any missing protections, and the..."
+description: "Use whenever the user wants to review a contract before signing it, even if they don't name this skill. Business prompt #64 (Contract Review Checklist, Finance & Admin). Delivers: Unusual or one-sided clauses; Points to negotiate; Missing protections; Three things to understand before signing; Not-legal-advice note."
 ---
 
 # Contract Review Checklist

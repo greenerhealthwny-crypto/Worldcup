@@ -1,6 +1,6 @@
 ---
 name: integration-map
-description: "Integration Map From a Tool List (business prompt #59, Systems & Automation). Here are all the tools in our stack: [PASTE LIST]. Build an integration map. Show which tools should talk to each other, what data should flow between them, and which connections..."
+description: "Use whenever the user wants to map integrations between the tools in their stack, even if they don't name this skill. Business prompt #59 (Integration Map From a Tool List, Systems & Automation). Delivers: Which tools connect; What data flows between them; Priority order for setting up connections."
 ---
 
 # Integration Map From a Tool List

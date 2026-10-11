@@ -1,6 +1,6 @@
 ---
 name: grant-application-summary
-description: "Grant Application Summary (business prompt #69, Finance & Admin). I am applying for a grant for [PURPOSE]. Here is the application brief: [PASTE BRIEF]. Write a compelling summary that covers: what we are doing, why it matters, who benefits..."
+description: "Use whenever the user wants to write a grant application summary or proposal narrative, even if they don't name this skill. Business prompt #69 (Grant Application Summary, Finance & Admin). Delivers: What we are doing; Why it matters; Who benefits; Use of funds; Why we are the right team."
 ---
 
 # Grant Application Summary

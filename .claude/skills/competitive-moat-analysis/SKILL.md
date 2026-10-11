@@ -1,6 +1,6 @@
 ---
 name: competitive-moat-analysis
-description: "Competitive Moat Analysis (business prompt #98, Product & Strategy). Here is a description of my business and what we do: [PASTE]. Analyze our competitive moat. What makes us genuinely hard to copy? What is actually defensible? Where are we..."
+description: "Use whenever the user wants to analyze a business's competitive moat or defensibility, even if they don't name this skill. Business prompt #98 (Competitive Moat Analysis, Product & Strategy). Delivers: What is genuinely hard to copy; What is defensible; Vulnerabilities; What to build now to deepen the moat."
 ---
 
 # Competitive Moat Analysis

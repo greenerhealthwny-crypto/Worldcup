@@ -1,6 +1,6 @@
 ---
 name: refund-request-response
-description: "Refund Request Response (business prompt #13, Customer Support & Comms). Write three versions of a response to this refund request: [PASTE REQUEST]. Version 1 approves it. Version 2 offers an alternative. Version 3 declines it professionally. All three..."
+description: "Use whenever the user wants to respond to a customer's refund request, even if they don't name this skill. Business prompt #13 (Refund Request Response, Customer Support & Comms). Delivers: Version 1 approves; Version 2 offers an alternative; Version 3 declines professionally; All three sound human."
 ---
 
 # Refund Request Response

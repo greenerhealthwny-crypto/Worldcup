@@ -1,6 +1,6 @@
 ---
 name: freelancer-hiring-brief
-description: "Hiring Brief for a Freelancer (business prompt #72, Hiring & Talent). Write a hiring brief for a [ROLE] freelancer. We need someone to [DESCRIBE TASK]. Include: scope of work, deliverables, skills required, timeline, and red flags to screen for..."
+description: "Use whenever the user wants to write a brief or job post for hiring a freelancer, even if they don't name this skill. Business prompt #72 (Hiring Brief for a Freelancer, Hiring & Talent). Delivers: Scope of work; Deliverables; Skills required; Timeline; Red flags to screen for; Specific enough to filter out unqualified applicants."
 ---
 
 # Hiring Brief for a Freelancer

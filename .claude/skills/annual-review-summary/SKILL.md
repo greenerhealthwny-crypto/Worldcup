@@ -1,6 +1,6 @@
 ---
 name: annual-review-summary
-description: "Annual Review Summary for Stakeholders (business prompt #70, Finance & Admin). Here are our key results from this year: [PASTE DATA AND NOTES]. Write an annual review summary for stakeholders. Cover: what we set out to do, what we achieved, what we missed..."
+description: "Use whenever the user wants to write an annual or year-in-review summary for stakeholders, even if they don't name this skill. Business prompt #70 (Annual Review Summary for Stakeholders, Finance & Admin). Delivers: What we set out to do; What we achieved; What we missed and why; Next year's focus."
 ---
 
 # Annual Review Summary for Stakeholders

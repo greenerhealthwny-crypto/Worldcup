@@ -1,6 +1,6 @@
 ---
 name: faq-from-support-tickets
-description: "FAQ Document From Support Tickets (business prompt #12, Customer Support & Comms). Here are 20 customer support tickets from this month: [PASTE TICKETS]. Identify the top 10 recurring questions and write a clean FAQ document with a clear answer to each one."
+description: "Use whenever the user wants to turn support tickets or customer questions into an FAQ, even if they don't name this skill. Business prompt #12 (FAQ Document From Support Tickets, Customer Support & Comms). Delivers: Top 10 recurring questions identified from the tickets; A clear answer for each; Clean FAQ format."
 ---
 
 # FAQ Document From Support Tickets

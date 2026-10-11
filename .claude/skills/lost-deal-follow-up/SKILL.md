@@ -1,6 +1,6 @@
 ---
 name: lost-deal-follow-up
-description: "Lost Deal Follow Up (business prompt #36, Sales & Revenue). A prospect went quiet after this conversation: [PASTE CONTEXT]. Write a follow up message that re-opens the door without being pushy. Under 80 words. Give me three versions with..."
+description: "Use whenever the user wants to follow up with a prospect who went quiet or ghosted, even if they don't name this skill. Business prompt #36 (Lost Deal Follow Up, Sales & Revenue). Delivers: Three versions with different angles; Each under 80 words; Re-opens the door without pressure."
 ---
 
 # Lost Deal Follow Up

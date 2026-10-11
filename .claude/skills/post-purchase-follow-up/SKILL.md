@@ -1,6 +1,6 @@
 ---
 name: post-purchase-follow-up
-description: "Post-Purchase Follow Up (business prompt #19, Customer Support & Comms). Write a post-purchase follow up email sent 48 hours after buying [PRODUCT]. Goal is to reduce buyer's remorse, set expectations for results, and get them to take one specific..."
+description: "Use whenever the user wants to write a post-purchase or thank-you follow-up email, even if they don't name this skill. Business prompt #19 (Post-Purchase Follow Up, Customer Support & Comms). Delivers: Reduces buyer's remorse; Sets expectations for results; One specific action; Under 150 words."
 ---
 
 # Post-Purchase Follow Up

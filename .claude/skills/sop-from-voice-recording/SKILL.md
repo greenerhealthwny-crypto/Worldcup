@@ -1,6 +1,6 @@
 ---
 name: sop-from-voice-recording
-description: "SOPs From a Voice Recording (business prompt #23, Operations & Project Management). I recorded myself explaining this process out loud: [PASTE TRANSCRIPT]. Turn it into a clean SOP with numbered steps, decision points, and notes on what to watch out for. Write it..."
+description: "Use whenever the user wants to turn a spoken explanation or transcript of a process into an SOP, even if they don't name this skill. Business prompt #23 (SOPs From a Voice Recording, Operations & Project Management). Delivers: Numbered steps; Decision points; Watch-out notes; Followable by a new hire on day one."
 ---
 
 # SOPs From a Voice Recording

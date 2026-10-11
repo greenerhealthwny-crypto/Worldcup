@@ -1,6 +1,6 @@
 ---
 name: tool-stack-audit
-description: "Tool Audit From a Tech Stack List (business prompt #53, Systems & Automation). Here is every tool we are currently paying for: [PASTE LIST]. Audit this stack. Identify overlaps, underused tools, and gaps. Suggest what to cut, what to consolidate, and what we..."
+description: "Use whenever the user wants to audit their software or tool stack for overlaps and savings, even if they don't name this skill. Business prompt #53 (Tool Audit From a Tech Stack List, Systems & Automation). Delivers: Overlaps; Underused tools; Gaps; What to cut; What to consolidate; Highest-ROI missing tool."
 ---
 
 # Tool Audit From a Tech Stack List

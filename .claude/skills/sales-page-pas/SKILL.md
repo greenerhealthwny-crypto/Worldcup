@@ -1,6 +1,6 @@
 ---
 name: sales-page-pas
-description: "Write a Sales Page in 10 Minutes (business prompt #4, Content & Copywriting). Write a sales page for [PRODUCT]. Use PAS structure. Lead with the pain, agitate it with specifics, then position [PRODUCT] as the solution. Include a headline, subheadline, three..."
+description: "Use whenever the user wants to write a sales page or landing page copy, even if they don't name this skill. Business prompt #4 (Write a Sales Page in 10 Minutes, Content & Copywriting). Delivers: Problem–Agitate–Solution structure; Headline and subheadline; Three benefit sections; Social proof placeholder; CTA."
 ---
 
 # Write a Sales Page in 10 Minutes

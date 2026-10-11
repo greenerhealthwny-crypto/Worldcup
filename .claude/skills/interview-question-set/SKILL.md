@@ -1,6 +1,6 @@
 ---
 name: interview-question-set
-description: "Interview Question Set (business prompt #73, Hiring & Talent). Write an interview question set for hiring a [ROLE]. Include: three questions that reveal how they actually think, three that test for the specific skills we need, two that..."
+description: "Use whenever the user wants to prepare interview questions for a role, even if they don't name this skill. Business prompt #73 (Interview Question Set, Hiring & Talent). Delivers: Three thinking questions; Three skills questions; Two red-flag questions; One values question; What a good answer sounds like for each."
 ---
 
 # Interview Question Set

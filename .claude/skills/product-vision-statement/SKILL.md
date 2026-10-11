@@ -1,6 +1,6 @@
 ---
 name: product-vision-statement
-description: "Product Vision Statement (business prompt #95, Product & Strategy). Write five versions of a product vision statement for [PRODUCT]. Each should be under two sentences. It should communicate: who it is for, what it helps them do, and why that..."
+description: "Use whenever the user wants to write a product vision statement, even if they don't name this skill. Business prompt #95 (Product Vision Statement, Product & Strategy). Delivers: Five versions; Under two sentences each; Who it's for, what it helps them do, why it matters; Motivates the team and resonates with customers."
 ---
 
 # Product Vision Statement

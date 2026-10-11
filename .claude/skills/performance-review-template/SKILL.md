@@ -1,6 +1,6 @@
 ---
 name: performance-review-template
-description: "Performance Review Template (business prompt #76, Hiring & Talent). Write a performance review template for a [ROLE]. Include sections for: results vs. targets, strengths observed, areas to develop, specific examples section, rating scale, and a..."
+description: "Use whenever the user wants to create a performance review template, even if they don't name this skill. Business prompt #76 (Performance Review Template, Hiring & Talent). Delivers: Results vs targets; Strengths observed; Areas to develop; Specific examples; Rating scale; 90-day development plan; Conversational framing."
 ---
 
 # Performance Review Template

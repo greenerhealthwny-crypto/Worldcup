@@ -1,6 +1,6 @@
 ---
 name: objection-handling-playbook
-description: "Objection Handling Playbook (business prompt #34, Sales & Revenue). Write an objection handling playbook for [PRODUCT]. Cover these five objections: [LIST OBJECTIONS]. For each one give me: why they are really saying it, how to respond in the..."
+description: "Use whenever the user wants to prepare responses to sales objections or an objection-handling playbook, even if they don't name this skill. Business prompt #34 (Objection Handling Playbook, Sales & Revenue). Delivers: All five objections; For each: the real reason behind it, an in-the-moment response, a forward-moving follow-up question."
 ---
 
 # Objection Handling Playbook

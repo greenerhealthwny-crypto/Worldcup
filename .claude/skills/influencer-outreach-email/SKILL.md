@@ -1,6 +1,6 @@
 ---
 name: influencer-outreach-email
-description: "Influencer Outreach Email (business prompt #84, Marketing & Growth). Write an outreach email to a [TYPE] influencer for a collaboration on [PRODUCT/CAMPAIGN]. Under 120 words. Lead with what they get, not what we need. Make the ask specific and..."
+description: "Use whenever the user wants to write an outreach email to an influencer or creator, even if they don't name this skill. Business prompt #84 (Influencer Outreach Email, Marketing & Growth). Delivers: Under 120 words; Leads with what they get; Specific ask answerable in one line."
 ---
 
 # Influencer Outreach Email

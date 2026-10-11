@@ -1,6 +1,6 @@
 ---
 name: exit-interview-questions
-description: "Exit Interview Questions (business prompt #80, Hiring & Talent). Write an exit interview question set for an employee leaving [COMPANY/ROLE]. Include questions that surface: why they are really leaving, what we could have done differently, what..."
+description: "Use whenever the user wants to prepare exit interview questions, even if they don't name this skill. Business prompt #80 (Exit Interview Questions, Hiring & Talent). Delivers: Real reason for leaving; What we could have done differently; What they valued most; What they'd tell a friend considering joining."
 ---
 
 # Exit Interview Questions

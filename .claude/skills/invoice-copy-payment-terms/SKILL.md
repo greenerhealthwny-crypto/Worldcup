@@ -1,6 +1,6 @@
 ---
 name: invoice-copy-payment-terms
-description: "Invoice Copy and Payment Terms (business prompt #61, Finance & Admin). Write professional invoice copy and payment terms for a [TYPE OF BUSINESS]. Include: payment due date language, late payment policy, accepted payment methods section, and a short..."
+description: "Use whenever the user wants to write invoice wording or payment terms, even if they don't name this skill. Business prompt #61 (Invoice Copy and Payment Terms, Finance & Admin). Delivers: Payment due date language; Late payment policy; Accepted payment methods; Short, non-generic thank-you note."
 ---
 
 # Invoice Copy and Payment Terms

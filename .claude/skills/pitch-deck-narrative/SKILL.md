@@ -1,6 +1,6 @@
 ---
 name: pitch-deck-narrative
-description: "Pitch Deck Narrative (business prompt #31, Sales & Revenue). Write the narrative for a pitch deck for [COMPANY]. We are pitching to [AUDIENCE]. Cover: the problem, our solution, market size, how it works, traction, team, and the ask. Write..."
+description: "Use whenever the user wants to write the story or narrative for a pitch deck, even if they don't name this skill. Business prompt #31 (Pitch Deck Narrative, Sales & Revenue). Delivers: Problem, solution, market size, how it works, traction, team, ask; Reads as a story, not a slide list; Each section under 60 words."
 ---
 
 # Pitch Deck Narrative

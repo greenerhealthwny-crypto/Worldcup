@@ -1,6 +1,6 @@
 ---
 name: cold-email-replies
-description: "Cold Email That Gets Replies (business prompt #7, Content & Copywriting). Write a cold email to [JOB TITLE] at [COMPANY TYPE]. I am offering [SERVICE]. The email should be under 100 words, lead with their problem not my product, and end with a..."
+description: "Use whenever the user wants to write a cold email or cold outreach message to a prospect, even if they don't name this skill. Business prompt #7 (Cold Email That Gets Replies, Content & Copywriting). Delivers: Under 100 words; Opens with the prospect's problem, not the product; Ends with a low-friction ask; Subject line that doesn't sound like spam."
 ---
 
 # Cold Email That Gets Replies

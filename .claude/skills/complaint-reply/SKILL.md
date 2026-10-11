@@ -1,6 +1,6 @@
 ---
 name: complaint-reply
-description: "Handle a Complaint Without Losing the Customer (business prompt #11, Customer Support & Comms). A customer sent this message: [PASTE MESSAGE]. Write a reply that acknowledges the frustration, takes accountability where appropriate, offers a resolution, and keeps the..."
+description: "Use whenever the user wants to reply to an angry or unhappy customer complaint, even if they don't name this skill. Business prompt #11 (Handle a Complaint Without Losing the Customer, Customer Support & Comms). Delivers: Acknowledges the frustration; Takes accountability where appropriate; Offers a concrete resolution; No corporate language."
 ---
 
 # Handle a Complaint Without Losing the Customer

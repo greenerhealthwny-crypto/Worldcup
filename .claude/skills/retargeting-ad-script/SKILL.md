@@ -1,6 +1,6 @@
 ---
 name: retargeting-ad-script
-description: "Retargeting Ad Script (business prompt #85, Marketing & Growth). Write a retargeting ad script for people who visited [PAGE] but did not convert. 30 seconds. Address the likely objection directly in the first five seconds. Offer a reason to..."
+description: "Use whenever the user wants to write a retargeting ad or video ad script, even if they don't name this skill. Business prompt #85 (Retargeting Ad Script, Marketing & Growth). Delivers: 30 seconds; Likely objection addressed in the first five seconds; A new reason to come back, different from the original message."
 ---
 
 # Retargeting Ad Script

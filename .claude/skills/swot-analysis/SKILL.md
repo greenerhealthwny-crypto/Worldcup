@@ -1,6 +1,6 @@
 ---
 name: swot-analysis
-description: "SWOT From a Business Description (business prompt #42, Research & Analysis). Here is a description of my business: [PASTE]. Write a detailed SWOT analysis. Be specific and honest, especially in the weaknesses and threats sections. Do not write generic..."
+description: "Use whenever the user wants to do a SWOT analysis of a business, even if they don't name this skill. Business prompt #42 (SWOT From a Business Description, Research & Analysis). Delivers: Strengths, weaknesses, opportunities, threats; Specific to this business; Honest weaknesses and threats; No generic points."
 ---
 
 # SWOT From a Business Description

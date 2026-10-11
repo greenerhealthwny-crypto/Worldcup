@@ -1,6 +1,6 @@
 ---
 name: discovery-call-script
-description: "Discovery Call Script (business prompt #32, Sales & Revenue). Write a discovery call script for selling [PRODUCT/SERVICE] to [ICP]. Include: an opening that builds rapport fast, five diagnostic questions that reveal the real problem, a..."
+description: "Use whenever the user wants to write a sales discovery call script or questions, even if they don't name this skill. Business prompt #32 (Discovery Call Script, Sales & Revenue). Delivers: Rapport-building opening; Five diagnostic questions; Transition to the pitch; Close that asks for a next step, not a decision."
 ---
 
 # Discovery Call Script

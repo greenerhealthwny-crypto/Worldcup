@@ -1,6 +1,6 @@
 ---
 name: meeting-notes-action-items
-description: "Meeting Notes Into Action Items (business prompt #24, Operations & Project Management). Here are the raw notes from a team meeting: [PASTE NOTES]. Extract all action items with the owner, deadline, and context. Then write a clean summary paragraph for anyone who..."
+description: "Use whenever the user wants to turn meeting notes into action items and a summary, even if they don't name this skill. Business prompt #24 (Meeting Notes Into Action Items, Operations & Project Management). Delivers: Every action item with owner, deadline and context; Missing owners or deadlines flagged; One summary paragraph for absentees."
 ---
 
 # Meeting Notes Into Action Items

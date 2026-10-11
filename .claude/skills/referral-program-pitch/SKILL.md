@@ -1,6 +1,6 @@
 ---
 name: referral-program-pitch
-description: "Referral Program Pitch (business prompt #40, Sales & Revenue). Write a referral program pitch to send to our top 20 customers. Explain the program, what they get, how it works, and why we are inviting them specifically. Keep it personal and..."
+description: "Use whenever the user wants to invite customers to a referral program, even if they don't name this skill. Business prompt #40 (Referral Program Pitch, Sales & Revenue). Delivers: Explains the program; What they get; How it works; Why they were chosen; Personal and under 150 words."
 ---
 
 # Referral Program Pitch

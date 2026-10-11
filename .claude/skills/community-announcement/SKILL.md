@@ -1,6 +1,6 @@
 ---
 name: community-announcement
-description: "Community Announcement Draft (business prompt #20, Customer Support & Comms). Write a community announcement for [PLATFORM] about [UPDATE/NEWS]. Keep it under 200 words. Lead with what changed, explain why, tell them what to do next, and end with something..."
+description: "Use whenever the user wants to announce an update, change or news to a community or user group, even if they don't name this skill. Business prompt #20 (Community Announcement Draft, Customer Support & Comms). Delivers: Leads with what changed; Explains why; Tells them what to do next; Ends with an engagement prompt; Under 200 words; No corporate tone."
 ---
 
 # Community Announcement Draft

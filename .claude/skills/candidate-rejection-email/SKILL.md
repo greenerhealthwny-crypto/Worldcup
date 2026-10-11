@@ -1,6 +1,6 @@
 ---
 name: candidate-rejection-email
-description: "Candidate Rejection Email (business prompt #74, Hiring & Talent). Write a rejection email for a candidate who applied for [ROLE]. They got to [STAGE OF PROCESS]. Be honest, respectful, and specific enough that it feels personal. Do not use..."
+description: "Use whenever the user wants to write a rejection email to a job candidate, even if they don't name this skill. Business prompt #74 (Candidate Rejection Email, Hiring & Talent). Delivers: Honest and respectful; Specific to the stage they reached; Feels personal; No stock phrases like 'we will keep your CV on file'."
 ---
 
 # Candidate Rejection Email

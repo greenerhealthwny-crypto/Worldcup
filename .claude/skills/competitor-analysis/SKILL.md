@@ -1,6 +1,6 @@
 ---
 name: competitor-analysis
-description: "Competitor Analysis From Public Data (business prompt #43, Research & Analysis). Run a competitor analysis on [COMPETITOR]. Cover: their positioning, pricing model, target customer, key marketing angles, product strengths, and visible gaps. Format as a..."
+description: "Use whenever the user wants to analyze a competitor, even if they don't name this skill. Business prompt #43 (Competitor Analysis From Public Data, Research & Analysis). Delivers: Positioning; Pricing model; Target customer; Key marketing angles; Product strengths; Visible gaps; One-page shareable brief."
 ---
 
 # Competitor Analysis From Public Data

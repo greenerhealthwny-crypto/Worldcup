@@ -1,6 +1,6 @@
 ---
 name: seo-blog-brief
-description: "SEO Brief for a Blog Post (business prompt #83, Marketing & Growth). I want to write a blog post targeting the keyword [KEYWORD]. Write an SEO brief. Include: search intent, suggested title, outline with H2s and H3s, internal linking suggestions..."
+description: "Use whenever the user wants to write an SEO brief or outline for a blog post targeting a keyword, even if they don't name this skill. Business prompt #83 (SEO Brief for a Blog Post, Marketing & Growth). Delivers: Search intent; Suggested title; Outline with H2s and H3s; Internal linking suggestions; How to beat the current top result; Word count target."
 ---
 
 # SEO Brief for a Blog Post

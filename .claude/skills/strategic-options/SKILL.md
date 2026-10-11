@@ -1,6 +1,6 @@
 ---
 name: strategic-options
-description: "Strategic Options for a Business Decision (business prompt #94, Product & Strategy). I am trying to decide [DESCRIBE DECISION]. Write three strategic options. For each one: describe the approach, the upside, the downside, what it requires to execute, and your..."
+description: "Use whenever the user wants to weigh options for a business decision, even if they don't name this skill. Business prompt #94 (Strategic Options for a Business Decision, Product & Strategy). Delivers: Three options; For each: approach, upside, downside, what it requires; A clear recommendation with reasons."
 ---
 
 # Strategic Options for a Business Decision

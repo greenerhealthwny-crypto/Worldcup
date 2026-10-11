@@ -1,6 +1,6 @@
 ---
 name: freelancer-brief-from-scope
-description: "Freelancer Brief From a Scope Description (business prompt #79, Hiring & Talent). I need to brief a freelancer on this project: [DESCRIBE SCOPE]. Write a brief that covers the goal, the deliverables, the timeline, the constraints, examples of what good looks..."
+description: "Use whenever the user wants to brief a freelancer on a project scope, even if they don't name this skill. Business prompt #79 (Freelancer Brief From a Scope Description, Hiring & Talent). Delivers: Goal; Deliverables; Timeline; Constraints; Examples of what good looks like; Evaluation criteria."
 ---
 
 # Freelancer Brief From a Scope Description

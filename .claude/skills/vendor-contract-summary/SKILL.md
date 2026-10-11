@@ -1,6 +1,6 @@
 ---
 name: vendor-contract-summary
-description: "Vendor Contract Summary (business prompt #67, Finance & Admin). Here is a vendor contract I am reviewing: [PASTE CONTRACT]. Summarize it in plain English. Cover: what we are committing to, what they are committing to, exit clauses, payment..."
+description: "Use whenever the user wants to summarize a vendor or supplier contract in plain English, even if they don't name this skill. Business prompt #67 (Vendor Contract Summary, Finance & Admin). Delivers: Our commitments; Their commitments; Exit clauses; Payment terms; Future problem areas; Plain English."
 ---
 
 # Vendor Contract Summary

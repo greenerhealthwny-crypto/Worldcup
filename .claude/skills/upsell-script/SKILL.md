@@ -1,6 +1,6 @@
 ---
 name: upsell-script
-description: "Upsell Script for Existing Customers (business prompt #35, Sales & Revenue). Write an upsell script for offering [UPGRADE/ADDON] to existing customers of [PRODUCT]. It should feel like a helpful recommendation, not a sales push. Lead with a result they..."
+description: "Use whenever the user wants to write an upsell or upgrade pitch for existing customers, even if they don't name this skill. Business prompt #35 (Upsell Script for Existing Customers, Sales & Revenue). Delivers: Opens with a result the customer has already seen; Connects that result to what the upgrade adds; Helpful, not pushy."
 ---
 
 # Upsell Script for Existing Customers

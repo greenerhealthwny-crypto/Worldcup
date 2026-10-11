@@ -1,6 +1,6 @@
 ---
 name: error-log-analysis
-description: "Error Log Analysis (business prompt #60, Systems & Automation). Here is a batch of error logs from our system: [PASTE LOGS]. Identify the patterns. What errors are recurring? What is the likely root cause of each? Rank them by severity and..."
+description: "Use whenever the user wants to analyze error logs or recurring system errors, even if they don't name this skill. Business prompt #60 (Error Log Analysis, Systems & Automation). Delivers: Recurring error patterns; Likely root cause for each; Ranked by severity; Where to start fixing."
 ---
 
 # Error Log Analysis

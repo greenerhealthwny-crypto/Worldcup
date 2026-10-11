@@ -1,6 +1,6 @@
 ---
 name: ecommerce-product-descriptions
-description: "Product Description for E-commerce (business prompt #5, Content & Copywriting). Write five product descriptions for [PRODUCT NAME]. One for each tone: conversational, premium, urgent, benefit-led, and technical. Each under 100 words. Include a one-line hook..."
+description: "Use whenever the user wants to write e-commerce product descriptions, even if they don't name this skill. Business prompt #5 (Product Description for E-commerce, Content & Copywriting). Delivers: Five descriptions: conversational, premium, urgent, benefit-led, technical; Each under 100 words; One-line hook at the top of each."
 ---
 
 # Product Description for E-commerce

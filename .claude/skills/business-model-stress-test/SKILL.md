@@ -1,6 +1,6 @@
 ---
 name: business-model-stress-test
-description: "Business Model Stress Test (business prompt #93, Product & Strategy). Here is my current business model: [DESCRIBE]. Stress test it. What are the three scenarios that would break it? What assumptions am I making that could be wrong? What would I do..."
+description: "Use whenever the user wants to stress test a business model, even if they don't name this skill. Business prompt #93 (Business Model Stress Test, Product & Strategy). Delivers: Three scenarios that would break it; Risky assumptions; Plan for a 40% revenue drop next month; Honest overall assessment."
 ---
 
 # Business Model Stress Test

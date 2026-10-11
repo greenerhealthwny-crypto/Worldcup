@@ -1,6 +1,6 @@
 ---
 name: brand-positioning-statements
-description: "Brand Positioning Statement (business prompt #86, Marketing & Growth). Here is information about my brand: [PASTE DETAILS]. Write five positioning statement options. Each should cover: who we are for, what we do, why it matters, and what makes us..."
+description: "Use whenever the user wants to write brand positioning statements, even if they don't name this skill. Business prompt #86 (Brand Positioning Statement, Marketing & Growth). Delivers: Five options; Each covers who it's for, what we do, why it matters, what makes us different; Under three sentences each; No jargon."
 ---
 
 # Brand Positioning Statement

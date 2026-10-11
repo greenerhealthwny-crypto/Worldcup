@@ -1,6 +1,6 @@
 ---
 name: email-nurture-sequence
-description: "Email Sequence From One Idea (business prompt #2, Content & Copywriting). Write a 5-email nurture sequence for [PRODUCT/SERVICE]. Audience is [ICP]. Goal is to move them from aware to ready to buy. Each email should have one clear point, a subject line..."
+description: "Use whenever the user wants to write an email nurture sequence that moves leads toward buying, even if they don't name this skill. Business prompt #2 (Email Sequence From One Idea, Content & Copywriting). Delivers: Exactly 5 emails that progress from aware to ready to buy; Each email has a subject line, one clear point and one CTA; No generic openers like 'I hope this finds you well'."
 ---
 
 # Email Sequence From One Idea

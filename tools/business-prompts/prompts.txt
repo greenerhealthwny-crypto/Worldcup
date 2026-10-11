@@ -1,0 +1,399 @@
+1 | blog-post-from-voice-note | Blog Post From a Voice Note
+P: Paste a raw voice transcript or rough brain dump. Turn this into a structured 1,000 word blog post. Keep my tone and vocabulary. Do not make it sound like a marketing blog. Use short paragraphs. No filler sentences: [PASTE TRANSCRIPT]
+C: About 1,000 words with a clear structure (title, intro, sections, close); Uses the author's own words, phrasing and tone; Short paragraphs; No filler sentences or marketing-blog clichés
+
+2 | email-nurture-sequence | Email Sequence From One Idea
+P: Write a 5-email nurture sequence for [PRODUCT/SERVICE]. Audience is [ICP]. Goal is to move them from aware to ready to buy. Each email should have one clear point, a subject line, and a CTA. No generic openers.
+C: Exactly 5 emails that progress from aware to ready to buy; Each email has a subject line, one clear point and one CTA; No generic openers like "I hope this finds you well"
+
+3 | repurpose-article-five-formats | Repurpose One Article Into Five Formats
+P: Take this article and turn it into: a Twitter thread, a LinkedIn post, three short-form video scripts, an email newsletter intro, and five tweet one-liners. Match the tone of the original: [PASTE ARTICLE]
+C: Twitter/X thread; LinkedIn post; Three short-form video scripts; Email newsletter intro; Five tweet one-liners; Tone matches the original article
+
+4 | sales-page-pas | Write a Sales Page in 10 Minutes
+P: Write a sales page for [PRODUCT]. Use PAS structure. Lead with the pain, agitate it with specifics, then position [PRODUCT] as the solution. Include a headline, subheadline, three benefit sections, social proof placeholder, and a CTA.
+C: Problem–Agitate–Solution structure; Headline and subheadline; Three benefit sections; Social proof placeholder; CTA
+
+5 | ecommerce-product-descriptions | Product Description for E-commerce
+P: Write five product descriptions for [PRODUCT NAME]. One for each tone: conversational, premium, urgent, benefit-led, and technical. Each under 100 words. Include a one-line hook at the top of each: [PASTE PRODUCT DETAILS]
+C: Five descriptions: conversational, premium, urgent, benefit-led, technical; Each under 100 words; One-line hook at the top of each
+
+6 | facebook-ad-variations | Ad Copy Variations
+P: Write 10 variations of a Facebook ad for [PRODUCT]. Vary the hook, angle, and CTA each time. Target audience is [ICP]. Keep each under 150 words. Flag which three you think are strongest and explain why.
+C: 10 variations with different hook, angle and CTA; Each under 150 words; Top three flagged with reasons
+
+7 | cold-email-replies | Cold Email That Gets Replies
+P: Write a cold email to [JOB TITLE] at [COMPANY TYPE]. I am offering [SERVICE]. The email should be under 100 words, lead with their problem not my product, and end with a low-friction ask. No subject lines that sound like spam.
+C: Under 100 words; Opens with the prospect's problem, not the product; Ends with a low-friction ask; Subject line that doesn't sound like spam
+
+8 | newsletter-from-news-dump | Newsletter Edition From a News Dump
+P: I run a newsletter for [AUDIENCE]. Here are five news items from this week: [PASTE SUMMARIES]. Write a newsletter edition that covers all five. Each item gets two paragraphs and a take at the end. Write in first person. Keep it punchy.
+C: Covers all five items; Two paragraphs per item plus a take; First person; Punchy
+
+9 | case-study-from-client-result | Case Study From a Client Result
+P: Turn this client result into a case study: [PASTE DETAILS]. Structure it as: the problem, what we did, the result. Keep it under 400 words. Write it like a founder talking to another founder, not a PR team writing for a website.
+C: Problem → what we did → result; Under 400 words; Founder-to-founder voice, not PR voice
+
+10 | youtube-script-from-blog | YouTube Script From a Blog Post
+P: Turn this blog post into a 10-minute YouTube script: [PASTE POST]. Keep the same information but write for ears not eyes. Add a hook in the first 15 seconds, pattern interrupts every 90 seconds, and a CTA at the end. No stiff language.
+C: About 10 minutes of spoken script; Hook in the first 15 seconds; Pattern interrupts roughly every 90 seconds; CTA at the end; Conversational, written for the ear
+
+11 | complaint-reply | Handle a Complaint Without Losing the Customer
+P: A customer sent this message: [PASTE MESSAGE]. Write a reply that acknowledges the frustration, takes accountability where appropriate, offers a resolution, and keeps the relationship intact. Do not use corporate language.
+C: Acknowledges the frustration; Takes accountability where appropriate; Offers a concrete resolution; No corporate language
+
+12 | faq-from-support-tickets | FAQ Document From Support Tickets
+P: Here are 20 customer support tickets from this month: [PASTE TICKETS]. Identify the top 10 recurring questions and write a clean FAQ document with a clear answer to each one.
+C: Top 10 recurring questions identified from the tickets; A clear answer for each; Clean FAQ format
+
+13 | refund-request-response | Refund Request Response
+P: Write three versions of a response to this refund request: [PASTE REQUEST]. Version 1 approves it. Version 2 offers an alternative. Version 3 declines it professionally. All three should feel human and not robotic.
+C: Version 1 approves; Version 2 offers an alternative; Version 3 declines professionally; All three sound human
+
+14 | onboarding-email-sequence | Onboarding Email Sequence
+P: Write a 4-email onboarding sequence for new users of [PRODUCT]. Day 1, Day 3, Day 7, Day 14. Each email should have one job: help them get a specific result. No filler. No feature dumps. Focus on outcomes.
+C: Four emails on Day 1, 3, 7 and 14; Each email has one job tied to a specific result; No feature dumps or filler
+
+15 | review-response-templates | Review Response Templates
+P: Write 10 response templates for customer reviews. Five for positive reviews, five for negative ones. Each should feel personal even though it is a template. Include a [NAME] and [SPECIFIC DETAIL] placeholder in each one.
+C: Five positive and five negative templates; Each feels personal; [NAME] and [SPECIFIC DETAIL] placeholders in every template
+
+16 | internal-escalation-summary | Internal Escalation Summary
+P: Summarize this customer support thread for escalation to a senior team member: [PASTE THREAD]. Include: what the customer wants, what has been tried, what the sticking point is, and your recommended resolution.
+C: What the customer wants; What has been tried; The sticking point; Recommended resolution
+
+17 | live-chat-objection-scripts | Live Chat Script for Common Objections
+P: Write live chat scripts for these five objections: [LIST OBJECTIONS]. Each script should acknowledge the objection, address it directly, and move the conversation forward. Keep each under 75 words.
+C: One script per objection (five); Acknowledge → address → move forward; Each under 75 words
+
+18 | cancellation-flow-response | Cancellation Flow Response
+P: A user just cancelled their subscription and gave this reason: [PASTE REASON]. Write a response that acknowledges their decision, addresses the root reason, and offers a relevant retention incentive without sounding desperate.
+C: Acknowledges and respects the decision; Addresses the root reason; Relevant retention incentive; Not desperate
+
+19 | post-purchase-follow-up | Post-Purchase Follow Up
+P: Write a post-purchase follow up email sent 48 hours after buying [PRODUCT]. Goal is to reduce buyer's remorse, set expectations for results, and get them to take one specific action. Under 150 words.
+C: Reduces buyer's remorse; Sets expectations for results; One specific action; Under 150 words
+
+20 | community-announcement | Community Announcement Draft
+P: Write a community announcement for [PLATFORM] about [UPDATE/NEWS]. Keep it under 200 words. Lead with what changed, explain why, tell them what to do next, and end with something that invites engagement. No corporate tone.
+C: Leads with what changed; Explains why; Tells them what to do next; Ends with an engagement prompt; Under 200 words; No corporate tone
+
+21 | project-plan-from-brief | Turn a Messy Brief Into a Project Plan
+P: Here is a rough project brief: [PASTE BRIEF]. Turn it into a structured project plan with phases, deliverables, dependencies, and suggested timelines. Flag any missing information I need to define before we start.
+C: Phases; Deliverables; Dependencies; Suggested timelines; List of missing information to define first
+
+22 | weekly-priorities-from-brain-dump | Weekly Priorities From a Brain Dump
+P: Here is everything on my plate this week: [PASTE BRAIN DUMP]. Organize this into a prioritized weekly plan. Group by project. Flag what is urgent versus important. Suggest what to cut or delegate.
+C: Prioritized weekly plan; Grouped by project; Urgent vs important flagged; Cut / delegate suggestions
+
+23 | sop-from-voice-recording | SOPs From a Voice Recording
+P: I recorded myself explaining this process out loud: [PASTE TRANSCRIPT]. Turn it into a clean SOP with numbered steps, decision points, and notes on what to watch out for. Write it so a new hire can follow it on day one.
+C: Numbered steps; Decision points; Watch-out notes; Followable by a new hire on day one
+
+24 | meeting-notes-action-items | Meeting Notes Into Action Items
+P: Here are the raw notes from a team meeting: [PASTE NOTES]. Extract all action items with the owner, deadline, and context. Then write a clean summary paragraph for anyone who missed the meeting.
+C: Every action item with owner, deadline and context; Missing owners or deadlines flagged; One summary paragraph for absentees
+
+25 | project-risk-assessment | Risk Assessment for a New Project
+P: We are about to launch [PROJECT]. Identify the top 10 risks, rate each one by likelihood and impact, and suggest a mitigation action for each. Flag the two you think I should prioritize immediately.
+C: Top 10 risks; Likelihood and impact rating for each; Mitigation action for each; Two priority risks flagged
+
+26 | okr-from-business-goal | OKR Framework From a Business Goal
+P: My main business goal for this quarter is [GOAL]. Write a full OKR. One objective, four key results. Each key result should be measurable with a specific number. Include a brief rationale for each one.
+C: One objective; Four key results, each with a specific number; Brief rationale per key result
+
+27 | end-of-week-report-template | End of Week Report Template
+P: Write an end of week report template for a small team. Include sections for: wins, blockers, metrics update, next week priorities, and one flag for leadership. Keep it under one page. Make it fast to fill out.
+C: Wins; Blockers; Metrics update; Next week priorities; One flag for leadership; Under one page and fast to fill out
+
+28 | monthly-budget-breakdown-template | Budget Breakdown Template
+P: Create a monthly budget breakdown template for a [TYPE OF BUSINESS] with [MONTHLY REVENUE]. Include categories for: team, tools, ads, operations, and contingency. Add a column for actual vs. planned and flag where overruns are most common.
+C: Categories: team, tools, ads, operations, contingency; Planned vs actual columns; Common overrun areas flagged
+
+29 | vendor-comparison | Vendor Comparison From a Shortlist
+P: Here are three vendors I am evaluating for [SERVICE]: [PASTE DETAILS]. Build a comparison table covering: pricing, turnaround, quality signals, risk factors, and your recommendation. Be direct about which one I should go with and why.
+C: Comparison table: pricing, turnaround, quality signals, risk factors; A direct recommendation with reasons
+
+30 | process-audit | Process Audit From a Team Description
+P: Here is how our team currently handles [PROCESS]: [PASTE DESCRIPTION]. Audit this process. Identify the bottlenecks, redundancies, and single points of failure. Suggest a leaner version that gets the same result in fewer steps.
+C: Bottlenecks; Redundancies; Single points of failure; Leaner version with fewer steps
+
+31 | pitch-deck-narrative | Pitch Deck Narrative
+P: Write the narrative for a pitch deck for [COMPANY]. We are pitching to [AUDIENCE]. Cover: the problem, our solution, market size, how it works, traction, team, and the ask. Write it as a story, not a slide list. Keep each section under 60 words.
+C: Problem, solution, market size, how it works, traction, team, ask; Reads as a story, not a slide list; Each section under 60 words
+
+32 | discovery-call-script | Discovery Call Script
+P: Write a discovery call script for selling [PRODUCT/SERVICE] to [ICP]. Include: an opening that builds rapport fast, five diagnostic questions that reveal the real problem, a transition to the pitch, and a close that asks for a next step not a decision.
+C: Rapport-building opening; Five diagnostic questions; Transition to the pitch; Close that asks for a next step, not a decision
+
+33 | proposal-from-call-notes | Proposal From Sales Call Notes
+P: Here are my notes from a sales call: [PASTE NOTES]. Write a proposal that reflects exactly what the prospect said they need. Use their words. Structure it as: their situation, what we propose, what they get, investment, and next steps.
+C: Their situation (in their words); What we propose; What they get; Investment; Next steps
+
+34 | objection-handling-playbook | Objection Handling Playbook
+P: Write an objection handling playbook for [PRODUCT]. Cover these five objections: [LIST OBJECTIONS]. For each one give me: why they are really saying it, how to respond in the moment, and a follow up question that moves the conversation forward.
+C: All five objections; For each: the real reason behind it, an in-the-moment response, a forward-moving follow-up question
+
+35 | upsell-script | Upsell Script for Existing Customers
+P: Write an upsell script for offering [UPGRADE/ADDON] to existing customers of [PRODUCT]. It should feel like a helpful recommendation, not a sales push. Lead with a result they have already seen and connect it to what the upgrade adds.
+C: Opens with a result the customer has already seen; Connects that result to what the upgrade adds; Helpful, not pushy
+
+36 | lost-deal-follow-up | Lost Deal Follow Up
+P: A prospect went quiet after this conversation: [PASTE CONTEXT]. Write a follow up message that re-opens the door without being pushy. Under 80 words. Give me three versions with different angles.
+C: Three versions with different angles; Each under 80 words; Re-opens the door without pressure
+
+37 | pricing-page-copy | Pricing Page Copy
+P: Write copy for a three-tier pricing page for [PRODUCT]. Tier names, descriptions, feature lists, and a recommended badge for the middle tier. Make the value difference between tiers obvious. Include a FAQ section with five common pricing questions.
+C: Three tiers with names, descriptions and feature lists; Recommended badge on the middle tier; Obvious value difference between tiers; Five-question pricing FAQ
+
+38 | demo-script | Demo Script
+P: Write a 15-minute product demo script for [PRODUCT]. Structure it as: their problem in 2 minutes, the solution walkthrough in 10 minutes, proof and social proof in 2 minutes, close in 1 minute. Include suggested talking points and transitions.
+C: Problem (2 min); Solution walkthrough (10 min); Proof and social proof (2 min); Close (1 min); Talking points and transitions
+
+39 | win-back-campaign | Win-Back Campaign for Churned Customers
+P: Write a three-message win-back campaign for customers who canceled [PRODUCT] in the last 90 days. Message 1 is curiosity. Message 2 is value. Message 3 is a time-sensitive offer. Each under 100 words.
+C: Message 1 curiosity; Message 2 value; Message 3 time-sensitive offer; Each under 100 words
+
+40 | referral-program-pitch | Referral Program Pitch
+P: Write a referral program pitch to send to our top 20 customers. Explain the program, what they get, how it works, and why we are inviting them specifically. Keep it personal and under 150 words.
+C: Explains the program; What they get; How it works; Why they were chosen; Personal and under 150 words
+
+41 | market-research-brief | Market Research Brief
+P: Write a market research brief for [MARKET/NICHE]. Cover: market size, key players, customer pain points, underserved segments, and three opportunities a new product could target. Cite the type of sources I should verify this against.
+C: Market size; Key players; Customer pain points; Underserved segments; Three product opportunities; Source types to verify against
+
+42 | swot-analysis | SWOT From a Business Description
+P: Here is a description of my business: [PASTE]. Write a detailed SWOT analysis. Be specific and honest, especially in the weaknesses and threats sections. Do not write generic points that could apply to any business.
+C: Strengths, weaknesses, opportunities, threats; Specific to this business; Honest weaknesses and threats; No generic points
+
+43 | competitor-analysis | Competitor Analysis From Public Data
+P: Run a competitor analysis on [COMPETITOR]. Cover: their positioning, pricing model, target customer, key marketing angles, product strengths, and visible gaps. Format as a one-page brief I can share with my team.
+C: Positioning; Pricing model; Target customer; Key marketing angles; Product strengths; Visible gaps; One-page shareable brief
+
+44 | customer-interview-synthesis | Customer Interview Synthesis
+P: Here are notes from five customer interviews: [PASTE NOTES]. Synthesize the key themes. What problem comes up most? What language do they use? What outcome do they want? What is stopping them? Format as a one-page insight brief.
+C: Most common problem; The customers' own language; Desired outcome; What is stopping them; One-page insight brief
+
+45 | icp-profile | ICP Profile From Existing Customers
+P: Here is data on my top 20 customers: [PASTE DATA]. Build a detailed ICP profile. Include: demographics, job titles, business types, the trigger that made them buy, the outcome they were after, and the language they used to describe their problem.
+C: Demographics; Job titles; Business types; Buying trigger; Desired outcome; Their language for the problem
+
+46 | trend-report | Trend Report From a Topic
+P: Write a trend report on [TOPIC] as it applies to [INDUSTRY]. Cover: what is changing, why it is changing, who it affects most, early signals to watch, and what businesses should do about it in the next 90 days.
+C: What is changing; Why; Who it affects most; Early signals to watch; 90-day actions
+
+47 | industry-report-summary | Industry Report Summary
+P: Here is a 40-page industry report: [PASTE KEY SECTIONS]. Summarize it into a one-page brief. Extract the three most important findings, what they mean for a business like mine, and the one thing I should act on immediately.
+C: One page; Three most important findings; What they mean for this business; The one immediate action
+
+48 | feature-prioritization-from-feedback | Feature Prioritization From User Feedback
+P: Here is a batch of user feedback and feature requests: [PASTE FEEDBACK]. Group them by theme. Rank the themes by frequency and business impact. Recommend the top three features to build first and explain why.
+C: Feedback grouped by theme; Themes ranked by frequency and business impact; Top three features with reasoning
+
+49 | pricing-strategy-analysis | Pricing Strategy Analysis
+P: Here is how our top five competitors price their product: [PASTE DATA]. Analyze the pricing patterns. What model is most common? Where are the gaps? Suggest three pricing structures we could test and the logic behind each one.
+C: Most common pricing model; Gaps in the market; Three pricing structures to test with the logic for each
+
+50 | media-landscape-brief | Press and Media Landscape Brief
+P: I am preparing a PR push for [PRODUCT/BRAND] in [INDUSTRY]. Write a media landscape brief. Identify: the top publications, newsletters, and podcasts in our space, what they cover, what kind of stories they run, and how to pitch each one.
+C: Top publications, newsletters and podcasts; What each covers; Story types they run; How to pitch each
+
+51 | zapier-workflow-from-plain-english | Zapier Workflow From Plain English
+P: I want to automate this process: [DESCRIBE IN PLAIN ENGLISH]. Write the exact Zapier workflow I need to build. List each step, the trigger, the actions, and any filters or conditions. Flag where I might hit limitations.
+C: Trigger; Each action step in order; Filters and conditions; Likely limitations flagged
+
+52 | ai-agent-prompt-from-job-description | AI Agent Prompt From a Job Description
+P: Here is the job description for a role I want to automate with an AI agent: [PASTE JD]. Write a system prompt that turns Claude into this role. Include the persona, the rules, the output format, and three example tasks it should handle.
+C: Persona; Rules; Output format; Three example tasks
+
+53 | tool-stack-audit | Tool Audit From a Tech Stack List
+P: Here is every tool we are currently paying for: [PASTE LIST]. Audit this stack. Identify overlaps, underused tools, and gaps. Suggest what to cut, what to consolidate, and what we are missing that would have the highest ROI.
+C: Overlaps; Underused tools; Gaps; What to cut; What to consolidate; Highest-ROI missing tool
+
+54 | kpi-framework | Dashboard KPI Framework
+P: Build a KPI framework for a [TYPE OF BUSINESS]. Cover: revenue metrics, product metrics, operations metrics, and team metrics. For each KPI include: what it measures, why it matters, how to calculate it, and what a good benchmark looks like.
+C: Revenue, product, operations and team metrics; For each KPI: what it measures, why it matters, formula, benchmark
+
+55 | workflow-documentation | Workflow Documentation From a Screen Recording Description
+P: I am going to describe a workflow I just recorded: [DESCRIBE STEPS]. Turn this into a documented workflow with a flowchart structure, step names, decision points, and notes on where errors typically happen.
+C: Flowchart structure; Named steps; Decision points; Notes on where errors typically happen
+
+56 | airtable-base-design | Airtable Base Structure From a Business Process
+P: I want to build an Airtable base to manage [PROCESS]. Design the full base structure. Include: table names, field types, relationships between tables, and the views I should set up. Explain why you structured it this way.
+C: Table names; Field names and types; Relationships between tables; Views to set up; Explanation of the design
+
+57 | notion-workspace-design | Notion System From a Team Description
+P: Here is how my team currently works: [DESCRIBE TEAM AND WORKFLOW]. Design a Notion workspace for us. Include: page structure, database needed, templates to create, and how information should flow between sections.
+C: Page structure; Databases needed; Templates to create; How information flows between sections
+
+58 | report-automation-brief | Recurring Report Automation Brief
+P: I need to automate this weekly report: [DESCRIBE REPORT]. Write a brief for a developer to build it. Include: data sources, how the data should be pulled, how the report should be formatted, and where it should be delivered.
+C: Data sources; How the data is pulled; Report format; Delivery destination
+
+59 | integration-map | Integration Map From a Tool List
+P: Here are all the tools in our stack: [PASTE LIST]. Build an integration map. Show which tools should talk to each other, what data should flow between them, and which connections are highest priority to set up first.
+C: Which tools connect; What data flows between them; Priority order for setting up connections
+
+60 | error-log-analysis | Error Log Analysis
+P: Here is a batch of error logs from our system: [PASTE LOGS]. Identify the patterns. What errors are recurring? What is the likely root cause of each? Rank them by severity and suggest where we should start fixing.
+C: Recurring error patterns; Likely root cause for each; Ranked by severity; Where to start fixing
+
+61 | invoice-copy-payment-terms | Invoice Copy and Payment Terms
+P: Write professional invoice copy and payment terms for a [TYPE OF BUSINESS]. Include: payment due date language, late payment policy, accepted payment methods section, and a short thank you note that does not sound generic.
+C: Payment due date language; Late payment policy; Accepted payment methods; Short, non-generic thank-you note
+
+62 | expense-report-summary | Expense Report Summary
+P: Here are this month's expenses: [PASTE LIST]. Organize them by category, flag any that look unusual, calculate totals per category, and write a one-paragraph summary for my accountant explaining what drove the biggest line items.
+C: Expenses grouped by category; Unusual items flagged; Totals per category; One-paragraph summary for the accountant
+
+63 | financial-summary | Financial Summary From Raw Numbers
+P: Here are our numbers for this month: [PASTE DATA]. Write a one-page financial summary covering: revenue, costs, gross margin, biggest expenses, and a plain English interpretation of what the numbers are saying about the business.
+C: Revenue; Costs; Gross margin; Biggest expenses; Plain-English interpretation; One page
+
+64 | contract-review-checklist | Contract Review Checklist
+P: I am about to sign this contract: [PASTE CONTRACT]. Review it and flag: any clauses that are unusual or one-sided, anything I should negotiate, any missing protections, and the three things I need to understand before I sign. I know you are not a lawyer.
+C: Unusual or one-sided clauses; Points to negotiate; Missing protections; Three things to understand before signing; Not-legal-advice note
+
+65 | budget-proposal | Budget Proposal for a New Initiative
+P: I want to launch [INITIATIVE]. Write a budget proposal for it. Include: what we are spending, what we expect to get back, timeline for ROI, risks to the budget, and a lean version if we need to cut costs by 30%.
+C: Spend breakdown; Expected return; ROI timeline; Budget risks; Lean version at 30% less
+
+66 | cash-flow-projection-template | Cash Flow Projection Template
+P: Build a 90-day cash flow projection template for a [TYPE OF BUSINESS] with [MONTHLY REVENUE]. Include: revenue streams, fixed costs, variable costs, and a warning threshold column that flags when cash position drops below [AMOUNT].
+C: 90 days; Revenue streams; Fixed costs; Variable costs; Warning threshold column at the stated amount
+
+67 | vendor-contract-summary | Vendor Contract Summary
+P: Here is a vendor contract I am reviewing: [PASTE CONTRACT]. Summarize it in plain English. Cover: what we are committing to, what they are committing to, exit clauses, payment terms, and anything that could become a problem later.
+C: Our commitments; Their commitments; Exit clauses; Payment terms; Future problem areas; Plain English
+
+68 | board-update | Board Update From Monthly Metrics
+P: Here are our metrics for this month: [PASTE DATA]. Write a board update covering: performance vs. last month, performance vs. targets, the two biggest wins, the two biggest problems, and what we need from the board right now.
+C: Performance vs last month; Performance vs targets; Two biggest wins; Two biggest problems; The ask from the board
+
+69 | grant-application-summary | Grant Application Summary
+P: I am applying for a grant for [PURPOSE]. Here is the application brief: [PASTE BRIEF]. Write a compelling summary that covers: what we are doing, why it matters, who benefits, what we will do with the funding, and why we are the right team.
+C: What we are doing; Why it matters; Who benefits; Use of funds; Why we are the right team
+
+70 | annual-review-summary | Annual Review Summary for Stakeholders
+P: Here are our key results from this year: [PASTE DATA AND NOTES]. Write an annual review summary for stakeholders. Cover: what we set out to do, what we achieved, what we missed and why, and what we are focused on next year.
+C: What we set out to do; What we achieved; What we missed and why; Next year's focus
+
+71 | job-description | Job Description That Attracts the Right People
+P: Write a job description for a [ROLE] at [COMPANY TYPE]. Include: what the role actually does day to day, what success looks like in 90 days, who thrives in this role, who does not, and what makes this opportunity worth leaving a stable job for.
+C: Day-to-day work; Success at 90 days; Who thrives; Who does not; Why it's worth leaving a stable job
+
+72 | freelancer-hiring-brief | Hiring Brief for a Freelancer
+P: Write a hiring brief for a [ROLE] freelancer. We need someone to [DESCRIBE TASK]. Include: scope of work, deliverables, skills required, timeline, and red flags to screen for. Make it specific enough that only qualified people apply.
+C: Scope of work; Deliverables; Skills required; Timeline; Red flags to screen for; Specific enough to filter out unqualified applicants
+
+73 | interview-question-set | Interview Question Set
+P: Write an interview question set for hiring a [ROLE]. Include: three questions that reveal how they actually think, three that test for the specific skills we need, two that surface red flags early, and one that shows you what matters to them. Include what a good answer sounds like.
+C: Three thinking questions; Three skills questions; Two red-flag questions; One values question; What a good answer sounds like for each
+
+74 | candidate-rejection-email | Candidate Rejection Email
+P: Write a rejection email for a candidate who applied for [ROLE]. They got to [STAGE OF PROCESS]. Be honest, respectful, and specific enough that it feels personal. Do not use phrases like 'we will keep your CV on file.'
+C: Honest and respectful; Specific to the stage they reached; Feels personal; No stock phrases like "we will keep your CV on file"
+
+75 | new-hire-onboarding-system | Onboarding System for a New Hire
+P: Design a 30-day onboarding system for a new [ROLE] hire. Week by week. Include: what they need to learn, who they need to meet, what they need to produce, and how you will know they are up to speed by day 30.
+C: Week-by-week plan over 30 days; What to learn; Who to meet; What to produce; Day-30 up-to-speed criteria
+
+76 | performance-review-template | Performance Review Template
+P: Write a performance review template for a [ROLE]. Include sections for: results vs. targets, strengths observed, areas to develop, specific examples section, rating scale, and a 90-day development plan. Make it a conversation starter, not a report card.
+C: Results vs targets; Strengths observed; Areas to develop; Specific examples; Rating scale; 90-day development plan; Conversational framing
+
+77 | team-meeting-agenda | Team Meeting Agenda From a List of Topics
+P: Here are the topics I need to cover in our team meeting: [LIST TOPICS]. Build a structured agenda. Assign time to each item, flag which ones need a decision vs. an update, and add an opening question that gets people engaged in the first two minutes.
+C: Time per item; Each item marked decision or update; Opening question for the first two minutes
+
+78 | culture-document | Culture Document From a Values List
+P: Here are the values I want to build our culture around: [LIST VALUES]. Turn this into a culture document. For each value, write: what it means in practice, what it looks like when someone lives it, and what it looks like when someone violates it.
+C: For each value: what it means in practice, what living it looks like, what violating it looks like
+
+79 | freelancer-brief-from-scope | Freelancer Brief From a Scope Description
+P: I need to brief a freelancer on this project: [DESCRIBE SCOPE]. Write a brief that covers the goal, the deliverables, the timeline, the constraints, examples of what good looks like, and how I will evaluate the final output.
+C: Goal; Deliverables; Timeline; Constraints; Examples of what good looks like; Evaluation criteria
+
+80 | exit-interview-questions | Exit Interview Questions
+P: Write an exit interview question set for an employee leaving [COMPANY/ROLE]. Include questions that surface: why they are really leaving, what we could have done differently, what they valued most, and what they would tell a friend considering joining us.
+C: Real reason for leaving; What we could have done differently; What they valued most; What they'd tell a friend considering joining
+
+81 | content-calendar-90-day | 90-Day Content Calendar
+P: Build a 90-day content calendar for [BRAND] targeting [ICP] on [PLATFORM]. Include: content themes by week, post types, a mix of educational, promotional, and engagement content, and a ratio for how often each type should appear.
+C: Themes by week across 90 days; Post types; Educational / promotional / engagement mix; Ratio for each type
+
+82 | launch-plan | Launch Plan From a Product Description
+P: Here is the product I am about to launch: [PASTE DESCRIPTION]. Write a launch plan for the first 30 days. Cover: pre-launch build-up, launch day activities, post-launch amplification, channels to use, the one metric that will tell me if the launch worked.
+C: Pre-launch build-up; Launch day activities; Post-launch amplification; Channels; The one success metric
+
+83 | seo-blog-brief | SEO Brief for a Blog Post
+P: I want to write a blog post targeting the keyword [KEYWORD]. Write an SEO brief. Include: search intent, suggested title, outline with H2s and H3s, internal linking suggestions, what the post needs to do better than the current top result, and word count target.
+C: Search intent; Suggested title; Outline with H2s and H3s; Internal linking suggestions; How to beat the current top result; Word count target
+
+84 | influencer-outreach-email | Influencer Outreach Email
+P: Write an outreach email to a [TYPE] influencer for a collaboration on [PRODUCT/CAMPAIGN]. Under 120 words. Lead with what they get, not what we need. Make the ask specific and easy to respond to in one line.
+C: Under 120 words; Leads with what they get; Specific ask answerable in one line
+
+85 | retargeting-ad-script | Retargeting Ad Script
+P: Write a retargeting ad script for people who visited [PAGE] but did not convert. 30 seconds. Address the likely objection directly in the first five seconds. Offer a reason to come back that is different from the original message.
+C: 30 seconds; Likely objection addressed in the first five seconds; A new reason to come back, different from the original message
+
+86 | brand-positioning-statements | Brand Positioning Statement
+P: Here is information about my brand: [PASTE DETAILS]. Write five positioning statement options. Each should cover: who we are for, what we do, why it matters, and what makes us different. Keep each under three sentences. No jargon.
+C: Five options; Each covers who it's for, what we do, why it matters, what makes us different; Under three sentences each; No jargon
+
+87 | growth-experiment-brief | Growth Experiment Brief
+P: I want to test this growth idea: [DESCRIBE IDEA]. Write a growth experiment brief. Include: the hypothesis, the metric we are testing, the minimum sample size needed to trust the result, how long to run it, and what we will do if it works vs. if it does not.
+C: Hypothesis; Metric; Minimum sample size; Run duration; Decision if it works vs if it doesn't
+
+88 | affiliate-program-design | Affiliate Program Structure
+P: Design an affiliate program for [PRODUCT]. Cover: commission structure, tier levels if any, what affiliates get access to, how payouts work, and the pitch I should use to recruit affiliates. Include the first outreach message.
+C: Commission structure; Tier levels (if any); What affiliates get access to; How payouts work; Recruiting pitch; First outreach message
+
+89 | pr-pitch | PR Pitch From a Company Update
+P: Here is a company update I want to turn into press coverage: [PASTE UPDATE]. Write a PR pitch for a journalist at [PUBLICATION TYPE]. Under 150 words. Lead with why their readers care, not why this is exciting for us.
+C: Under 150 words; Leads with why the readers care; Tailored to the publication type
+
+90 | paid-ad-performance-analysis | Paid Ad Performance Analysis
+P: Here are the results from our paid ad campaigns this month: [PASTE DATA]. Analyze the performance. Which campaigns are working? Which are not? What does the data suggest we should do more of, cut, and test next? Give me a recommended action for each campaign.
+C: Which campaigns work and which don't; Do more of / cut / test next; A recommended action for every campaign
+
+91 | roadmap-from-user-feedback | Product Roadmap From User Feedback
+P: Here is six months of user feedback and support data: [PASTE DATA]. Build a product roadmap for the next quarter. Prioritize features by: frequency of request, impact on retention, and effort to build. Give me a top 10 list with a one-line rationale for each.
+C: Scored on frequency, retention impact and effort; Top 10 list; One-line rationale for each; Scoped to next quarter
+
+92 | go-to-market-strategy | Go-to-Market Strategy From a Product Brief
+P: Here is the product I am launching: [PASTE BRIEF]. Write a go-to-market strategy. Cover: target customer, positioning, channels, pricing approach, launch sequence, and the one thing that needs to be true for this to work.
+C: Target customer; Positioning; Channels; Pricing approach; Launch sequence; The one thing that must be true
+
+93 | business-model-stress-test | Business Model Stress Test
+P: Here is my current business model: [DESCRIBE]. Stress test it. What are the three scenarios that would break it? What assumptions am I making that could be wrong? What would I do if revenue dropped 40% next month? Give me an honest assessment.
+C: Three scenarios that would break it; Risky assumptions; Plan for a 40% revenue drop next month; Honest overall assessment
+
+94 | strategic-options | Strategic Options for a Business Decision
+P: I am trying to decide [DESCRIBE DECISION]. Write three strategic options. For each one: describe the approach, the upside, the downside, what it requires to execute, and your recommendation on which to pursue and why.
+C: Three options; For each: approach, upside, downside, what it requires; A clear recommendation with reasons
+
+95 | product-vision-statement | Product Vision Statement
+P: Write five versions of a product vision statement for [PRODUCT]. Each should be under two sentences. It should communicate: who it is for, what it helps them do, and why that matters in a way that motivates a team and resonates with customers.
+C: Five versions; Under two sentences each; Who it's for, what it helps them do, why it matters; Motivates the team and resonates with customers
+
+96 | pivot-analysis | Pivot Analysis
+P: My current product is [DESCRIBE]. I am considering pivoting to [DESCRIBE NEW DIRECTION]. Write a pivot analysis. Cover: what we keep, what we leave behind, the risks, the opportunity size, what we need to validate before committing, and a 30-day test plan.
+C: What we keep; What we leave behind; Risks; Opportunity size; What to validate first; 30-day test plan
+
+97 | investor-update | Investor Update From Monthly Data
+P: Here are our metrics and updates for this month: [PASTE DATA]. Write a monthly investor update. Cover: key metrics vs. last month, narrative on what drove performance, the biggest challenge we are working through, what we need, and what is coming next month.
+C: Key metrics vs last month; What drove performance; Biggest challenge; What we need; Next month
+
+98 | competitive-moat-analysis | Competitive Moat Analysis
+P: Here is a description of my business and what we do: [PASTE]. Analyze our competitive moat. What makes us genuinely hard to copy? What is actually defensible? Where are we vulnerable? What should we be building now to make the moat deeper?
+C: What is genuinely hard to copy; What is defensible; Vulnerabilities; What to build now to deepen the moat
+
+99 | product-market-fit-diagnostic | Product-Market Fit Diagnostic
+P: Here is data on our current users, retention, and feedback: [PASTE DATA]. Run a product-market fit diagnostic. What signals suggest we have it? What signals suggest we do not? What is the one thing I should fix or double down on based on this data?
+C: Signals for PMF; Signals against PMF; The one thing to fix or double down on
+
+100 | five-year-vision | Five-Year Vision From a One-Liner
+P: My business in one sentence is: [PASTE]. Write a five year vision document. Cover: where the business is in year five, what the team looks like, what the product has become, who the customer is, and the impact we have had. Write it as if it has already happened.
+C: Where the business is in year five; The team; The product; The customer; The impact; Written in past tense, as if it already happened

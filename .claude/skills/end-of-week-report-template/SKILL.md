@@ -1,6 +1,6 @@
 ---
 name: end-of-week-report-template
-description: "End of Week Report Template (business prompt #27, Operations & Project Management). Write an end of week report template for a small team. Include sections for: wins, blockers, metrics update, next week priorities, and one flag for leadership. Keep it under one..."
+description: "Use whenever the user wants to create an end-of-week or weekly status report template, even if they don't name this skill. Business prompt #27 (End of Week Report Template, Operations & Project Management). Delivers: Wins; Blockers; Metrics update; Next week priorities; One flag for leadership; Under one page and fast to fill out."
 ---
 
 # End of Week Report Template

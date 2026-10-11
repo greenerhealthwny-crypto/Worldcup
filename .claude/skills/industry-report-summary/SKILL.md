@@ -1,6 +1,6 @@
 ---
 name: industry-report-summary
-description: "Industry Report Summary (business prompt #47, Research & Analysis). Here is a 40-page industry report: [PASTE KEY SECTIONS]. Summarize it into a one-page brief. Extract the three most important findings, what they mean for a business like mine..."
+description: "Use whenever the user wants to summarize a long industry or research report, even if they don't name this skill. Business prompt #47 (Industry Report Summary, Research & Analysis). Delivers: One page; Three most important findings; What they mean for this business; The one immediate action."
 ---
 
 # Industry Report Summary

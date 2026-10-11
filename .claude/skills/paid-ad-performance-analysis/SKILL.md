@@ -1,6 +1,6 @@
 ---
 name: paid-ad-performance-analysis
-description: "Paid Ad Performance Analysis (business prompt #90, Marketing & Growth). Here are the results from our paid ad campaigns this month: [PASTE DATA]. Analyze the performance. Which campaigns are working? Which are not? What does the data suggest we should..."
+description: "Use whenever the user wants to analyze paid ad or campaign performance, even if they don't name this skill. Business prompt #90 (Paid Ad Performance Analysis, Marketing & Growth). Delivers: Which campaigns work and which don't; Do more of / cut / test next; A recommended action for every campaign."
 ---
 
 # Paid Ad Performance Analysis

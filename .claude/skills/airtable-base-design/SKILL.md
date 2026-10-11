@@ -1,6 +1,6 @@
 ---
 name: airtable-base-design
-description: "Airtable Base Structure From a Business Process (business prompt #56, Systems & Automation). I want to build an Airtable base to manage [PROCESS]. Design the full base structure. Include: table names, field types, relationships between tables, and the views I should set..."
+description: "Use whenever the user wants to design an Airtable base or database structure for a process, even if they don't name this skill. Business prompt #56 (Airtable Base Structure From a Business Process, Systems & Automation). Delivers: Table names; Field names and types; Relationships between tables; Views to set up; Explanation of the design."
 ---
 
 # Airtable Base Structure From a Business Process

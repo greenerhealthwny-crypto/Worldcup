@@ -1,6 +1,6 @@
 ---
 name: team-meeting-agenda
-description: "Team Meeting Agenda From a List of Topics (business prompt #77, Hiring & Talent). Here are the topics I need to cover in our team meeting: [LIST TOPICS]. Build a structured agenda. Assign time to each item, flag which ones need a decision vs. an update, and add..."
+description: "Use whenever the user wants to turn a list of topics into a team meeting agenda, even if they don't name this skill. Business prompt #77 (Team Meeting Agenda From a List of Topics, Hiring & Talent). Delivers: Time per item; Each item marked decision or update; Opening question for the first two minutes."
 ---
 
 # Team Meeting Agenda From a List of Topics

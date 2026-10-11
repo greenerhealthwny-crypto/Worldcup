@@ -1,6 +1,6 @@
 ---
 name: okr-from-business-goal
-description: "OKR Framework From a Business Goal (business prompt #26, Operations & Project Management). My main business goal for this quarter is [GOAL]. Write a full OKR. One objective, four key results. Each key result should be measurable with a specific number. Include a brief..."
+description: "Use whenever the user wants to write OKRs or goals with measurable key results, even if they don't name this skill. Business prompt #26 (OKR Framework From a Business Goal, Operations & Project Management). Delivers: One objective; Four key results, each with a specific number; Brief rationale per key result."
 ---
 
 # OKR Framework From a Business Goal

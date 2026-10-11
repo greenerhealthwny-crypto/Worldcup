@@ -1,6 +1,6 @@
 ---
 name: culture-document
-description: "Culture Document From a Values List (business prompt #78, Hiring & Talent). Here are the values I want to build our culture around: [LIST VALUES]. Turn this into a culture document. For each value, write: what it means in practice, what it looks like when..."
+description: "Use whenever the user wants to turn company values into a culture document, even if they don't name this skill. Business prompt #78 (Culture Document From a Values List, Hiring & Talent). Delivers: For each value: what it means in practice, what living it looks like, what violating it looks like."
 ---
 
 # Culture Document From a Values List

@@ -1,6 +1,6 @@
 ---
 name: report-automation-brief
-description: "Recurring Report Automation Brief (business prompt #58, Systems & Automation). I need to automate this weekly report: [DESCRIBE REPORT]. Write a brief for a developer to build it. Include: data sources, how the data should be pulled, how the report should be..."
+description: "Use whenever the user wants to brief a developer on automating a recurring report, even if they don't name this skill. Business prompt #58 (Recurring Report Automation Brief, Systems & Automation). Delivers: Data sources; How the data is pulled; Report format; Delivery destination."
 ---
 
 # Recurring Report Automation Brief

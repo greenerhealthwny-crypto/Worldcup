@@ -1,6 +1,6 @@
 ---
 name: vendor-comparison
-description: "Vendor Comparison From a Shortlist (business prompt #29, Operations & Project Management). Here are three vendors I am evaluating for [SERVICE]: [PASTE DETAILS]. Build a comparison table covering: pricing, turnaround, quality signals, risk factors, and your..."
+description: "Use whenever the user wants to compare vendors, suppliers or agencies and pick one, even if they don't name this skill. Business prompt #29 (Vendor Comparison From a Shortlist, Operations & Project Management). Delivers: Comparison table: pricing, turnaround, quality signals, risk factors; A direct recommendation with reasons."
 ---
 
 # Vendor Comparison From a Shortlist

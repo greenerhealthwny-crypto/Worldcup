@@ -1,6 +1,6 @@
 ---
 name: workflow-documentation
-description: "Workflow Documentation From a Screen Recording Description (business prompt #55, Systems & Automation). I am going to describe a workflow I just recorded: [DESCRIBE STEPS]. Turn this into a documented workflow with a flowchart structure, step names, decision points, and notes on..."
+description: "Use whenever the user wants to document a workflow or process as steps with a flowchart, even if they don't name this skill. Business prompt #55 (Workflow Documentation From a Screen Recording Description, Systems & Automation). Delivers: Flowchart structure; Named steps; Decision points; Notes on where errors typically happen."
 ---
 
 # Workflow Documentation From a Screen Recording Description

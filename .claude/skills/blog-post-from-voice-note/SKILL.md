@@ -1,6 +1,6 @@
 ---
 name: blog-post-from-voice-note
-description: "Blog Post From a Voice Note (business prompt #1, Content & Copywriting). Paste a raw voice transcript or rough brain dump. Turn this into a structured 1,000 word blog post. Keep my tone and vocabulary. Do not make it sound like a marketing blog. Use..."
+description: "Use whenever the user wants to turn a voice note, transcript or brain dump into a blog post, even if they don't name this skill. Business prompt #1 (Blog Post From a Voice Note, Content & Copywriting). Delivers: About 1,000 words with a clear structure (title, intro, sections, close); Uses the author's own words, phrasing and tone; Short paragraphs; No filler sentences or marketing-blog clichés."
 ---
 
 # Blog Post From a Voice Note

@@ -1,6 +1,6 @@
 ---
 name: repurpose-article-five-formats
-description: "Repurpose One Article Into Five Formats (business prompt #3, Content & Copywriting). Take this article and turn it into: a Twitter thread, a LinkedIn post, three short-form video scripts, an email newsletter intro, and five tweet one-liners. Match the tone of the..."
+description: "Use whenever the user wants to repurpose an article into social posts, threads, video scripts or newsletter copy, even if they don't name this skill. Business prompt #3 (Repurpose One Article Into Five Formats, Content & Copywriting). Delivers: Twitter/X thread; LinkedIn post; Three short-form video scripts; Email newsletter intro; Five tweet one-liners; Tone matches the original article."
 ---
 
 # Repurpose One Article Into Five Formats

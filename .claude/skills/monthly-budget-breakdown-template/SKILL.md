@@ -1,6 +1,6 @@
 ---
 name: monthly-budget-breakdown-template
-description: "Budget Breakdown Template (business prompt #28, Operations & Project Management). Create a monthly budget breakdown template for a [TYPE OF BUSINESS] with [MONTHLY REVENUE]. Include categories for: team, tools, ads, operations, and contingency. Add a column for..."
+description: "Use whenever the user wants to create a monthly budget template or budget breakdown, even if they don't name this skill. Business prompt #28 (Budget Breakdown Template, Operations & Project Management). Delivers: Categories: team, tools, ads, operations, contingency; Planned vs actual columns; Common overrun areas flagged."
 ---
 
 # Budget Breakdown Template

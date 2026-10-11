@@ -1,6 +1,6 @@
 ---
 name: demo-script
-description: "Demo Script (business prompt #38, Sales & Revenue). Write a 15-minute product demo script for [PRODUCT]. Structure it as: their problem in 2 minutes, the solution walkthrough in 10 minutes, proof and social proof in 2 minutes..."
+description: "Use whenever the user wants to write a product demo script, even if they don't name this skill. Business prompt #38 (Demo Script, Sales & Revenue). Delivers: Problem (2 min); Solution walkthrough (10 min); Proof and social proof (2 min); Close (1 min); Talking points and transitions."
 ---
 
 # Demo Script

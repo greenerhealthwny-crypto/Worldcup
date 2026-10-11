@@ -1,6 +1,6 @@
 ---
 name: content-calendar-90-day
-description: "90-Day Content Calendar (business prompt #81, Marketing & Growth). Build a 90-day content calendar for [BRAND] targeting [ICP] on [PLATFORM]. Include: content themes by week, post types, a mix of educational, promotional, and engagement content..."
+description: "Use whenever the user wants to build a content calendar or posting plan, even if they don't name this skill. Business prompt #81 (90-Day Content Calendar, Marketing & Growth). Delivers: Themes by week across 90 days; Post types; Educational / promotional / engagement mix; Ratio for each type."
 ---
 
 # 90-Day Content Calendar

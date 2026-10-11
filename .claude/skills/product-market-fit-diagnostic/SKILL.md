@@ -1,6 +1,6 @@
 ---
 name: product-market-fit-diagnostic
-description: "Product-Market Fit Diagnostic (business prompt #99, Product & Strategy). Here is data on our current users, retention, and feedback: [PASTE DATA]. Run a product-market fit diagnostic. What signals suggest we have it? What signals suggest we do not?..."
+description: "Use whenever the user wants to assess product-market fit from user data, even if they don't name this skill. Business prompt #99 (Product-Market Fit Diagnostic, Product & Strategy). Delivers: Signals for PMF; Signals against PMF; The one thing to fix or double down on."
 ---
 
 # Product-Market Fit Diagnostic

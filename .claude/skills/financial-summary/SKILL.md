@@ -1,6 +1,6 @@
 ---
 name: financial-summary
-description: "Financial Summary From Raw Numbers (business prompt #63, Finance & Admin). Here are our numbers for this month: [PASTE DATA]. Write a one-page financial summary covering: revenue, costs, gross margin, biggest expenses, and a plain English interpretation..."
+description: "Use whenever the user wants to turn monthly numbers into a financial summary, even if they don't name this skill. Business prompt #63 (Financial Summary From Raw Numbers, Finance & Admin). Delivers: Revenue; Costs; Gross margin; Biggest expenses; Plain-English interpretation; One page."
 ---
 
 # Financial Summary From Raw Numbers

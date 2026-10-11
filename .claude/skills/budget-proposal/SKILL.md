@@ -1,6 +1,6 @@
 ---
 name: budget-proposal
-description: "Budget Proposal for a New Initiative (business prompt #65, Finance & Admin). I want to launch [INITIATIVE]. Write a budget proposal for it. Include: what we are spending, what we expect to get back, timeline for ROI, risks to the budget, and a lean version..."
+description: "Use whenever the user wants to write a budget proposal for a new initiative or project, even if they don't name this skill. Business prompt #65 (Budget Proposal for a New Initiative, Finance & Admin). Delivers: Spend breakdown; Expected return; ROI timeline; Budget risks; Lean version at 30% less."
 ---
 
 # Budget Proposal for a New Initiative

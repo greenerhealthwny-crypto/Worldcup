@@ -1,6 +1,6 @@
 ---
 name: ai-agent-prompt-from-job-description
-description: "AI Agent Prompt From a Job Description (business prompt #52, Systems & Automation). Here is the job description for a role I want to automate with an AI agent: [PASTE JD]. Write a system prompt that turns Claude into this role. Include the persona, the rules, the..."
+description: "Use whenever the user wants to write a system prompt or AI agent from a job description or role, even if they don't name this skill. Business prompt #52 (AI Agent Prompt From a Job Description, Systems & Automation). Delivers: Persona; Rules; Output format; Three example tasks."
 ---
 
 # AI Agent Prompt From a Job Description

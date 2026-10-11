@@ -1,6 +1,6 @@
 ---
 name: cancellation-flow-response
-description: "Cancellation Flow Response (business prompt #18, Customer Support & Comms). A user just cancelled their subscription and gave this reason: [PASTE REASON]. Write a response that acknowledges their decision, addresses the root reason, and offers a relevant..."
+description: "Use whenever the user wants to respond to a customer who cancelled or wants to cancel a subscription, even if they don't name this skill. Business prompt #18 (Cancellation Flow Response, Customer Support & Comms). Delivers: Acknowledges and respects the decision; Addresses the root reason; Relevant retention incentive; Not desperate."
 ---
 
 # Cancellation Flow Response

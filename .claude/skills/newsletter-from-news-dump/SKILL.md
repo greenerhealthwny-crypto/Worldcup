@@ -1,6 +1,6 @@
 ---
 name: newsletter-from-news-dump
-description: "Newsletter Edition From a News Dump (business prompt #8, Content & Copywriting). I run a newsletter for [AUDIENCE]. Here are five news items from this week: [PASTE SUMMARIES]. Write a newsletter edition that covers all five. Each item gets two paragraphs and a..."
+description: "Use whenever the user wants to write a newsletter edition from a set of news items or links, even if they don't name this skill. Business prompt #8 (Newsletter Edition From a News Dump, Content & Copywriting). Delivers: Covers all five items; Two paragraphs per item plus a take; First person; Punchy."
 ---
 
 # Newsletter Edition From a News Dump

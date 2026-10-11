@@ -1,6 +1,6 @@
 ---
 name: pricing-page-copy
-description: "Pricing Page Copy (business prompt #37, Sales & Revenue). Write copy for a three-tier pricing page for [PRODUCT]. Tier names, descriptions, feature lists, and a recommended badge for the middle tier. Make the value difference between..."
+description: "Use whenever the user wants to write pricing page copy or pricing tiers, even if they don't name this skill. Business prompt #37 (Pricing Page Copy, Sales & Revenue). Delivers: Three tiers with names, descriptions and feature lists; Recommended badge on the middle tier; Obvious value difference between tiers; Five-question pricing FAQ."
 ---
 
 # Pricing Page Copy

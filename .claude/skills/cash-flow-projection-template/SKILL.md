@@ -1,6 +1,6 @@
 ---
 name: cash-flow-projection-template
-description: "Cash Flow Projection Template (business prompt #66, Finance & Admin). Build a 90-day cash flow projection template for a [TYPE OF BUSINESS] with [MONTHLY REVENUE]. Include: revenue streams, fixed costs, variable costs, and a warning threshold column..."
+description: "Use whenever the user wants to build a cash flow projection or forecast template, even if they don't name this skill. Business prompt #66 (Cash Flow Projection Template, Finance & Admin). Delivers: 90 days; Revenue streams; Fixed costs; Variable costs; Warning threshold column at the stated amount."
 ---
 
 # Cash Flow Projection Template

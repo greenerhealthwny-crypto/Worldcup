@@ -1,6 +1,6 @@
 ---
 name: market-research-brief
-description: "Market Research Brief (business prompt #41, Research & Analysis). Write a market research brief for [MARKET/NICHE]. Cover: market size, key players, customer pain points, underserved segments, and three opportunities a new product could target..."
+description: "Use whenever the user wants to research a market, niche or industry opportunity, even if they don't name this skill. Business prompt #41 (Market Research Brief, Research & Analysis). Delivers: Market size; Key players; Customer pain points; Underserved segments; Three product opportunities; Source types to verify against."
 ---
 
 # Market Research Brief

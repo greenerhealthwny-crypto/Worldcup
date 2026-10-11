@@ -1,6 +1,6 @@
 ---
 name: roadmap-from-user-feedback
-description: "Product Roadmap From User Feedback (business prompt #91, Product & Strategy). Here is six months of user feedback and support data: [PASTE DATA]. Build a product roadmap for the next quarter. Prioritize features by: frequency of request, impact on..."
+description: "Use whenever the user wants to build a product roadmap from user feedback, even if they don't name this skill. Business prompt #91 (Product Roadmap From User Feedback, Product & Strategy). Delivers: Scored on frequency, retention impact and effort; Top 10 list; One-line rationale for each; Scoped to next quarter."
 ---
 
 # Product Roadmap From User Feedback

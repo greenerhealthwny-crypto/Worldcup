@@ -1,6 +1,6 @@
 ---
 name: win-back-campaign
-description: "Win-Back Campaign for Churned Customers (business prompt #39, Sales & Revenue). Write a three-message win-back campaign for customers who canceled [PRODUCT] in the last 90 days. Message 1 is curiosity. Message 2 is value. Message 3 is a time-sensitive offer..."
+description: "Use whenever the user wants to write a win-back campaign for churned or cancelled customers, even if they don't name this skill. Business prompt #39 (Win-Back Campaign for Churned Customers, Sales & Revenue). Delivers: Message 1 curiosity; Message 2 value; Message 3 time-sensitive offer; Each under 100 words."
 ---
 
 # Win-Back Campaign for Churned Customers

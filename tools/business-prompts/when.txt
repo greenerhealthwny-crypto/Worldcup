@@ -1,0 +1,100 @@
+1|turn a voice note, transcript or brain dump into a blog post
+2|write an email nurture sequence that moves leads toward buying
+3|repurpose an article into social posts, threads, video scripts or newsletter copy
+4|write a sales page or landing page copy
+5|write e-commerce product descriptions
+6|write Facebook, Instagram or social ad copy variations
+7|write a cold email or cold outreach message to a prospect
+8|write a newsletter edition from a set of news items or links
+9|turn a client result or success story into a case study
+10|turn a blog post or article into a YouTube or video script
+11|reply to an angry or unhappy customer complaint
+12|turn support tickets or customer questions into an FAQ
+13|respond to a customer's refund request
+14|write an onboarding or welcome email sequence for new users
+15|write templates for responding to customer reviews
+16|summarize a support thread for escalation to a manager or senior teammate
+17|write live chat or support scripts for handling customer objections
+18|respond to a customer who cancelled or wants to cancel a subscription
+19|write a post-purchase or thank-you follow-up email
+20|announce an update, change or news to a community or user group
+21|turn a rough or messy project brief into a project plan
+22|organize a to-do list or brain dump into weekly priorities
+23|turn a spoken explanation or transcript of a process into an SOP
+24|turn meeting notes into action items and a summary
+25|assess the risks of a project or launch
+26|write OKRs or goals with measurable key results
+27|create an end-of-week or weekly status report template
+28|create a monthly budget template or budget breakdown
+29|compare vendors, suppliers or agencies and pick one
+30|audit or streamline a team process or workflow
+31|write the story or narrative for a pitch deck
+32|write a sales discovery call script or questions
+33|write a sales proposal from call notes
+34|prepare responses to sales objections or an objection-handling playbook
+35|write an upsell or upgrade pitch for existing customers
+36|follow up with a prospect who went quiet or ghosted
+37|write pricing page copy or pricing tiers
+38|write a product demo script
+39|write a win-back campaign for churned or cancelled customers
+40|invite customers to a referral program
+41|research a market, niche or industry opportunity
+42|do a SWOT analysis of a business
+43|analyze a competitor
+44|synthesize customer interview notes into insights
+45|build an ideal customer profile (ICP) or buyer persona from customer data
+46|write a trend report on a topic or industry shift
+47|summarize a long industry or research report
+48|prioritize features from user feedback or feature requests
+49|analyze competitor pricing or choose a pricing strategy
+50|map the press, newsletters and podcasts for a PR push
+51|plan a Zapier automation or no-code workflow
+52|write a system prompt or AI agent from a job description or role
+53|audit their software or tool stack for overlaps and savings
+54|define KPIs or metrics for a dashboard
+55|document a workflow or process as steps with a flowchart
+56|design an Airtable base or database structure for a process
+57|design a Notion workspace or team wiki
+58|brief a developer on automating a recurring report
+59|map integrations between the tools in their stack
+60|analyze error logs or recurring system errors
+61|write invoice wording or payment terms
+62|categorize and summarize monthly expenses
+63|turn monthly numbers into a financial summary
+64|review a contract before signing it
+65|write a budget proposal for a new initiative or project
+66|build a cash flow projection or forecast template
+67|summarize a vendor or supplier contract in plain English
+68|write a board update from monthly metrics
+69|write a grant application summary or proposal narrative
+70|write an annual or year-in-review summary for stakeholders
+71|write a job description or job posting
+72|write a brief or job post for hiring a freelancer
+73|prepare interview questions for a role
+74|write a rejection email to a job candidate
+75|plan onboarding for a new employee
+76|create a performance review template
+77|turn a list of topics into a team meeting agenda
+78|turn company values into a culture document
+79|brief a freelancer on a project scope
+80|prepare exit interview questions
+81|build a content calendar or posting plan
+82|plan a product launch
+83|write an SEO brief or outline for a blog post targeting a keyword
+84|write an outreach email to an influencer or creator
+85|write a retargeting ad or video ad script
+86|write brand positioning statements
+87|design a growth experiment or A/B test
+88|design an affiliate or partner program
+89|pitch a story or company news to a journalist
+90|analyze paid ad or campaign performance
+91|build a product roadmap from user feedback
+92|write a go-to-market strategy
+93|stress test a business model
+94|weigh options for a business decision
+95|write a product vision statement
+96|evaluate a pivot to a new product or direction
+97|write a monthly investor update
+98|analyze a business's competitive moat or defensibility
+99|assess product-market fit from user data
+100|write a five-year vision for a business

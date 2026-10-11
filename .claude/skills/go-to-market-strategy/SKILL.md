@@ -1,6 +1,6 @@
 ---
 name: go-to-market-strategy
-description: "Go-to-Market Strategy From a Product Brief (business prompt #92, Product & Strategy). Here is the product I am launching: [PASTE BRIEF]. Write a go-to-market strategy. Cover: target customer, positioning, channels, pricing approach, launch sequence, and the one..."
+description: "Use whenever the user wants to write a go-to-market strategy, even if they don't name this skill. Business prompt #92 (Go-to-Market Strategy From a Product Brief, Product & Strategy). Delivers: Target customer; Positioning; Channels; Pricing approach; Launch sequence; The one thing that must be true."
 ---
 
 # Go-to-Market Strategy From a Product Brief

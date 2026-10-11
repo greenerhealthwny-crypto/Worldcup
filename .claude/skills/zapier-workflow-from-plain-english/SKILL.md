@@ -1,6 +1,6 @@
 ---
 name: zapier-workflow-from-plain-english
-description: "Zapier Workflow From Plain English (business prompt #51, Systems & Automation). I want to automate this process: [DESCRIBE IN PLAIN ENGLISH]. Write the exact Zapier workflow I need to build. List each step, the trigger, the actions, and any filters or..."
+description: "Use whenever the user wants to plan a Zapier automation or no-code workflow, even if they don't name this skill. Business prompt #51 (Zapier Workflow From Plain English, Systems & Automation). Delivers: Trigger; Each action step in order; Filters and conditions; Likely limitations flagged."
 ---
 
 # Zapier Workflow From Plain English

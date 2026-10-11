@@ -1,6 +1,6 @@
 ---
 name: customer-interview-synthesis
-description: "Customer Interview Synthesis (business prompt #44, Research & Analysis). Here are notes from five customer interviews: [PASTE NOTES]. Synthesize the key themes. What problem comes up most? What language do they use? What outcome do they want? What is..."
+description: "Use whenever the user wants to synthesize customer interview notes into insights, even if they don't name this skill. Business prompt #44 (Customer Interview Synthesis, Research & Analysis). Delivers: Most common problem; The customers' own language; Desired outcome; What is stopping them; One-page insight brief."
 ---
 
 # Customer Interview Synthesis

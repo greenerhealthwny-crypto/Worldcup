@@ -1,6 +1,6 @@
 ---
 name: proposal-from-call-notes
-description: "Proposal From Sales Call Notes (business prompt #33, Sales & Revenue). Here are my notes from a sales call: [PASTE NOTES]. Write a proposal that reflects exactly what the prospect said they need. Use their words. Structure it as: their situation..."
+description: "Use whenever the user wants to write a sales proposal from call notes, even if they don't name this skill. Business prompt #33 (Proposal From Sales Call Notes, Sales & Revenue). Delivers: Their situation (in their words); What we propose; What they get; Investment; Next steps."
 ---
 
 # Proposal From Sales Call Notes

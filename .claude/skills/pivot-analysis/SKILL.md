@@ -1,6 +1,6 @@
 ---
 name: pivot-analysis
-description: "Pivot Analysis (business prompt #96, Product & Strategy). My current product is [DESCRIBE]. I am considering pivoting to [DESCRIBE NEW DIRECTION]. Write a pivot analysis. Cover: what we keep, what we leave behind, the risks, the..."
+description: "Use whenever the user wants to evaluate a pivot to a new product or direction, even if they don't name this skill. Business prompt #96 (Pivot Analysis, Product & Strategy). Delivers: What we keep; What we leave behind; Risks; Opportunity size; What to validate first; 30-day test plan."
 ---
 
 # Pivot Analysis

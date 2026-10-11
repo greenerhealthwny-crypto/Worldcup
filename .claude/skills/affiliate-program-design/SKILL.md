@@ -1,6 +1,6 @@
 ---
 name: affiliate-program-design
-description: "Affiliate Program Structure (business prompt #88, Marketing & Growth). Design an affiliate program for [PRODUCT]. Cover: commission structure, tier levels if any, what affiliates get access to, how payouts work, and the pitch I should use to recruit..."
+description: "Use whenever the user wants to design an affiliate or partner program, even if they don't name this skill. Business prompt #88 (Affiliate Program Structure, Marketing & Growth). Delivers: Commission structure; Tier levels (if any); What affiliates get access to; How payouts work; Recruiting pitch; First outreach message."
 ---
 
 # Affiliate Program Structure

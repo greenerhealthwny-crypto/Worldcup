@@ -1,6 +1,6 @@
 ---
 name: weekly-priorities-from-brain-dump
-description: "Weekly Priorities From a Brain Dump (business prompt #22, Operations & Project Management). Here is everything on my plate this week: [PASTE BRAIN DUMP]. Organize this into a prioritized weekly plan. Group by project. Flag what is urgent versus important. Suggest what to..."
+description: "Use whenever the user wants to organize a to-do list or brain dump into weekly priorities, even if they don't name this skill. Business prompt #22 (Weekly Priorities From a Brain Dump, Operations & Project Management). Delivers: Prioritized weekly plan; Grouped by project; Urgent vs important flagged; Cut / delegate suggestions."
 ---
 
 # Weekly Priorities From a Brain Dump

@@ -1,6 +1,6 @@
 ---
 name: feature-prioritization-from-feedback
-description: "Feature Prioritization From User Feedback (business prompt #48, Research & Analysis). Here is a batch of user feedback and feature requests: [PASTE FEEDBACK]. Group them by theme. Rank the themes by frequency and business impact. Recommend the top three features to..."
+description: "Use whenever the user wants to prioritize features from user feedback or feature requests, even if they don't name this skill. Business prompt #48 (Feature Prioritization From User Feedback, Research & Analysis). Delivers: Feedback grouped by theme; Themes ranked by frequency and business impact; Top three features with reasoning."
 ---
 
 # Feature Prioritization From User Feedback

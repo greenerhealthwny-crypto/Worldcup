@@ -1,6 +1,6 @@
 ---
 name: pr-pitch
-description: "PR Pitch From a Company Update (business prompt #89, Marketing & Growth). Here is a company update I want to turn into press coverage: [PASTE UPDATE]. Write a PR pitch for a journalist at [PUBLICATION TYPE]. Under 150 words. Lead with why their readers..."
+description: "Use whenever the user wants to pitch a story or company news to a journalist, even if they don't name this skill. Business prompt #89 (PR Pitch From a Company Update, Marketing & Growth). Delivers: Under 150 words; Leads with why the readers care; Tailored to the publication type."
 ---
 
 # PR Pitch From a Company Update

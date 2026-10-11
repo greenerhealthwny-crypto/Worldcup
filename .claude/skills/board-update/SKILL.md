@@ -1,6 +1,6 @@
 ---
 name: board-update
-description: "Board Update From Monthly Metrics (business prompt #68, Finance & Admin). Here are our metrics for this month: [PASTE DATA]. Write a board update covering: performance vs. last month, performance vs. targets, the two biggest wins, the two biggest..."
+description: "Use whenever the user wants to write a board update from monthly metrics, even if they don't name this skill. Business prompt #68 (Board Update From Monthly Metrics, Finance & Admin). Delivers: Performance vs last month; Performance vs targets; Two biggest wins; Two biggest problems; The ask from the board."
 ---
 
 # Board Update From Monthly Metrics

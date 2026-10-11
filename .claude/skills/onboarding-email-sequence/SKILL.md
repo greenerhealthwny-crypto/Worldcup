@@ -1,6 +1,6 @@
 ---
 name: onboarding-email-sequence
-description: "Onboarding Email Sequence (business prompt #14, Customer Support & Comms). Write a 4-email onboarding sequence for new users of [PRODUCT]. Day 1, Day 3, Day 7, Day 14. Each email should have one job: help them get a specific result. No filler. No feature..."
+description: "Use whenever the user wants to write an onboarding or welcome email sequence for new users, even if they don't name this skill. Business prompt #14 (Onboarding Email Sequence, Customer Support & Comms). Delivers: Four emails on Day 1, 3, 7 and 14; Each email has one job tied to a specific result; No feature dumps or filler."
 ---
 
 # Onboarding Email Sequence

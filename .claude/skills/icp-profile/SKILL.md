@@ -1,6 +1,6 @@
 ---
 name: icp-profile
-description: "ICP Profile From Existing Customers (business prompt #45, Research & Analysis). Here is data on my top 20 customers: [PASTE DATA]. Build a detailed ICP profile. Include: demographics, job titles, business types, the trigger that made them buy, the outcome..."
+description: "Use whenever the user wants to build an ideal customer profile (ICP) or buyer persona from customer data, even if they don't name this skill. Business prompt #45 (ICP Profile From Existing Customers, Research & Analysis). Delivers: Demographics; Job titles; Business types; Buying trigger; Desired outcome; Their language for the problem."
 ---
 
 # ICP Profile From Existing Customers

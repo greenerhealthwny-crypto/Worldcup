@@ -1,6 +1,6 @@
 ---
 name: review-response-templates
-description: "Review Response Templates (business prompt #15, Customer Support & Comms). Write 10 response templates for customer reviews. Five for positive reviews, five for negative ones. Each should feel personal even though it is a template. Include a [NAME] and..."
+description: "Use whenever the user wants to write templates for responding to customer reviews, even if they don't name this skill. Business prompt #15 (Review Response Templates, Customer Support & Comms). Delivers: Five positive and five negative templates; Each feels personal; [NAME] and [SPECIFIC DETAIL] placeholders in every template."
 ---
 
 # Review Response Templates

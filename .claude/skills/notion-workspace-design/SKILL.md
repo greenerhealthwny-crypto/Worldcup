@@ -1,6 +1,6 @@
 ---
 name: notion-workspace-design
-description: "Notion System From a Team Description (business prompt #57, Systems & Automation). Here is how my team currently works: [DESCRIBE TEAM AND WORKFLOW]. Design a Notion workspace for us. Include: page structure, database needed, templates to create, and how..."
+description: "Use whenever the user wants to design a Notion workspace or team wiki, even if they don't name this skill. Business prompt #57 (Notion System From a Team Description, Systems & Automation). Delivers: Page structure; Databases needed; Templates to create; How information flows between sections."
 ---
 
 # Notion System From a Team Description

@@ -1,6 +1,6 @@
 ---
 name: project-risk-assessment
-description: "Risk Assessment for a New Project (business prompt #25, Operations & Project Management). We are about to launch [PROJECT]. Identify the top 10 risks, rate each one by likelihood and impact, and suggest a mitigation action for each. Flag the two you think I should..."
+description: "Use whenever the user wants to assess the risks of a project or launch, even if they don't name this skill. Business prompt #25 (Risk Assessment for a New Project, Operations & Project Management). Delivers: Top 10 risks; Likelihood and impact rating for each; Mitigation action for each; Two priority risks flagged."
 ---
 
 # Risk Assessment for a New Project

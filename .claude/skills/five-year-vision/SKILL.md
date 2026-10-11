@@ -1,6 +1,6 @@
 ---
 name: five-year-vision
-description: "Five-Year Vision From a One-Liner (business prompt #100, Product & Strategy). My business in one sentence is: [PASTE]. Write a five year vision document. Cover: where the business is in year five, what the team looks like, what the product has become, who..."
+description: "Use whenever the user wants to write a five-year vision for a business, even if they don't name this skill. Business prompt #100 (Five-Year Vision From a One-Liner, Product & Strategy). Delivers: Where the business is in year five; The team; The product; The customer; The impact; Written in past tense, as if it already happened."
 ---
 
 # Five-Year Vision From a One-Liner

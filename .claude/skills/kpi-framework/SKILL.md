@@ -1,6 +1,6 @@
 ---
 name: kpi-framework
-description: "Dashboard KPI Framework (business prompt #54, Systems & Automation). Build a KPI framework for a [TYPE OF BUSINESS]. Cover: revenue metrics, product metrics, operations metrics, and team metrics. For each KPI include: what it measures, why it..."
+description: "Use whenever the user wants to define KPIs or metrics for a dashboard, even if they don't name this skill. Business prompt #54 (Dashboard KPI Framework, Systems & Automation). Delivers: Revenue, product, operations and team metrics; For each KPI: what it measures, why it matters, formula, benchmark."
 ---
 
 # Dashboard KPI Framework

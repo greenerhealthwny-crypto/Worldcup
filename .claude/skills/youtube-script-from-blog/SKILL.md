@@ -1,6 +1,6 @@
 ---
 name: youtube-script-from-blog
-description: "YouTube Script From a Blog Post (business prompt #10, Content & Copywriting). Turn this blog post into a 10-minute YouTube script: [PASTE POST]. Keep the same information but write for ears not eyes. Add a hook in the first 15 seconds, pattern interrupts..."
+description: "Use whenever the user wants to turn a blog post or article into a YouTube or video script, even if they don't name this skill. Business prompt #10 (YouTube Script From a Blog Post, Content & Copywriting). Delivers: About 10 minutes of spoken script; Hook in the first 15 seconds; Pattern interrupts roughly every 90 seconds; CTA at the end; Conversational, written for the ear."
 ---
 
 # YouTube Script From a Blog Post

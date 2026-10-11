@@ -1,6 +1,6 @@
 ---
 name: pricing-strategy-analysis
-description: "Pricing Strategy Analysis (business prompt #49, Research & Analysis). Here is how our top five competitors price their product: [PASTE DATA]. Analyze the pricing patterns. What model is most common? Where are the gaps? Suggest three pricing..."
+description: "Use whenever the user wants to analyze competitor pricing or choose a pricing strategy, even if they don't name this skill. Business prompt #49 (Pricing Strategy Analysis, Research & Analysis). Delivers: Most common pricing model; Gaps in the market; Three pricing structures to test with the logic for each."
 ---
 
 # Pricing Strategy Analysis

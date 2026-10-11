@@ -1,6 +1,6 @@
 ---
 name: media-landscape-brief
-description: "Press and Media Landscape Brief (business prompt #50, Research & Analysis). I am preparing a PR push for [PRODUCT/BRAND] in [INDUSTRY]. Write a media landscape brief. Identify: the top publications, newsletters, and podcasts in our space, what they cover..."
+description: "Use whenever the user wants to map the press, newsletters and podcasts for a PR push, even if they don't name this skill. Business prompt #50 (Press and Media Landscape Brief, Research & Analysis). Delivers: Top publications, newsletters and podcasts; What each covers; Story types they run; How to pitch each."
 ---
 
 # Press and Media Landscape Brief

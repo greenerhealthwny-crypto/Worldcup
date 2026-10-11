@@ -1,6 +1,6 @@
 ---
 name: expense-report-summary
-description: "Expense Report Summary (business prompt #62, Finance & Admin). Here are this month's expenses: [PASTE LIST]. Organize them by category, flag any that look unusual, calculate totals per category, and write a one-paragraph summary for my..."
+description: "Use whenever the user wants to categorize and summarize monthly expenses, even if they don't name this skill. Business prompt #62 (Expense Report Summary, Finance & Admin). Delivers: Expenses grouped by category; Unusual items flagged; Totals per category; One-paragraph summary for the accountant."
 ---
 
 # Expense Report Summary

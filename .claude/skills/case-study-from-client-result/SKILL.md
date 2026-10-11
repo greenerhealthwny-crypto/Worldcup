@@ -1,6 +1,6 @@
 ---
 name: case-study-from-client-result
-description: "Case Study From a Client Result (business prompt #9, Content & Copywriting). Turn this client result into a case study: [PASTE DETAILS]. Structure it as: the problem, what we did, the result. Keep it under 400 words. Write it like a founder talking to..."
+description: "Use whenever the user wants to turn a client result or success story into a case study, even if they don't name this skill. Business prompt #9 (Case Study From a Client Result, Content & Copywriting). Delivers: Problem → what we did → result; Under 400 words; Founder-to-founder voice, not PR voice."
 ---
 
 # Case Study From a Client Result
