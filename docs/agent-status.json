@@ -19,9 +19,9 @@
     "does": "Writes posts, plans the visuals and lays them out on a posting schedule.",
     "greatFor": "Creators, businesses, freelancers",
     "status": "needs_work",
-    "reason": "Writes posts, image briefs and a schedule (test passed). Through Zapier it can already post to your Facebook Page and create Pinterest pins once you approve each post, but that hasn't been tried yet. Instagram and LinkedIn aren't connected, and nothing posts on a timer.",
-    "nextStep": "Add Instagram and LinkedIn to your Zapier connector, then ask the agent for one test post to Facebook to confirm it works. For posts that go out on a schedule, connect Buffer or Hootsuite.",
-    "connectors": "Zapier (connected): Facebook Pages and Pinterest",
+    "reason": "Writes posts, image briefs and a schedule (test passed). Through Zapier it can now publish to Instagram (photos and videos), your Facebook Page and Pinterest, once you approve each post. Nothing has been posted yet, LinkedIn isn't connected, and posts go out when approved rather than on a timer.",
+    "nextStep": "Ask the agent for one approved test post to Instagram to confirm it works end to end. Connect LinkedIn in Zapier if you post there, and Buffer or Hootsuite if you want posts to go out on a schedule.",
+    "connectors": "Zapier (connected): Instagram for Business, Facebook Pages, Pinterest",
     "prompt": "Use the social-media-scheduler-agent: plan [2 weeks] of posts for [my business] on [Instagram and LinkedIn], [3] posts a week each. We're promoting [offer]. Include what each image should show.",
     "lastTested": "Oct 11, 2026"
   },
@@ -148,10 +148,10 @@
     "title": "Creative Assistant Agent",
     "does": "Brainstorms ideas, writes drafts and plans visuals to get a creative project finished.",
     "greatFor": "Creators, designers, small teams",
-    "status": "needs_work",
-    "reason": "Ideas and drafts work (test passed), but no image tool is connected, so visuals come out as written briefs, not images.",
-    "nextStep": "Connect an image or design tool such as Canva, Adobe or Figma in your claude.ai connectors so it can make the visuals itself.",
-    "connectors": "None connected for images yet",
+    "status": "active",
+    "reason": "Ready. Passed its test (ideas, draft and visual brief). Canva is now connected through Zapier, so it can create designs and export them, with your approval. It hasn't made a design yet.",
+    "nextStep": "",
+    "connectors": "Canva (connected through Zapier)",
     "prompt": "Use the creative-assistant-agent: help me with [project] for [audience]. It's for [where it'll be used], due [date]. Give me ideas, a draft and a visual brief.",
     "lastTested": "Oct 11, 2026"
   }
