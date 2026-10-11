@@ -178,6 +178,7 @@ def _run_case_in(name, work):
 
     delegated, result, loaded = [], "", None
     agent_ids, reports = set(), []
+    last_text = {}  # agent tool_use_id -> the agent's latest message (its final report), foreground or background
     for line in proc.stdout.splitlines():
         try:
             ev = json.loads(line)
@@ -185,6 +186,10 @@ def _run_case_in(name, work):
             continue
         if ev.get("type") == "system" and ev.get("subtype") == "init":
             loaded = case["agent"] in (ev.get("agents") or [])
+        elif ev.get("type") == "assistant" and ev.get("parent_tool_use_id"):
+            text = "\n".join(c.get("text", "") for c in ev["message"]["content"] if c.get("type") == "text")
+            if text.strip():
+                last_text[ev["parent_tool_use_id"]] = text
         elif ev.get("type") == "assistant" and not ev.get("parent_tool_use_id"):
             for c in ev["message"]["content"]:
                 if c.get("type") == "tool_use" and c["name"] in ("Agent", "Task"):
@@ -219,6 +224,7 @@ def _run_case_in(name, work):
                 saved.append(f.read_text())
             except (OSError, UnicodeDecodeError):
                 pass
+    reports += [txt for tid, txt in last_text.items() if tid in agent_ids]
     evidence = "\n\n".join([result, *reports, *saved])
     for check in case["checks"]:
         problems += check(evidence, work)

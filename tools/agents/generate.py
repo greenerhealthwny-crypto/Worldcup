@@ -33,7 +33,7 @@ AGENTS = [
             "Turn the themes into 10 content ideas: a working title, the angle, the format, and the source it builds on.",
             "If the user wants to go deeper on one idea, use the seo-blog-brief or trend-report skill.",
         ],
-        output="Trend summary (themes + why they matter) → source list with links and dates → 10 ideas in a table (title, angle, format, source).",
+        output="Trend summary (themes + why they matter) → **Sources**: one line per source as `Title — full https:// URL — date` (always the raw URL, so the user can click it and the main session can pass it on) → 10 ideas in a table (title, angle, format, source URL).",
         skills=["trend-report", "seo-blog-brief"],
         tools=RESEARCH_TOOLS,
         safety=["Every trend claim links to a real source you opened. Never invent sources, stats or dates.",

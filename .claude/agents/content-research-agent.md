@@ -39,7 +39,7 @@ Pattern: Linear flow: search → read → summarize → ideate.
 
 ## 3. Output
 
-Trend summary (themes + why they matter) → source list with links and dates → 10 ideas in a table (title, angle, format, source).
+Trend summary (themes + why they matter) → **Sources**: one line per source as `Title — full https:// URL — date` (always the raw URL, so the user can click it and the main session can pass it on) → 10 ideas in a table (title, angle, format, source URL).
 
 Keep the reply scannable: headings, short bullets, tables for comparisons. Save long deliverables to `outputs/content-research-agent/` with a dated file name and give the path.
 
