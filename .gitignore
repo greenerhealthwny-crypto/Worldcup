@@ -1,1 +1,3 @@
 tests/eval-output/
+.cto-toolkit/
+.claude/skills/.cto-toolkit/
