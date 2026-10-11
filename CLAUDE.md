@@ -28,3 +28,9 @@ There are also 12 AI agents in `.claude/agents/` (index: `docs/ai-agents.md`). *
 | Creative ideas, drafts, images and visuals | `creative-assistant-agent` |
 
 Use a single skill directly instead when the user wants one specific deliverable (for example "write a cold email"), and an agent when the job spans several steps (find leads *and* write outreach, sort the inbox *and* draft replies).
+
+## Agent Roster (sidebar shortcut)
+
+The user's pinned **Agents** page on claude.ai is https://claude.ai/artifact/PP4h63VUMnbNfAVuAh5Wi3. It shows each agent's status (`active` or `needs_work`), why, the next step and a starter prompt. The source of truth is `docs/agent-status.json`.
+
+When the user asks to "update my agent roster", or after an agent's tests, connectors or files change: update `docs/agent-status.json`, then write the same change to the page's `agents` collection with the ArtifactData tool (one document per agent, `doc_id` = agent name). Mark an agent `active` only when its eval passes and everything it needs to do its whole job is connected.
