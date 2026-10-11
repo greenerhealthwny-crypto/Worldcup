@@ -20,7 +20,11 @@ def err(path, msg):
 
 
 for skill_md in sorted(ROOT.glob("*/SKILL.md")):
-    text = skill_md.read_text()
+    try:
+        text = skill_md.read_text()
+    except (OSError, UnicodeDecodeError) as e:
+        err(skill_md, f"cannot read file: {e}")
+        continue
     m = re.match(r"^---\nname: (.+)\ndescription: \"?(.+?)\"?\n---\n", text)
     if not m:
         err(skill_md, "missing or malformed frontmatter")
@@ -63,7 +67,11 @@ missing = sorted(set(range(1, 101)) - set(numbers))
 if missing:
     errors.append(f"missing prompt numbers: {missing}")
 
-index = (ROOT / "BUSINESS-PROMPTS.md").read_text()
+try:
+    index = (ROOT / "BUSINESS-PROMPTS.md").read_text()
+except OSError as e:
+    errors.append(f"cannot read BUSINESS-PROMPTS.md: {e}")
+    index = ""
 for link in re.findall(r"\]\(([^)]+/SKILL\.md)\)", index):
     if not (ROOT / link).exists():
         errors.append(f"BUSINESS-PROMPTS.md: broken link {link}")

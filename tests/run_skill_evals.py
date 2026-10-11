@@ -128,13 +128,21 @@ CASES = {
 
 def run_case(name):
     case = CASES[name]
-    proc = subprocess.run(
-        ["claude", "-p", case["prompt"], "--output-format", "stream-json", "--verbose",
-         "--permission-mode", "bypassPermissions"],
-        cwd=REPO, capture_output=True, text=True, timeout=600,
-    )
-    OUT.mkdir(exist_ok=True)
-    (OUT / f"{name}.jsonl").write_text(proc.stdout)
+    try:
+        proc = subprocess.run(
+            ["claude", "-p", case["prompt"], "--output-format", "stream-json", "--verbose",
+             "--permission-mode", "bypassPermissions"],
+            cwd=REPO, capture_output=True, text=True, timeout=600,
+        )
+    except subprocess.TimeoutExpired:
+        return name, ["timed out after 600s"]
+    except OSError as e:
+        return name, [f"could not run claude: {e}"]
+    try:
+        OUT.mkdir(exist_ok=True)
+        (OUT / f"{name}.jsonl").write_text(proc.stdout)
+    except OSError as e:
+        print(f"warning: could not save transcript for {name}: {e}", file=sys.stderr)
     skills_called, result = [], ""
     for line in proc.stdout.splitlines():
         try:
@@ -147,8 +155,11 @@ def run_case(name):
                     skills_called.append(c["input"].get("skill", "").split(":")[-1])
         elif ev.get("type") == "result":
             result = ev.get("result", "")
-    (OUT / f"{name}.md").write_text(result)
-    problems = []
+    try:
+        (OUT / f"{name}.md").write_text(result)
+    except OSError as e:
+        print(f"warning: could not save answer for {name}: {e}", file=sys.stderr)
+    problems = [] if proc.returncode == 0 else [f"claude exited {proc.returncode}: {proc.stderr.strip()[:200]}"]
     if case["skill"] not in skills_called:
         problems.append(f"expected skill {case['skill']!r}, called {skills_called or 'none'}")
     if not result:

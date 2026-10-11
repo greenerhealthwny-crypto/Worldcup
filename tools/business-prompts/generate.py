@@ -52,6 +52,10 @@ CATS = [
 
 OUTPUT_ONLY = {15: {"NAME", "SPECIFIC DETAIL"}}  # placeholders that belong in the output, not inputs
 
+try:
+    src.read_text(); (src.parent / "when.txt").read_text()
+except OSError as e:
+    sys.exit(f"error: cannot read input files: {e}")
 WHEN = {int(a): b for a, b in (l.split('|', 1) for l in (src.parent / 'when.txt').read_text().splitlines() if l)}
 text = src.read_text()
 entries = [b for b in text.strip().split("\n\n") if b.strip()]
@@ -131,8 +135,11 @@ Use whatever the user has already given you (in the message, attached files or e
 {rules_md}
 """
     d = out / slug
-    d.mkdir(parents=True, exist_ok=True)
-    (d / "SKILL.md").write_text(body)
+    try:
+        d.mkdir(parents=True, exist_ok=True)
+        (d / "SKILL.md").write_text(body)
+    except OSError as e:
+        sys.exit(f"error: cannot write {d / 'SKILL.md'}: {e}")
     index_rows.append((num, cat_name, title, slug))
 
 # Index
