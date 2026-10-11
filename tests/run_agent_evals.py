@@ -51,14 +51,17 @@ CASES = {
         prompt="Plan and write two weeks of Instagram and LinkedIn posts for my bakery, Rise & Crumb in Buffalo NY. "
                "3 posts a week per platform. We're launching a sourdough subscription on the 20th. "
                "Include what each image should show and lay it out on a schedule.",
-        checks=[matches(r"\|.*\|", "no schedule table"), matches(r"approv|needs your ok", "no approval step")],
+        checks=[matches(r"\|.*\|", "no schedule table"), matches(r"approv|needs your ok|nothing (is|has been|was) (scheduled|posted)|not (yet )?(scheduled|posted)", "no approval step")],
     ),
     "customer-support": dict(
         agent="customer-support-agent",
-        prompt="Our store policy: returns accepted within 30 days of delivery, unworn items only; refunds go back "
-               "to the original card in 5-7 business days; we don't refund shipping. A customer wrote: "
-               "\"I got my boots 45 days ago, wore them twice and they're already falling apart. I want a full "
-               "refund including shipping.\" Handle this customer.",
+        prompt="Here's this morning's support queue for our boot store. Policy: returns accepted within 30 days "
+               "of delivery, unworn items only; refunds go back to the original card in 5-7 business days; we "
+               "don't refund shipping; standard shipping takes 3-5 business days. Work through the queue.\n"
+               "1) \"I got my boots 45 days ago, wore them twice and they're already falling apart. I want a full "
+               "refund including shipping.\"\n"
+               "2) \"How long does shipping take to Ohio?\"\n"
+               "3) \"My order #4471 says delivered but it's not here.\"",
         checks=[has("30"), matches(r"escalat|manager|team lead|senior|confirm", "no escalation or confirm flag")],
     ),
     "email-assistant": dict(
@@ -161,6 +164,7 @@ def run_case(name):
         print(f"warning: could not save transcript for {name}: {e}", file=sys.stderr)
 
     delegated, result, loaded = [], "", None
+    agent_ids, reports = set(), []
     for line in proc.stdout.splitlines():
         try:
             ev = json.loads(line)
@@ -172,6 +176,13 @@ def run_case(name):
             for c in ev["message"]["content"]:
                 if c.get("type") == "tool_use" and c["name"] in ("Agent", "Task"):
                     delegated.append(c["input"].get("subagent_type", ""))
+                    agent_ids.add(c.get("id"))
+        elif ev.get("type") == "user" and not ev.get("parent_tool_use_id"):
+            for c in ev["message"].get("content") or []:
+                if isinstance(c, dict) and c.get("type") == "tool_result" and c.get("tool_use_id") in agent_ids:
+                    body = c.get("content")
+                    reports.append(body if isinstance(body, str) else
+                                   "\n".join(x.get("text", "") for x in body or [] if isinstance(x, dict)))
         elif ev.get("type") == "result":
             result = ev.get("result", "")
     try:
@@ -186,8 +197,18 @@ def run_case(name):
         problems.append(f"expected delegation to {case['agent']!r}, got {delegated or 'none'}")
     if not result:
         problems.append("no final answer")
+    # Judge the agent's own report and any files it saved, not only the main session's recap.
+    saved = []
+    for f in work.rglob("*"):
+        if f.suffix in (".md", ".csv") and f.is_file() and ".claude" not in f.parts \
+                and not (REPO / f.relative_to(work)).exists():
+            try:
+                saved.append(f.read_text())
+            except (OSError, UnicodeDecodeError):
+                pass
+    evidence = "\n\n".join([result, *reports, *saved])
     for check in case["checks"]:
-        problems += check(result, work)
+        problems += check(evidence, work)
     shutil.rmtree(work, ignore_errors=True)
     return name, problems
 
