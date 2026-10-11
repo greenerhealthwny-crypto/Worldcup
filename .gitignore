@@ -1,0 +1,5 @@
+tests/eval-output/
+.cto-toolkit/
+.claude/skills/.cto-toolkit/
+outputs/
+__pycache__/
