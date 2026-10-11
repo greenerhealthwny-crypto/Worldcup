@@ -6,6 +6,10 @@ This repo contains 100 business workflow skills in `.claude/skills/` (index: `.c
 
 Only skip the skill when nothing in the list fits the request.
 
+## Shortcuts (save tokens)
+
+25 short slash-command skills (`/tldr`, `/eli5`, `/plan`, `/checklist`, `/humanize`, `/debug`…) live in `.claude/skills/` (cheat sheet: `docs/usage-analysis.md`, generator: `tools/shortcuts/generate.py`). **When the user types a shortcut, use it instead of the matching business skill** and keep to its length cap; `long` doubles the cap, `short` halves it.
+
 ## AI agents
 
 There are also 12 AI agents in `.claude/agents/` (index: `docs/ai-agents.md`). **When a request matches one of these jobs, delegate it to that agent with the Agent tool** (`subagent_type` = the agent name), passing along everything the user gave you. The agent will use the business skills itself.
