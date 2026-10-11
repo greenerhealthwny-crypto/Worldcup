@@ -67,6 +67,16 @@ try:
 except OSError as e:
     errors.append(f"cannot read CLAUDE.md: {e}")
 
+# The Agent Roster's data must stay in step with the agents.
+sys.path.insert(0, str(REPO / "tools" / "agents"))
+try:
+    import check_status
+    errors += [f"docs/agent-status.json: {p}" for p in
+               check_status.find_problems(check_status.load_rows(check_status.STATUS_FILE),
+                                          {f.stem for f in AGENTS.glob("*.md")})]
+except (ImportError, ValueError) as e:
+    errors.append(f"roster check failed: {e}")
+
 if errors:
     print("\n".join(errors))
     print(f"FAIL: {len(errors)} problem(s)")

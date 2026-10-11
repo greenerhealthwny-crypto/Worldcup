@@ -33,4 +33,4 @@ Use a single skill directly instead when the user wants one specific deliverable
 
 The user's pinned **Agents** page on claude.ai is https://claude.ai/artifact/PP4h63VUMnbNfAVuAh5Wi3. It shows each agent's status (`active` or `needs_work`), why, the next step and a starter prompt. The source of truth is `docs/agent-status.json`.
 
-When the user asks to "update my agent roster", or after an agent's tests, connectors or files change: update `docs/agent-status.json`, then write the same change to the page's `agents` collection with the ArtifactData tool (one document per agent, `doc_id` = agent name). Mark an agent `active` only when its eval passes and everything it needs to do its whole job is connected.
+When the user asks to "update my agent roster", or after an agent's tests, connectors or files change: update `docs/agent-status.json`, run `python3 tools/agents/check_status.py` until it passes, then write the same change to the page's `agents` collection with the ArtifactData tool (one document per agent, `doc_id` = agent name). Mark an agent `active` only when its eval passes and everything it needs to do its whole job is connected.
