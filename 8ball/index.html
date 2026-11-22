@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Magic 8 Ball: Deep Talk Edition</title>
+<meta name="description" content="Shake the ball, get a deep question, answer it together. 75 questions for two people.">
+<meta property="og:title" content="🎱 Magic 8 Ball: Deep Talk">
+<meta property="og:description" content="Shake the ball, get a deep question, answer it together.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎱</text></svg>">
+<style>
+  :root { --bg:#0b0b12; --card:#16161f; --ink:#f3f1ff; --mute:#9a97b3; --accent:#8b7bff; --gold:#f2c66d; }
+  * { box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
+  html,body { margin:0; background:radial-gradient(1200px 700px at 50% -10%, #231c4a 0%, var(--bg) 60%); color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; min-height:100vh; }
+  main { max-width:480px; margin:0 auto; padding:20px 18px 48px; display:flex; flex-direction:column; align-items:center; gap:16px; }
+  h1 { font-size:20px; margin:6px 0 0; letter-spacing:.02em; text-align:center; }
+  .sub { color:var(--mute); font-size:14px; margin:0; text-align:center; }
+  .status { font-size:13px; padding:6px 12px; border-radius:999px; background:#1d1d2b; color:var(--mute); display:flex; gap:8px; align-items:center; }
+  .dot { width:8px; height:8px; border-radius:50%; background:#6b6880; }
+  .status.live .dot { background:#4ade80; box-shadow:0 0 8px #4ade80; }
+  .status.live { color:#d7f7e3; }
+  .namebox { display:flex; gap:8px; width:100%; }
+  .namebox input { flex:1; padding:12px 14px; border-radius:12px; border:1px solid #2b2b3d; background:#12121a; color:var(--ink); font-size:16px; }
+  button { font:inherit; cursor:pointer; }
+  .btn { padding:12px 16px; border-radius:12px; border:0; background:#2a2745; color:var(--ink); font-size:15px; }
+  .btn:active { transform:scale(.97); }
+  .ballwrap { margin-top:6px; perspective:900px; }
+  .ball { width:250px; height:250px; border-radius:50%; position:relative;
+    background:radial-gradient(circle at 32% 26%, #4a4a5c 0%, #17171f 38%, #050508 78%);
+    box-shadow:0 30px 50px rgba(0,0,0,.6), inset -14px -18px 40px rgba(0,0,0,.7); display:grid; place-items:center; }
+  .shine { position:absolute; top:16px; left:44px; width:90px; height:52px; border-radius:50%;
+    background:radial-gradient(ellipse at center, rgba(255,255,255,.55), rgba(255,255,255,0) 70%); transform:rotate(-24deg); }
+  .win { width:118px; height:118px; border-radius:50%; background:radial-gradient(circle at 40% 35%, #fff, #d8d8e6 70%);
+    display:grid; place-items:center; box-shadow:inset 0 4px 10px rgba(0,0,0,.35); transition:background .5s; }
+  .win .num { font-size:78px; font-weight:800; color:#0b0b12; font-family:Georgia,serif; line-height:1; transition:opacity .3s; }
+  .win.reveal { background:radial-gradient(circle at 40% 35%, #2e3a9c, #0d1236 75%); }
+  .win.reveal .num { color:var(--gold); font-size:50px; }
+  .shaking { animation:shake .9s cubic-bezier(.36,.07,.19,.97) both; }
+  @keyframes shake {
+    10%{transform:translate(-14px,4px) rotate(-8deg)} 20%{transform:translate(16px,-6px) rotate(9deg)}
+    30%{transform:translate(-18px,6px) rotate(-10deg)} 40%{transform:translate(18px,-4px) rotate(8deg)}
+    50%{transform:translate(-14px,8px) rotate(-6deg)} 60%{transform:translate(12px,-6px) rotate(6deg)}
+    70%{transform:translate(-8px,4px) rotate(-4deg)} 80%{transform:translate(6px,-2px) rotate(2deg)} 100%{transform:none} }
+  @media (prefers-reduced-motion: reduce) { .shaking { animation:none; opacity:.6; } }
+  .shakebtn { width:100%; max-width:320px; padding:16px; border-radius:16px; border:0; font-size:18px; font-weight:700; letter-spacing:.04em;
+    color:#0b0b12; background:linear-gradient(180deg,#f7d98d,#e0a93f); box-shadow:0 8px 22px rgba(224,169,63,.28); }
+  .shakebtn:active { transform:scale(.98); }
+  .shakebtn:disabled { opacity:.55; }
+  .qcard { width:100%; background:var(--card); border:1px solid #26263a; border-radius:18px; padding:20px 18px; min-height:150px;
+    display:flex; flex-direction:column; justify-content:center; gap:10px; opacity:1; transition:opacity .5s; }
+  .qcard.hidden { opacity:.25; }
+  .who { color:var(--mute); font-size:13px; }
+  .cat { color:var(--accent); font-size:13px; font-weight:600; letter-spacing:.06em; text-transform:uppercase; }
+  .q { font-size:22px; line-height:1.35; margin:0; font-family:Georgia,serif; }
+  .row { display:flex; gap:8px; flex-wrap:wrap; justify-content:center; }
+  details { width:100%; background:#12121a; border:1px solid #22222f; border-radius:14px; padding:10px 14px; }
+  summary { color:var(--mute); font-size:14px; cursor:pointer; }
+  details p { color:var(--mute); font-size:13px; line-height:1.5; margin:10px 0 0; }
+  ol { margin:10px 0 0; padding-left:22px; color:#cfcde6; font-size:14px; line-height:1.5; }
+  ol li { margin-bottom:8px; }
+  ol small { color:var(--mute); }
+  .pick { display:flex; gap:8px; margin-top:10px; }
+  .pick input { width:90px; padding:10px; border-radius:10px; border:1px solid #2b2b3d; background:#0e0e15; color:var(--ink); font-size:16px; }
+  textarea.fallback { width:100%; height:80px; margin-top:8px; border-radius:10px; background:#0e0e15; color:var(--ink); border:1px solid #2b2b3d; padding:8px; font:inherit; }
+  .count { color:var(--mute); font-size:12px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>🎱 Magic 8 Ball: Deep Talk</h1>
+  <p class="sub">Shake it. You both see the question. Answer in your text thread.</p>
+  <div class="row"><button class="btn" id="invite">Copy invite link for your person</button></div>
+  <div class="status" id="status"><span class="dot"></span><span id="statusText">Connecting…</span></div>
+
+  <div class="namebox" id="nameBox" hidden>
+    <input id="nameInput" maxlength="20" placeholder="Your first name" autocomplete="off">
+    <button class="btn" id="nameSave">Save</button>
+  </div>
+
+  <div class="ballwrap"><div class="ball" id="ball"><div class="shine"></div>
+    <div class="win" id="win"><div class="num" id="num">8</div></div></div></div>
+
+  <button class="shakebtn" id="shake">SHAKE</button>
+
+  <div class="qcard hidden" id="qcard" aria-live="polite">
+    <div class="cat" id="cat">Ask the ball</div>
+    <p class="q" id="q">Tap shake to get the first question.</p>
+    <div class="who" id="who"></div>
+  </div>
+  <div class="count" id="count"></div>
+
+  <div class="row">
+    <button class="btn" id="copy">Copy for text thread</button>
+  </div>
+  <textarea class="fallback" id="fallback" hidden readonly></textarea>
+
+  <details>
+    <summary>Not syncing? Use the text thread</summary>
+    <p>If the live link doesn't connect, tap "Copy for text thread" after a shake and paste it to your person. Or type a question number someone sent you:</p>
+    <div class="pick"><input id="numIn" type="number" min="1" max="75" inputmode="numeric" placeholder="1 to 75"><button class="btn" id="numGo">Show it</button></div>
+  </details>
+
+  <details id="histBox" hidden>
+    <summary id="histSum">Asked so far</summary>
+    <ol id="hist"></ol>
+  </details>
+</main>
+
+<script>
+const CATS = [
+ ["🏠","Roots"],["🌊","Emotions"],["🎭","The Mask"],["💞","Love"],["⚡","Conflict"],
+ ["👀","Envy & Admiration"],["🧭","Purpose"],["⏳","Fear & Mortality"],["💰","Money & Ambition"],["🏡","Family & Home"],
+ ["🌑","Shadow & Growth"],["🤝","Trust"],["🎈","Joy & Play"],["🔮","Future & Time"],["✨","Meaning"]
+];
+const Q = [
+ // Roots
+ "What's a small thing from your childhood home that still shapes how you live today?",
+ "Which rule did you grow up with that you've quietly broken as an adult?",
+ "Who in your childhood saw you most clearly, and what did they see?",
+ "What did your family never talk about that you wish they had?",
+ "What memory do you return to when you need comfort?",
+ // Emotions
+ "When you're overwhelmed, what do you do first, and what do you wish you did instead?",
+ "What decision did you make while emotional that you'd still make again?",
+ "Which emotion is hardest for you to show someone you're dating?",
+ "How can I tell when you're upset but saying you're fine?",
+ "What used to ruin your day that barely touches you now?",
+ // Mask
+ "Which version of you do most people see, and which one are you saving for me?",
+ "What part of yourself do you tone down around new people?",
+ "What's one first impression people get wrong about you?",
+ "When do you feel most like yourself?",
+ "What role do you play in your friend group, and are you tired of it?",
+ // Love
+ "When have you felt truly listened to? What did the other person do?",
+ "What does being loved well look like in the small daily stuff?",
+ "What do you need more of than you usually ask for?",
+ "What's the most honest thing you've been afraid to say early in a relationship?",
+ "How do you act when you start falling for someone?",
+ // Conflict
+ "When we disagree, what do you need from me in the first ten minutes?",
+ "How did your family fight, and what did you take from that?",
+ "What's an apology you're still waiting for, or still owe?",
+ "What kind of criticism can you take, and what kind makes you shut down?",
+ "How do you want us to make up after an argument?",
+ // Envy
+ "Whose life have you quietly envied, and what does that say about what you want?",
+ "What did a friend achieve that stung more than you expected?",
+ "Whose success makes you genuinely happy, and why them?",
+ "What do you compare yourself to that isn't fair to you?",
+ "What do people admire about you that you can't see in yourself?",
+ // Purpose
+ "What would you work on for free for the next ten years?",
+ "What did you want to be at ten, and what part of that is still true?",
+ "When did you last lose track of time because you were absorbed in something?",
+ "What are you building right now that you hope outlasts you?",
+ "What would you do with a year off and no money worries?",
+ // Fear & mortality
+ "What are you most afraid of losing?",
+ "If you had one year left, what would you stop doing tomorrow?",
+ "What do you want people to say about you when you're gone?",
+ "Which fear have you outgrown, and which one still runs you?",
+ "What are you putting off that you know matters?",
+ // Money
+ "What did money mean in your house growing up, and what does it mean to you now?",
+ "What does \"enough\" look like for you?",
+ "What's the best money you've ever spent?",
+ "How do you define success, and who gave you that definition?",
+ "What would you risk everything on if you knew you'd be okay?",
+ // Family & home
+ "What does a good, ordinary Tuesday look like for you five years from now?",
+ "Which traditions do you want to keep, and which should end with us?",
+ "How close should family be to our daily lives?",
+ "What does home smell, sound, and feel like to you?",
+ "What kind of family member do you want to get better at being?",
+ // Shadow
+ "What trait do you judge most harshly in others, and where might it live in you?",
+ "What pattern do you keep repeating in relationships?",
+ "Which flaw have you made peace with, and which haven't you?",
+ "What do you do when you think no one is watching?",
+ "What's the hardest truth about yourself that you've accepted?",
+ // Trust
+ "What makes you trust someone, and what breaks it for good?",
+ "When did someone let you down in a way that changed you?",
+ "What do you need to know about me to feel safe?",
+ "What's a strength of yours that you rarely admit to?",
+ "How do you handle it when I'm not available and you need me?",
+ // Joy
+ "What makes you laugh until it hurts?",
+ "What's your idea of a perfect day with no plans?",
+ "What's something silly you're weirdly proud of?",
+ "What song or place instantly changes your mood?",
+ "What first date would impress you that doesn't cost much?",
+ // Future
+ "What are you doing now that your future self will thank you for?",
+ "What are you doing now that your future self will be annoyed about?",
+ "Where do you honestly see us a year from now?",
+ "What did you believe at 20 that you've changed your mind about?",
+ "What do you hope is different about your life by this time next year?",
+ // Meaning
+ "What do you believe in that you can't prove?",
+ "What helped you get through your hardest season?",
+ "What do you think you're here to learn?",
+ "What does a life well lived look like to you?",
+ "What question do you wish someone would ask you?"
+];
+const catOf = i => CATS[Math.floor(i/5)];
+
+const $ = id => document.getElementById(id);
+let me = { id: Math.random().toString(36).slice(2,8), name: "" };
+try { me.name = localStorage.getItem("eb-name") || ""; } catch(e) {}
+const seen = new Map();   // shake id -> {id, idx, by, ts}
+let lastShown = null, busy = false;
+
+function setStatus(live, text){ $("status").classList.toggle("live", live); $("statusText").textContent = text; }
+
+function used(){ return new Set([...seen.values()].map(s => s.idx)); }
+function pickIdx(){
+  const u = used(); const free = [];
+  for (let i=0;i<Q.length;i++) if(!u.has(i)) free.push(i);
+  const pool = free.length ? free : Array.from({length:Q.length},(_,i)=>i);
+  return pool[Math.floor(Math.random()*pool.length)];
+}
+
+function remember(s){
+  if (!s || typeof s.idx !== "number" || s.idx<0 || s.idx>=Q.length || !s.id) return false;
+  if (seen.has(s.id)) return false;
+  seen.set(s.id, { id:String(s.id), idx:s.idx, by:String(s.by||"Someone").slice(0,20), ts:Number(s.ts)||Date.now() });
+  renderHist();
+  return true;
+}
+
+function renderHist(){
+  const list = [...seen.values()].sort((a,b)=>a.ts-b.ts);
+  $("histBox").hidden = !list.length;
+  $("histSum").textContent = "Asked so far (" + list.length + ")";
+  const ol = $("hist"); ol.textContent = "";
+  list.forEach(s=>{
+    const li = document.createElement("li");
+    li.textContent = Q[s.idx] + " ";
+    const sm = document.createElement("small"); sm.textContent = "· " + s.by;
+    li.appendChild(sm); ol.appendChild(li);
+  });
+  $("count").textContent = list.length ? (list.length + " of 75 asked") : "75 questions in the ball";
+}
+
+function reveal(s){
+  if (busy || lastShown === s.id) return;
+  lastShown = s.id; busy = true;
+  $("shake").disabled = true;
+  $("qcard").classList.add("hidden");
+  $("win").classList.remove("reveal"); $("num").textContent = "8";
+  const ball = $("ball"); ball.classList.remove("shaking"); void ball.offsetWidth; ball.classList.add("shaking");
+  setTimeout(()=>{
+    const [emoji, cat] = catOf(s.idx);
+    $("win").classList.add("reveal"); $("num").textContent = emoji;
+    $("cat").textContent = cat;
+    $("q").textContent = Q[s.idx];
+    $("who").textContent = (s.by === me.name || s.id.startsWith(me.id)) ? "You shook the ball" : (s.by + " shook the ball");
+    $("qcard").classList.remove("hidden");
+    ball.classList.remove("shaking");
+    busy = false; $("shake").disabled = false;
+    current = s;
+  }, 950);
+}
+let current = null;
+
+function shake(){
+  if (busy) return;
+  const s = { id: me.id + "-" + Date.now().toString(36), idx: pickIdx(), by: me.name || "Me", ts: Date.now() };
+  remember(s);
+  send({ k:"shake", cid:me.id, s:s });
+  reveal(s);
+}
+
+// ---- live sync through a free no-account relay (ntfy.sh), room code lives in the link hash ----
+let peerSeen = 0, topicUrl = "";
+function roomCode(){
+  let h = (location.hash||"").replace("#","").toLowerCase().replace(/[^a-z0-9-]/g,"");
+  if (!/^[a-z0-9]{6,20}$/.test(h)) { h = Math.random().toString(36).slice(2,8) + Math.random().toString(36).slice(2,6); try { history.replaceState(null,"","#"+h); } catch(e){ location.hash = h; } }
+  return h;
+}
+async function send(obj){ if(!topicUrl) return; try { await fetch(topicUrl, { method:"POST", body: JSON.stringify(obj) }); } catch(e){} }
+function hello(){ send({ k:"hi", cid:me.id, name:me.name||"" }); }
+function refreshStatus(){
+  const live = Date.now() - peerSeen < 70000;
+  setStatus(live, live ? "Live with your person" : "Waiting for your person to open the link…");
+}
+function onMsg(m){
+  if (!m || m.cid === me.id) return;
+  if (m.k === "hi") { const first = Date.now() - peerSeen > 70000; peerSeen = Date.now(); if (first) hello(); refreshStatus(); return; }
+  if (m.k === "shake" && m.s) {
+    peerSeen = Date.now(); refreshStatus();
+    const s = m.s; if (remember(s)) { if (!current || (s.ts||0) >= (current.ts||0)) { lastShown = null; reveal(seen.get(s.id)); } }
+  }
+}
+function connect(){
+  topicUrl = "https://ntfy.sh/eb8ball-" + roomCode();
+  try {
+    const es = new EventSource(topicUrl + "/sse?since=5m");
+    es.onopen = () => { hello(); };
+    es.onmessage = ev => { try { const d = JSON.parse(ev.data); if (d.event === "message") onMsg(JSON.parse(d.message)); } catch(e){} };
+    es.onerror = () => { setStatus(false, "Reconnecting… (or use Copy for text thread)"); };
+    setInterval(()=>{ hello(); refreshStatus(); }, 25000);
+    setStatus(false, "Waiting for your person to open the link…");
+  } catch(e){ setStatus(false, "Solo mode. Use Copy for text thread"); }
+}
+
+$("shake").onclick = shake;
+$("invite").onclick = async () => { try { await navigator.clipboard.writeText(location.href); $("invite").textContent="Link copied. Text it to them"; } catch(e){ $("invite").textContent="Copy the address bar link and text it"; } };
+$("copy").onclick = async () => {
+  if (!current) { $("who").textContent = "Shake first, then copy."; return; }
+  const txt = "🎱 #" + (current.idx+1) + " (" + catOf(current.idx)[1] + "): " + Q[current.idx];
+  try { await navigator.clipboard.writeText(txt); $("copy").textContent = "Copied. Paste it in your thread"; setTimeout(()=>$("copy").textContent="Copy for text thread",2200); }
+  catch(e){ const f=$("fallback"); f.hidden=false; f.value=txt; f.focus(); f.select(); }
+};
+$("numGo").onclick = () => {
+  const n = parseInt($("numIn").value,10);
+  if (!(n>=1 && n<=Q.length)) return;
+  const s = { id: "manual-" + Date.now().toString(36), idx:n-1, by:"Your person", ts:Date.now() };
+  remember(s); lastShown = null; reveal(s);
+};
+function saveName(){
+  const v = $("nameInput").value.trim().slice(0,20); if(!v) return;
+  me.name = v; try{ localStorage.setItem("eb-name", v);}catch(e){}
+  $("nameBox").hidden = true;
+  hello();
+}
+$("nameSave").onclick = saveName;
+$("nameInput").addEventListener("keydown", e=>{ if(e.key==="Enter") saveName(); });
+if (!me.name) $("nameBox").hidden = false;
+
+renderHist();
+setStatus(false, "Connecting…");
+connect();
+</script>
+</body>
+</html>
