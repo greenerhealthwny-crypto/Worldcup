@@ -1,0 +1,26 @@
+[
+  {
+    "date": "2026-11-27",
+    "weekday": "Friday",
+    "model": "Scenario Planning + OODA Loop",
+    "question": "What must work in every future, and what changed since my last decision?",
+    "angle": "Strategies of War: keep your options open and don't commit to one line of attack.",
+    "scenario": "The goal is $0 to $2,000 by Jan 30, 2027. That is 64 days, or about $31 a day. Your chosen path is online gig work, starting with expert AI-trainer sign-ups in horticulture. Bath bombs on Marketplace are a possible second stream. Your pay rate, approval timelines and current earnings are unknown.",
+    "steps": [
+      "Build three futures: AI gigs approve fast, approve slow, and never approve.",
+      "Give each future a rough dollar total by Jan 30.",
+      "Find the one move that helps in all three. This is your no-regret move.",
+      "Set a tripwire date (for example Dec 15) for when to switch plans.",
+      "Surprise: all your applications are rejected today. Re-orient. What do you observe, orient on, decide and act on first?"
+    ],
+    "checks": [
+      "Your three futures have different dollar totals, not just different moods.",
+      "The no-regret move works in all three. For example, listing bath bombs this week and applying to more platforms.",
+      "Your tripwire has a date and a number, not \"if it's not working.\""
+    ],
+    "scoreNote": "1 point per check, plus 1 for the surprise answer and 1 for using real numbers.",
+    "trap": "Planning three futures that all end in success. If one future has no downside, it isn't a scenario.",
+    "bonusName": "Red Team",
+    "bonus": "Argue the other side: why reaching $2,000 in 64 days through gig work alone is a bad bet. Name its weakest assumption."
+  }
+]
