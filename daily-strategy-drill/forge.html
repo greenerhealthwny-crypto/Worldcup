@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Idea Forge - Daily Strategy Drill</title>
+<meta name="description" content="Draw lens cards from strategy and business books to think about your idea in new ways.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<header><h1>Daily Strategy Drill</h1><p>Idea Forge: look at your idea through new lenses.</p></header>
+<nav class="tabs"><a href="./">Today's Drill</a><a class="on" href="forge.html">Idea Forge</a><a href="quiz.html">Quiz</a></nav>
+
+<section class="card">
+  <h3 style="margin-top:0">1. Your idea</h3>
+  <input type="text" id="idea" maxlength="200" placeholder="e.g. Sell bath bombs on Marketplace">
+  <h3>Decks to draw from</h3>
+  <div class="picker" id="picker"></div>
+  <div class="row"><button class="btn" id="deal">Draw 3 cards</button><span class="mute" id="dealHint"></span></div>
+  <div class="stats"><div><b id="stSessions">0</b><span>ideas forged</span></div><div><b id="stStreak">0</b><span>day streak</span></div><div><b id="stCards">0</b><span>cards answered</span></div></div>
+</section>
+
+<section id="table" hidden>
+  <div class="card">
+    <h3 style="margin-top:0">2. Your twist</h3>
+    <div class="constraint" id="constraint"></div>
+    <div class="row"><button class="linkbtn" id="reroll">New twist</button><span class="mute">Answer every card with this twist in mind.</span></div>
+  </div>
+  <div id="hand"></div>
+  <div class="card">
+    <h3 style="margin-top:0">3. Wild card: mash-up</h3>
+    <p class="mute">Pick the two answers you like best. Combine them into one new version of your idea.</p>
+    <textarea id="mash" placeholder="My new version is..."></textarea>
+    <div class="row"><button class="btn" id="save">Save to my idea vault</button><span class="mute" id="saveMsg"></span></div>
+  </div>
+</section>
+
+<section class="card">
+  <h3 style="margin-top:0">My idea vault</h3>
+  <div id="vault"><p class="mute">Nothing saved yet. Your forged ideas stay in this browser.</p></div>
+</section>
+</main>
+<script>
+(function(){
+  var $=function(id){return document.getElementById(id)};
+  function esc(s){return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+  function get(k,d){try{var v=localStorage.getItem(k);return v===null?d:JSON.parse(v)}catch(e){return d}}
+  function put(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}
+  function shuffle(a){a=a.slice();for(var i=a.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1));var t=a[i];a[i]=a[j];a[j]=t}return a}
+  function today(){var d=new Date();return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0')}
+
+  var DATA=null,hand=[],twist='',off=get('forge-off',[]);
+  $('idea').value=get('forge-idea','');
+  $('idea').oninput=function(){put('forge-idea',this.value)};
+
+  function stats(){
+    var v=get('forge-vault',[]),days={},cards=0;
+    v.forEach(function(x){days[x.day]=1;cards+=x.cards.filter(function(c){return c.answer.trim()}).length});
+    var s=0,d=new Date();
+    if(!days[today()])d.setDate(d.getDate()-1);
+    while(true){var k=d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');if(!days[k])break;s++;d.setDate(d.getDate()-1)}
+    $('stSessions').textContent=v.length;$('stStreak').textContent=s;$('stCards').textContent=cards;
+  }
+
+  function picker(){
+    $('picker').innerHTML=Object.keys(DATA.decks).map(function(k){
+      return '<label><input type="checkbox" value="'+esc(k)+'"'+(off.indexOf(k)<0?' checked':'')+'>'+esc(DATA.decks[k])+'</label>'}).join('');
+    $('picker').querySelectorAll('input').forEach(function(cb){cb.onchange=function(){
+      off=[].slice.call($('picker').querySelectorAll('input')).filter(function(x){return !x.checked}).map(function(x){return x.value});
+      put('forge-off',off)}});
+  }
+
+  function newTwist(){twist=DATA.constraints[Math.floor(Math.random()*DATA.constraints.length)];$('constraint').textContent='Twist: '+twist}
+
+  function deal(){
+    var idea=$('idea').value.trim();
+    if(!idea){$('dealHint').textContent='Type your idea first.';$('idea').focus();return}
+    var pool=DATA.cards.filter(function(c){return off.indexOf(c.deck)<0});
+    if(pool.length<3){$('dealHint').textContent='Pick at least 2 decks.';return}
+    $('dealHint').textContent='';
+    var byDeck={};shuffle(pool).forEach(function(c){(byDeck[c.deck]=byDeck[c.deck]||[]).push(c)});
+    var decks=shuffle(Object.keys(byDeck));hand=[];
+    for(var i=0;hand.length<3;i++){var d=decks[i%decks.length];var c=byDeck[d].shift();if(c)hand.push(c)}
+    newTwist();
+    $('hand').innerHTML=hand.map(function(c,i){
+      return '<article class="card lens"><div class="deck">'+esc(DATA.decks[c.deck])+'</div><h4>'+esc(c.title)+'</h4><p>'+esc(c.prompt)+'</p>'+
+        '<textarea data-i="'+i+'" placeholder="Your answer for: '+esc(idea)+'"></textarea>'+
+        '<div class="row"><button class="linkbtn" data-t="'+i+'">Start 2-minute timer</button><button class="linkbtn" data-s="'+i+'">Swap this card</button></div></article>'}).join('');
+    $('mash').value='';$('saveMsg').textContent='';
+    $('table').hidden=false;
+    wire();
+    $('table').scrollIntoView({behavior:'smooth'});
+  }
+
+  function wire(){
+    $('hand').querySelectorAll('[data-t]').forEach(function(b){b.onclick=function(){
+      if(b._iv){clearInterval(b._iv);b._iv=null;b.textContent='Start 2-minute timer';return}
+      var left=120;b.textContent='2:00 (tap to stop)';
+      b._iv=setInterval(function(){left--;b.textContent=Math.floor(left/60)+':'+String(left%60).padStart(2,'0')+' (tap to stop)';
+        if(left<=0){clearInterval(b._iv);b._iv=null;b.textContent='Time! Start again'}},1000)}});
+    $('hand').querySelectorAll('[data-s]').forEach(function(b){b.onclick=function(){
+      var i=+b.dataset.s,used=hand.map(function(c){return c.title});
+      var pool=DATA.cards.filter(function(c){return off.indexOf(c.deck)<0&&used.indexOf(c.title)<0});
+      if(!pool.length)return;
+      var c=pool[Math.floor(Math.random()*pool.length)];hand[i]=c;
+      var art=b.closest('article');
+      art.querySelector('.deck').textContent=DATA.decks[c.deck];art.querySelector('h4').textContent=c.title;art.querySelector('p').textContent=c.prompt;}});
+  }
+
+  function save(){
+    var answers=[].slice.call($('hand').querySelectorAll('textarea'));
+    var cards=hand.map(function(c,i){return {deck:DATA.decks[c.deck],title:c.title,prompt:c.prompt,answer:answers[i].value}});
+    if(!cards.some(function(c){return c.answer.trim()})&&!$('mash').value.trim()){$('saveMsg').textContent='Answer at least one card first.';return}
+    var v=get('forge-vault',[]);
+    v.unshift({id:Date.now(),day:today(),idea:$('idea').value.trim(),twist:twist,cards:cards,mash:$('mash').value});
+    put('forge-vault',v);$('saveMsg').textContent='Saved. Draw again for a new angle.';
+    vault();stats();
+  }
+
+  function asText(x){
+    var t='IDEA: '+x.idea+'\nTWIST: '+x.twist+'\n';
+    x.cards.forEach(function(c){t+='\n['+c.deck+'] '+c.title+'\n'+(c.answer.trim()||'(skipped)')+'\n'});
+    if(x.mash.trim())t+='\nMASH-UP: '+x.mash+'\n';return t;
+  }
+
+  function vault(){
+    var v=get('forge-vault',[]);
+    if(!v.length){$('vault').innerHTML='<p class="mute">Nothing saved yet. Your forged ideas stay in this browser.</p>';return}
+    $('vault').innerHTML=v.map(function(x){
+      return '<div class="vault-item"><b>'+esc(x.idea)+'</b> <span class="mute">· '+esc(x.day)+'</span>'+
+      '<details><summary class="mute">Show answers</summary><pre>'+esc(asText(x))+'</pre></details>'+
+      '<div class="row"><button class="linkbtn" data-copy="'+x.id+'">Copy</button><button class="linkbtn" data-del="'+x.id+'">Delete</button></div></div>'}).join('');
+    $('vault').querySelectorAll('[data-copy]').forEach(function(b){b.onclick=function(){
+      var x=v.filter(function(y){return String(y.id)===b.dataset.copy})[0];
+      var done=function(){b.textContent='Copied'};
+      if(navigator.clipboard)navigator.clipboard.writeText(asText(x)).then(done,function(){b.textContent='Copy failed'});}});
+    $('vault').querySelectorAll('[data-del]').forEach(function(b){b.onclick=function(){
+      if(!confirm('Delete this idea from your vault?'))return;
+      put('forge-vault',v.filter(function(y){return String(y.id)!==b.dataset.del}));vault();stats()}});
+  }
+
+  $('deal').onclick=deal;$('reroll').onclick=newTwist;$('save').onclick=save;
+  vault();stats();
+  fetch('data/cards.json',{cache:'no-store'}).then(function(r){return r.json()}).then(function(d){DATA=d;picker()})
+    .catch(function(){$('deal').disabled=true;$('dealHint').textContent='Could not load the cards.'});
+})();
+</script>
+</body>
+</html>
